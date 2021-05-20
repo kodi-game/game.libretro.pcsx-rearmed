@@ -21,135 +21,135 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Analog axis bounds."
-msgstr ""
-
-msgctxt "#30002"
-msgid "CD Access Method (Restart)"
-msgstr ""
-
-msgctxt "#30003"
-msgid "Use BIOS"
-msgstr ""
-
-msgctxt "#30004"
-msgid "Display Internal FPS"
-msgstr ""
-
-msgctxt "#30005"
-msgid "Enable Dithering"
-msgstr ""
-
-msgctxt "#30006"
-msgid "Dynamic Recompiler"
-msgstr ""
-
-msgctxt "#30007"
-msgid "Frame Duping"
-msgstr ""
-
-msgctxt "#30008"
 msgid "Frameskip"
 msgstr ""
 
-msgctxt "#30009"
-msgid "(GPU) Disable Coordinate Check"
+msgctxt "#30002"
+msgid "Use BIOS"
 msgstr ""
 
-msgctxt "#30010"
-msgid "(GPU) Expand Screen Width"
+msgctxt "#30003"
+msgid "Region"
 msgstr ""
 
-msgctxt "#30011"
-msgid "(GPU) Fake 'Gpu Busy' States"
-msgstr ""
-
-msgctxt "#30012"
-msgid "(GPU) Ignore Brightness Color"
-msgstr ""
-
-msgctxt "#30013"
-msgid "(GPU) Lazy Screen Update"
-msgstr ""
-
-msgctxt "#30014"
-msgid "(GPU) Odd/Even Bit Hack"
-msgstr ""
-
-msgctxt "#30015"
-msgid "(GPU) Old Frame Skipping"
-msgstr ""
-
-msgctxt "#30016"
-msgid "(GPU) Draw Quads with Triangles"
-msgstr ""
-
-msgctxt "#30017"
-msgid "(GPU) Repeated Flat Tex Triangles"
-msgstr ""
-
-msgctxt "#30018"
-msgid "Threaded Rendering"
-msgstr ""
-
-msgctxt "#30019"
-msgid "Guncon Adjust Ratio X"
-msgstr ""
-
-msgctxt "#30020"
-msgid "Guncon Adjust Ratio Y"
-msgstr ""
-
-msgctxt "#30021"
-msgid "Guncon Adjust X"
-msgstr ""
-
-msgctxt "#30022"
-msgid "Guncon Adjust Y"
-msgstr ""
-
-msgctxt "#30023"
-msgid "Diablo Music Fix"
-msgstr ""
-
-msgctxt "#30024"
-msgid "Emulated Mouse Sensitivity"
-msgstr ""
-
-msgctxt "#30025"
-msgid "InuYasha Sengoku Battle Fix"
-msgstr ""
-
-msgctxt "#30026"
+msgctxt "#30004"
 msgid "Enable Second Memory Card (Shared)"
 msgstr ""
 
-msgctxt "#30027"
+msgctxt "#30005"
+msgid "Show other input settings"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Emulated Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30007"
 msgid "Multitap Mode (Restart)"
 msgstr ""
 
-msgctxt "#30028"
+msgctxt "#30008"
 msgid "NegCon Twist Deadzone (Percent)"
 msgstr ""
 
-msgctxt "#30029"
+msgctxt "#30009"
 msgid "NegCon Twist Response"
 msgstr ""
 
+msgctxt "#30010"
+msgid "Analog axis bounds."
+msgstr ""
+
+msgctxt "#30011"
+msgid "Enable Vibration"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Guncon Adjust X"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Guncon Adjust Y"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Guncon Adjust Ratio X"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Guncon Adjust Ratio Y"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Enable Dithering"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Dynamic Recompiler"
+msgstr ""
+
+msgctxt "#30018"
+msgid "PSX CPU Clock"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Enable Interlacing Mode"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Enhanced Resolution (Slow)"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Enhanced Resolution (Speed Hack)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Frame Duping"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Display Internal FPS"
+msgstr ""
+
+msgctxt "#30024"
+msgid "(GPU) Odd/Even Bit Hack"
+msgstr ""
+
+msgctxt "#30025"
+msgid "(GPU) Expand Screen Width"
+msgstr ""
+
+msgctxt "#30026"
+msgid "(GPU) Ignore Brightness Color"
+msgstr ""
+
+msgctxt "#30027"
+msgid "(GPU) Disable Coordinate Check"
+msgstr ""
+
+msgctxt "#30028"
+msgid "(GPU) Lazy Screen Update"
+msgstr ""
+
+msgctxt "#30029"
+msgid "(GPU) Old Frame Skipping"
+msgstr ""
+
 msgctxt "#30030"
-msgid "CD Audio"
+msgid "(GPU) Repeated Flat Tex Triangles"
 msgstr ""
 
 msgctxt "#30031"
-msgid "XA Decoding"
+msgid "(GPU) Draw Quads with Triangles"
 msgstr ""
 
 msgctxt "#30032"
-msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
+msgid "(GPU) Fake 'Gpu Busy' States"
 msgstr ""
 
 msgctxt "#30033"
-msgid "Region"
+msgid "Threaded Rendering"
 msgstr ""
 
 msgctxt "#30034"
@@ -157,7 +157,7 @@ msgid "Show Bios Bootlogo"
 msgstr ""
 
 msgctxt "#30035"
-msgid "Show other input settings"
+msgid "Sound Reverb"
 msgstr ""
 
 msgctxt "#30036"
@@ -165,13 +165,41 @@ msgid "Sound Interpolation"
 msgstr ""
 
 msgctxt "#30037"
-msgid "Sound Reverb"
+msgid "Diablo Music Fix"
 msgstr ""
 
 msgctxt "#30038"
-msgid "SPU IRQ Always Enabled"
+msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
 msgstr ""
 
 msgctxt "#30039"
-msgid "Enable Vibration"
+msgid "InuYasha Sengoku Battle Fix"
+msgstr ""
+
+msgctxt "#30040"
+msgid "CD Access Method (Restart)"
+msgstr ""
+
+msgctxt "#30041"
+msgid "XA Decoding"
+msgstr ""
+
+msgctxt "#30042"
+msgid "CD Audio"
+msgstr ""
+
+msgctxt "#30043"
+msgid "SPU IRQ Always Enabled"
+msgstr ""
+
+msgctxt "#30044"
+msgid "(Speed Hack) Disable SMC Checks"
+msgstr ""
+
+msgctxt "#30045"
+msgid "(Speed Hack) Assume GTE Regs Unneeded"
+msgstr ""
+
+msgctxt "#30046"
+msgid "(Speed Hack) Disable GTE Flags"
 msgstr ""
