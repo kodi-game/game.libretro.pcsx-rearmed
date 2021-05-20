@@ -1,0 +1,31 @@
+From ad433859f98f44dc18032e2fa6c1becdd6354406 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Wed, 19 May 2021 21:06:04 -0700
+Subject: [PATCH] Force-enable NEON, PEOPS and Dynarec options
+
+---
+ frontend/libretro_core_options.h | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/frontend/libretro_core_options.h b/frontend/libretro_core_options.h
+index 813e30a..f674643 100644
+--- a/frontend/libretro_core_options.h
++++ b/frontend/libretro_core_options.h
+@@ -11,6 +11,14 @@
+ #include "libretro_core_options_intl.h"
+ #endif
+ 
++// Force-enable settings for various features
++#ifndef NEW_DYNAREC
++#define NEW_DYNAREC
++#endif
++#ifndef GPU_NEON
++#define GPU_NEON
++#endif
++
+ /*
+  ********************************
+  * VERSION: 1.3
+-- 
+2.30.2
+
