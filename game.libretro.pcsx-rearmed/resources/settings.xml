@@ -18,27 +18,34 @@
 		<setting label="30015" type="select" id="pcsx_rearmed_gunconadjustratioy" values="1|0.75|0.76|0.77|0.78|0.79|0.80|0.81|0.82|0.83|0.84|0.85|0.86|0.87|0.88|0.89|0.90|0.91|0.92|0.93|0.94|0.95|0.96|0.97|0.98|0.99|1.00|1.01|1.02|1.03|1.04|1.05|1.06|1.07|1.08|1.09|1.10|1.11|1.12|1.13|1.14|1.15|1.16|1.17|1.18|1.19|1.20|1.21|1.22|1.23|1.24|1.25" default="1"/>
 		<setting label="30016" type="select" id="pcsx_rearmed_dithering" values="enabled|disabled" default="enabled"/>
 		<setting label="30017" type="select" id="pcsx_rearmed_drc" values="enabled|disabled" default="enabled"/>
-		<setting label="30018" type="select" id="pcsx_rearmed_duping_enable" values="enabled|disabled" default="enabled"/>
-		<setting label="30019" type="select" id="pcsx_rearmed_display_internal_fps" values="disabled|enabled" default="disabled"/>
-		<setting label="30020" type="select" id="pcsx_rearmed_gpu_peops_odd_even_bit" values="disabled|enabled" default="disabled"/>
-		<setting label="30021" type="select" id="pcsx_rearmed_gpu_peops_expand_screen_width" values="disabled|enabled" default="disabled"/>
-		<setting label="30022" type="select" id="pcsx_rearmed_gpu_peops_ignore_brightness" values="disabled|enabled" default="disabled"/>
-		<setting label="30023" type="select" id="pcsx_rearmed_gpu_peops_disable_coord_check" values="disabled|enabled" default="disabled"/>
-		<setting label="30024" type="select" id="pcsx_rearmed_gpu_peops_lazy_screen_update" values="disabled|enabled" default="disabled"/>
-		<setting label="30025" type="select" id="pcsx_rearmed_gpu_peops_old_frame_skip" values="enabled|disabled" default="enabled"/>
-		<setting label="30026" type="select" id="pcsx_rearmed_gpu_peops_repeated_triangles" values="disabled|enabled" default="disabled"/>
-		<setting label="30027" type="select" id="pcsx_rearmed_gpu_peops_quads_with_triangles" values="disabled|enabled" default="disabled"/>
-		<setting label="30028" type="select" id="pcsx_rearmed_gpu_peops_fake_busy_state" values="disabled|enabled" default="disabled"/>
-		<setting label="30029" type="select" id="pcsx_rearmed_gpu_thread_rendering" values="disabled|sync|async" default="disabled"/>
-		<setting label="30030" type="select" id="pcsx_rearmed_show_bios_bootlogo" values="disabled|enabled" default="disabled"/>
-		<setting label="30031" type="select" id="pcsx_rearmed_spu_reverb" values="enabled|disabled" default="enabled"/>
-		<setting label="30032" type="select" id="pcsx_rearmed_spu_interpolation" values="simple|gaussian|cubic|off" default="simple"/>
-		<setting label="30033" type="select" id="pcsx_rearmed_idiablofix" values="disabled|enabled" default="disabled"/>
-		<setting label="30034" type="select" id="pcsx_rearmed_pe2_fix" values="disabled|enabled" default="disabled"/>
-		<setting label="30035" type="select" id="pcsx_rearmed_inuyasha_fix" values="disabled|enabled" default="disabled"/>
-		<setting label="30036" type="select" id="pcsx_rearmed_async_cd" values="sync|async|precache" default="sync"/>
-		<setting label="30037" type="select" id="pcsx_rearmed_noxadecoding" values="enabled|disabled" default="enabled"/>
-		<setting label="30038" type="select" id="pcsx_rearmed_nocdaudio" values="enabled|disabled" default="enabled"/>
-		<setting label="30039" type="select" id="pcsx_rearmed_spuirq" values="disabled|enabled" default="disabled"/>
+		<setting label="30018" type="select" id="pcsx_rearmed_psxclock" values="57|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100" default="57"/>
+		<setting label="30019" type="select" id="pcsx_rearmed_neon_interlace_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30020" type="select" id="pcsx_rearmed_neon_enhancement_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30021" type="select" id="pcsx_rearmed_neon_enhancement_no_main" values="disabled|enabled" default="disabled"/>
+		<setting label="30022" type="select" id="pcsx_rearmed_duping_enable" values="enabled|disabled" default="enabled"/>
+		<setting label="30023" type="select" id="pcsx_rearmed_display_internal_fps" values="disabled|enabled" default="disabled"/>
+		<setting label="30024" type="select" id="pcsx_rearmed_gpu_peops_odd_even_bit" values="disabled|enabled" default="disabled"/>
+		<setting label="30025" type="select" id="pcsx_rearmed_gpu_peops_expand_screen_width" values="disabled|enabled" default="disabled"/>
+		<setting label="30026" type="select" id="pcsx_rearmed_gpu_peops_ignore_brightness" values="disabled|enabled" default="disabled"/>
+		<setting label="30027" type="select" id="pcsx_rearmed_gpu_peops_disable_coord_check" values="disabled|enabled" default="disabled"/>
+		<setting label="30028" type="select" id="pcsx_rearmed_gpu_peops_lazy_screen_update" values="disabled|enabled" default="disabled"/>
+		<setting label="30029" type="select" id="pcsx_rearmed_gpu_peops_old_frame_skip" values="enabled|disabled" default="enabled"/>
+		<setting label="30030" type="select" id="pcsx_rearmed_gpu_peops_repeated_triangles" values="disabled|enabled" default="disabled"/>
+		<setting label="30031" type="select" id="pcsx_rearmed_gpu_peops_quads_with_triangles" values="disabled|enabled" default="disabled"/>
+		<setting label="30032" type="select" id="pcsx_rearmed_gpu_peops_fake_busy_state" values="disabled|enabled" default="disabled"/>
+		<setting label="30033" type="select" id="pcsx_rearmed_gpu_thread_rendering" values="disabled|sync|async" default="disabled"/>
+		<setting label="30034" type="select" id="pcsx_rearmed_show_bios_bootlogo" values="disabled|enabled" default="disabled"/>
+		<setting label="30035" type="select" id="pcsx_rearmed_spu_reverb" values="enabled|disabled" default="enabled"/>
+		<setting label="30036" type="select" id="pcsx_rearmed_spu_interpolation" values="simple|gaussian|cubic|off" default="simple"/>
+		<setting label="30037" type="select" id="pcsx_rearmed_idiablofix" values="disabled|enabled" default="disabled"/>
+		<setting label="30038" type="select" id="pcsx_rearmed_pe2_fix" values="disabled|enabled" default="disabled"/>
+		<setting label="30039" type="select" id="pcsx_rearmed_inuyasha_fix" values="disabled|enabled" default="disabled"/>
+		<setting label="30040" type="select" id="pcsx_rearmed_async_cd" values="sync|async|precache" default="sync"/>
+		<setting label="30041" type="select" id="pcsx_rearmed_noxadecoding" values="enabled|disabled" default="enabled"/>
+		<setting label="30042" type="select" id="pcsx_rearmed_nocdaudio" values="enabled|disabled" default="enabled"/>
+		<setting label="30043" type="select" id="pcsx_rearmed_spuirq" values="disabled|enabled" default="disabled"/>
+		<setting label="30044" type="select" id="pcsx_rearmed_nosmccheck" values="disabled|enabled" default="disabled"/>
+		<setting label="30045" type="select" id="pcsx_rearmed_gteregsunneeded" values="disabled|enabled" default="disabled"/>
+		<setting label="30046" type="select" id="pcsx_rearmed_nogteflags" values="disabled|enabled" default="disabled"/>
 	</category>
 </settings>

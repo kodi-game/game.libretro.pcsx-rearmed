@@ -89,89 +89,117 @@ msgid "Dynamic Recompiler"
 msgstr ""
 
 msgctxt "#30018"
-msgid "Frame Duping"
+msgid "PSX CPU Clock"
 msgstr ""
 
 msgctxt "#30019"
-msgid "Display Internal FPS"
+msgid "Enable Interlacing Mode"
 msgstr ""
 
 msgctxt "#30020"
-msgid "(GPU) Odd/Even Bit Hack"
+msgid "Enhanced Resolution (Slow)"
 msgstr ""
 
 msgctxt "#30021"
-msgid "(GPU) Expand Screen Width"
+msgid "Enhanced Resolution (Speed Hack)"
 msgstr ""
 
 msgctxt "#30022"
-msgid "(GPU) Ignore Brightness Color"
+msgid "Frame Duping"
 msgstr ""
 
 msgctxt "#30023"
-msgid "(GPU) Disable Coordinate Check"
+msgid "Display Internal FPS"
 msgstr ""
 
 msgctxt "#30024"
-msgid "(GPU) Lazy Screen Update"
+msgid "(GPU) Odd/Even Bit Hack"
 msgstr ""
 
 msgctxt "#30025"
-msgid "(GPU) Old Frame Skipping"
+msgid "(GPU) Expand Screen Width"
 msgstr ""
 
 msgctxt "#30026"
-msgid "(GPU) Repeated Flat Tex Triangles"
+msgid "(GPU) Ignore Brightness Color"
 msgstr ""
 
 msgctxt "#30027"
-msgid "(GPU) Draw Quads with Triangles"
+msgid "(GPU) Disable Coordinate Check"
 msgstr ""
 
 msgctxt "#30028"
-msgid "(GPU) Fake 'Gpu Busy' States"
+msgid "(GPU) Lazy Screen Update"
 msgstr ""
 
 msgctxt "#30029"
-msgid "Threaded Rendering"
+msgid "(GPU) Old Frame Skipping"
 msgstr ""
 
 msgctxt "#30030"
-msgid "Show Bios Bootlogo"
+msgid "(GPU) Repeated Flat Tex Triangles"
 msgstr ""
 
 msgctxt "#30031"
-msgid "Sound Reverb"
+msgid "(GPU) Draw Quads with Triangles"
 msgstr ""
 
 msgctxt "#30032"
-msgid "Sound Interpolation"
+msgid "(GPU) Fake 'Gpu Busy' States"
 msgstr ""
 
 msgctxt "#30033"
-msgid "Diablo Music Fix"
+msgid "Threaded Rendering"
 msgstr ""
 
 msgctxt "#30034"
-msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
+msgid "Show Bios Bootlogo"
 msgstr ""
 
 msgctxt "#30035"
-msgid "InuYasha Sengoku Battle Fix"
+msgid "Sound Reverb"
 msgstr ""
 
 msgctxt "#30036"
-msgid "CD Access Method (Restart)"
+msgid "Sound Interpolation"
 msgstr ""
 
 msgctxt "#30037"
-msgid "XA Decoding"
+msgid "Diablo Music Fix"
 msgstr ""
 
 msgctxt "#30038"
-msgid "CD Audio"
+msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
 msgstr ""
 
 msgctxt "#30039"
+msgid "InuYasha Sengoku Battle Fix"
+msgstr ""
+
+msgctxt "#30040"
+msgid "CD Access Method (Restart)"
+msgstr ""
+
+msgctxt "#30041"
+msgid "XA Decoding"
+msgstr ""
+
+msgctxt "#30042"
+msgid "CD Audio"
+msgstr ""
+
+msgctxt "#30043"
 msgid "SPU IRQ Always Enabled"
+msgstr ""
+
+msgctxt "#30044"
+msgid "(Speed Hack) Disable SMC Checks"
+msgstr ""
+
+msgctxt "#30045"
+msgid "(Speed Hack) Assume GTE Regs Unneeded"
+msgstr ""
+
+msgctxt "#30046"
+msgid "(Speed Hack) Disable GTE Flags"
 msgstr ""
