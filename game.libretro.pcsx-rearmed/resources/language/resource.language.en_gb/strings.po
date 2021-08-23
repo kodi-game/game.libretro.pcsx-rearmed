@@ -165,41 +165,37 @@ msgid "Sound Interpolation"
 msgstr ""
 
 msgctxt "#30037"
-msgid "Diablo Music Fix"
-msgstr ""
-
-msgctxt "#30038"
 msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
 msgstr ""
 
-msgctxt "#30039"
+msgctxt "#30038"
 msgid "InuYasha Sengoku Battle Fix"
 msgstr ""
 
-msgctxt "#30040"
+msgctxt "#30039"
 msgid "CD Access Method (Restart)"
 msgstr ""
 
-msgctxt "#30041"
+msgctxt "#30040"
 msgid "XA Decoding"
 msgstr ""
 
-msgctxt "#30042"
+msgctxt "#30041"
 msgid "CD Audio"
 msgstr ""
 
-msgctxt "#30043"
+msgctxt "#30042"
 msgid "SPU IRQ Always Enabled"
 msgstr ""
 
-msgctxt "#30044"
+msgctxt "#30043"
 msgid "(Speed Hack) Disable SMC Checks"
 msgstr ""
 
-msgctxt "#30045"
+msgctxt "#30044"
 msgid "(Speed Hack) Assume GTE Regs Unneeded"
 msgstr ""
 
-msgctxt "#30046"
+msgctxt "#30045"
 msgid "(Speed Hack) Disable GTE Flags"
 msgstr ""

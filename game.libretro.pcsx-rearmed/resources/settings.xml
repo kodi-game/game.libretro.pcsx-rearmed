@@ -37,15 +37,14 @@
 		<setting label="30034" type="select" id="pcsx_rearmed_show_bios_bootlogo" values="disabled|enabled" default="disabled"/>
 		<setting label="30035" type="select" id="pcsx_rearmed_spu_reverb" values="enabled|disabled" default="enabled"/>
 		<setting label="30036" type="select" id="pcsx_rearmed_spu_interpolation" values="simple|gaussian|cubic|off" default="simple"/>
-		<setting label="30037" type="select" id="pcsx_rearmed_idiablofix" values="disabled|enabled" default="disabled"/>
-		<setting label="30038" type="select" id="pcsx_rearmed_pe2_fix" values="disabled|enabled" default="disabled"/>
-		<setting label="30039" type="select" id="pcsx_rearmed_inuyasha_fix" values="disabled|enabled" default="disabled"/>
-		<setting label="30040" type="select" id="pcsx_rearmed_async_cd" values="sync|async|precache" default="sync"/>
-		<setting label="30041" type="select" id="pcsx_rearmed_noxadecoding" values="enabled|disabled" default="enabled"/>
-		<setting label="30042" type="select" id="pcsx_rearmed_nocdaudio" values="enabled|disabled" default="enabled"/>
-		<setting label="30043" type="select" id="pcsx_rearmed_spuirq" values="disabled|enabled" default="disabled"/>
-		<setting label="30044" type="select" id="pcsx_rearmed_nosmccheck" values="disabled|enabled" default="disabled"/>
-		<setting label="30045" type="select" id="pcsx_rearmed_gteregsunneeded" values="disabled|enabled" default="disabled"/>
-		<setting label="30046" type="select" id="pcsx_rearmed_nogteflags" values="disabled|enabled" default="disabled"/>
+		<setting label="30037" type="select" id="pcsx_rearmed_pe2_fix" values="disabled|enabled" default="disabled"/>
+		<setting label="30038" type="select" id="pcsx_rearmed_inuyasha_fix" values="disabled|enabled" default="disabled"/>
+		<setting label="30039" type="select" id="pcsx_rearmed_async_cd" values="sync|async|precache" default="sync"/>
+		<setting label="30040" type="select" id="pcsx_rearmed_noxadecoding" values="enabled|disabled" default="enabled"/>
+		<setting label="30041" type="select" id="pcsx_rearmed_nocdaudio" values="enabled|disabled" default="enabled"/>
+		<setting label="30042" type="select" id="pcsx_rearmed_spuirq" values="disabled|enabled" default="disabled"/>
+		<setting label="30043" type="select" id="pcsx_rearmed_nosmccheck" values="disabled|enabled" default="disabled"/>
+		<setting label="30044" type="select" id="pcsx_rearmed_gteregsunneeded" values="disabled|enabled" default="disabled"/>
+		<setting label="30045" type="select" id="pcsx_rearmed_nogteflags" values="disabled|enabled" default="disabled"/>
 	</category>
 </settings>
