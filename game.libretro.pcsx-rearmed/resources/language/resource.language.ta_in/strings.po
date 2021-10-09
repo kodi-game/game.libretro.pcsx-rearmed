@@ -177,33 +177,37 @@ msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
 msgstr ""
 
 msgctxt "#30038"
-msgid "InuYasha Sengoku Battle Fix"
+msgid "Instruction Cache emulation"
 msgstr ""
 
 msgctxt "#30039"
-msgid "CD Access Method (Restart)"
+msgid "InuYasha Sengoku Battle Fix"
 msgstr ""
 
 msgctxt "#30040"
-msgid "XA Decoding"
+msgid "CD Access Method (Restart)"
 msgstr ""
 
 msgctxt "#30041"
-msgid "CD Audio"
+msgid "XA Decoding"
 msgstr ""
 
 msgctxt "#30042"
-msgid "SPU IRQ Always Enabled"
+msgid "CD Audio"
 msgstr ""
 
 msgctxt "#30043"
-msgid "(Speed Hack) Disable SMC Checks"
+msgid "SPU IRQ Always Enabled"
 msgstr ""
 
 msgctxt "#30044"
-msgid "(Speed Hack) Assume GTE Regs Unneeded"
+msgid "(Speed Hack) Disable SMC Checks"
 msgstr ""
 
 msgctxt "#30045"
+msgid "(Speed Hack) Assume GTE Regs Unneeded"
+msgstr ""
+
+msgctxt "#30046"
 msgid "(Speed Hack) Disable GTE Flags"
 msgstr ""
