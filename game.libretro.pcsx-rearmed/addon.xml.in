@@ -5,10 +5,12 @@
 		provider-name="PCSX Team, notaz, Exophase">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
-		<import addon="game.controller.ps.gamepad" version="1.0.0"/>
-		<import addon="game.controller.ps.dualshock" version="1.0.0"/>
 		<import addon="game.controller.ps.dualanalog" version="1.0.0"/>
-		<import addon="game.controller.ps.multitap" version="1.0.0"/>
+		<import addon="game.controller.ps.dualshock" version="1.0.0"/>
+		<import addon="game.controller.ps.gamepad" version="1.0.0"/>
+		<import addon="game.controller.ps.guncon.japan" version="1.0.0"/>
+		<import addon="game.controller.ps.guncon.western" version="1.0.0"/>
+		<import addon="game.controller.ps.mouse" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
