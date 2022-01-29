@@ -1,0 +1,105 @@
+From e44e6c10b1fd1cf4c8bdf41663d36b306b96d63e Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Sat, 29 Jan 2022 11:18:43 -0800
+Subject: [PATCH] Force-enable all settings
+
+---
+ frontend/libretro_core_options.h | 16 ----------------
+ 1 file changed, 16 deletions(-)
+
+diff --git a/frontend/libretro_core_options.h b/frontend/libretro_core_options.h
+index 3e1daf2..cdaefe8 100644
+--- a/frontend/libretro_core_options.h
++++ b/frontend/libretro_core_options.h
+@@ -479,7 +479,6 @@ struct retro_core_option_definition option_defs_us[] = {
+ #endif
+    },
+ 
+-#ifndef DRC_DISABLE
+    {
+       "pcsx_rearmed_drc",
+       "Dynamic Recompiler",
+@@ -491,9 +490,7 @@ struct retro_core_option_definition option_defs_us[] = {
+       },
+       "enabled",
+    },
+-#endif
+ 
+-#if !defined(DRC_DISABLE) && !defined(LIGHTREC)
+    {
+       "pcsx_rearmed_psxclock",
+       "PSX CPU Clock",
+@@ -582,9 +579,7 @@ struct retro_core_option_definition option_defs_us[] = {
+       "57",
+ #endif
+    },
+-#endif /* !DRC_DISABLE && !LIGHTREC */
+ 
+-#ifdef GPU_NEON
+    {
+       "pcsx_rearmed_neon_interlace_enable",
+       "Enable Interlacing Mode",
+@@ -618,7 +613,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#endif /* GPU_NEON */
+ 
+    {
+       "pcsx_rearmed_duping_enable",
+@@ -643,8 +637,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       "disabled",
+    },
+ 
+-   /* GPU PEOPS OPTIONS */
+-#ifdef GPU_PEOPS
+    {
+       "pcsx_rearmed_show_gpu_peops_settings",
+       "Advanced GPU P.E.Op.S. Settings",
+@@ -755,10 +747,7 @@ struct retro_core_option_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#endif
+ 
+-    /* GPU UNAI Advanced Options */
+-#ifdef GPU_UNAI
+    {
+       "pcsx_rearmed_show_gpu_unai_settings",
+       "Advance GPU UNAI/PCSX4All Settings",
+@@ -836,8 +825,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#endif /* GPU UNAI Advanced Settings */
+-#ifdef THREAD_RENDERING
+    {
+       "pcsx_rearmed_gpu_thread_rendering",
+       "Threaded Rendering",
+@@ -850,7 +837,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#endif
+ 
+    {
+       "pcsx_rearmed_show_bios_bootlogo",
+@@ -969,7 +955,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       "disabled",
+    },
+ 
+-#if !defined(DRC_DISABLE) && !defined(LIGHTREC)
+    {
+       "pcsx_rearmed_nosmccheck",
+       "(Speed Hack) Disable SMC Checks",
+@@ -1025,7 +1010,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#endif /* !DRC_DISABLE && !LIGHTREC */
+ 
+    { NULL, NULL, NULL, {{0}}, NULL },
+ };
+-- 
+2.30.2
+
