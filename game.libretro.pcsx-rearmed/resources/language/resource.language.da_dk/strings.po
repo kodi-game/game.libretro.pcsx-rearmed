@@ -158,60 +158,152 @@ msgid "(GPU) Fake 'Gpu Busy' States"
 msgstr "(GPU) Falsk 'GPU optaget'-tilstand"
 
 msgctxt "#30033"
-msgid "Threaded Rendering"
-msgstr "Threaded rendering"
+msgid "Advance GPU UNAI/PCSX4All Settings"
+msgstr ""
 
 msgctxt "#30034"
-msgid "Show Bios Bootlogo"
-msgstr "Vis Bios opstartslogo"
+msgid "(GPU) Enable Blending"
+msgstr ""
 
 msgctxt "#30035"
-msgid "Sound Reverb"
-msgstr "Lyd rumklang"
+msgid "(GPU) Enable Lighting"
+msgstr ""
 
 msgctxt "#30036"
-msgid "Sound Interpolation"
-msgstr "Lydinterpolation"
+msgid "(GPU) Enable Fast Lighting"
+msgstr ""
 
 msgctxt "#30037"
-msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
-msgstr "Fix for Parasite Eve 2/Vandal Hearts 1/2"
+msgid "(GPU) Enable Forced Interlace"
+msgstr ""
 
 msgctxt "#30038"
-msgid "Instruction Cache emulation"
-msgstr "Emuleret instruktions-cache"
+msgid "(GPU) Enable Pixel Skip"
+msgstr ""
 
 msgctxt "#30039"
-msgid "InuYasha Sengoku Battle Fix"
-msgstr "Fix for InuYasha Sengoku Battle"
+msgid "(GPU) Enable Hi-Res Downscaling"
+msgstr ""
 
 msgctxt "#30040"
-msgid "CD Access Method (Restart)"
-msgstr "Adgangsmetode til CD (genstart)"
+msgid "Threaded Rendering"
+msgstr ""
 
 msgctxt "#30041"
-msgid "XA Decoding"
-msgstr "XA afkodning"
+msgid "Show Bios Bootlogo"
+msgstr ""
 
 msgctxt "#30042"
-msgid "CD Audio"
-msgstr "CD-lyd"
+msgid "Sound Reverb"
+msgstr ""
 
 msgctxt "#30043"
-msgid "SPU IRQ Always Enabled"
-msgstr "SPU IRQ altid aktiveret"
+msgid "Sound Interpolation"
+msgstr ""
 
 msgctxt "#30044"
-msgid "(Speed Hack) Disable SMC Checks"
-msgstr "(Hastighedshack) Deaktiver SMC-tjek"
+msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
+msgstr ""
 
 msgctxt "#30045"
-msgid "(Speed Hack) Assume GTE Regs Unneeded"
-msgstr "(Hastighedshack) Antag at GTE-regs er unødvendige"
+msgid "Instruction Cache emulation"
+msgstr ""
 
 msgctxt "#30046"
+msgid "InuYasha Sengoku Battle Fix"
+msgstr ""
+
+msgctxt "#30047"
+msgid "CD Access Method (Restart)"
+msgstr ""
+
+msgctxt "#30048"
+msgid "XA Decoding"
+msgstr ""
+
+msgctxt "#30049"
+msgid "CD Audio"
+msgstr ""
+
+msgctxt "#30050"
+msgid "SPU IRQ Always Enabled"
+msgstr ""
+
+msgctxt "#30051"
+msgid "(Speed Hack) Disable SMC Checks"
+msgstr ""
+
+msgctxt "#30052"
+msgid "(Speed Hack) Assume GTE Regs Unneeded"
+msgstr ""
+
+msgctxt "#30053"
 msgid "(Speed Hack) Disable GTE Flags"
-msgstr "(Hastighedshack) Deaktiver GTE-flag"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Disable CPU/GTE stalls"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Disable compat hacks"
+msgstr ""
+
+#~ msgctxt "#30033"
+#~ msgid "Threaded Rendering"
+#~ msgstr "Threaded rendering"
+
+#~ msgctxt "#30034"
+#~ msgid "Show Bios Bootlogo"
+#~ msgstr "Vis Bios opstartslogo"
+
+#~ msgctxt "#30035"
+#~ msgid "Sound Reverb"
+#~ msgstr "Lyd rumklang"
+
+#~ msgctxt "#30036"
+#~ msgid "Sound Interpolation"
+#~ msgstr "Lydinterpolation"
+
+#~ msgctxt "#30037"
+#~ msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
+#~ msgstr "Fix for Parasite Eve 2/Vandal Hearts 1/2"
+
+#~ msgctxt "#30038"
+#~ msgid "Instruction Cache emulation"
+#~ msgstr "Emuleret instruktions-cache"
+
+#~ msgctxt "#30039"
+#~ msgid "InuYasha Sengoku Battle Fix"
+#~ msgstr "Fix for InuYasha Sengoku Battle"
+
+#~ msgctxt "#30040"
+#~ msgid "CD Access Method (Restart)"
+#~ msgstr "Adgangsmetode til CD (genstart)"
+
+#~ msgctxt "#30041"
+#~ msgid "XA Decoding"
+#~ msgstr "XA afkodning"
+
+#~ msgctxt "#30042"
+#~ msgid "CD Audio"
+#~ msgstr "CD-lyd"
+
+#~ msgctxt "#30043"
+#~ msgid "SPU IRQ Always Enabled"
+#~ msgstr "SPU IRQ altid aktiveret"
+
+#~ msgctxt "#30044"
+#~ msgid "(Speed Hack) Disable SMC Checks"
+#~ msgstr "(Hastighedshack) Deaktiver SMC-tjek"
+
+#~ msgctxt "#30045"
+#~ msgid "(Speed Hack) Assume GTE Regs Unneeded"
+#~ msgstr "(Hastighedshack) Antag at GTE-regs er unødvendige"
+
+#~ msgctxt "#30046"
+#~ msgid "(Speed Hack) Disable GTE Flags"
+#~ msgstr "(Hastighedshack) Deaktiver GTE-flag"
 
 #~ msgctxt "#30003"
 #~ msgid "Use BIOS"
