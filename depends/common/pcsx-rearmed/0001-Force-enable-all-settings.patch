@@ -1,105 +1,140 @@
-From e44e6c10b1fd1cf4c8bdf41663d36b306b96d63e Mon Sep 17 00:00:00 2001
+From 3ed903fd9940e07ee5b8a4877e99cf3659346a14 Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
 Date: Sat, 29 Jan 2022 11:18:43 -0800
 Subject: [PATCH] Force-enable all settings
 
 ---
- frontend/libretro_core_options.h | 16 ----------------
- 1 file changed, 16 deletions(-)
+ frontend/libretro_core_options.h | 20 --------------------
+ 1 file changed, 20 deletions(-)
 
 diff --git a/frontend/libretro_core_options.h b/frontend/libretro_core_options.h
-index 3e1daf2..cdaefe8 100644
+index 58e1b72..3537091 100644
 --- a/frontend/libretro_core_options.h
 +++ b/frontend/libretro_core_options.h
-@@ -479,7 +479,6 @@ struct retro_core_option_definition option_defs_us[] = {
- #endif
+@@ -61,27 +61,21 @@ struct retro_core_option_v2_category option_cats_us[] = {
+       "Video",
+       "Configure base display parameters."
     },
+-#ifdef GPU_NEON
+    {
+       "gpu_neon",
+       "GPU Plugin",
+       "Configure low-level settings of the NEON GPU plugin."
+    },
+-#endif
+-#ifdef GPU_PEOPS
+    {
+       "gpu_peops",
+       "GPU Plugin (Advanced)",
+       "Configure low-level settings of the P.E.Op.S. GPU plugin."
+    },
+-#endif
+-#ifdef GPU_UNAI
+    {
+       "gpu_unai",
+       "GPU Plugin (Advanced)",
+       "Configure low-level settings of the UNAI GPU plugin."
+    },
+-#endif
+    {
+       "audio",
+       "Audio",
+@@ -97,13 +91,11 @@ struct retro_core_option_v2_category option_cats_us[] = {
+       "Compatibility Fixes",
+       "Configure settings/workarounds required for correct operation of specific games."
+    },
+-#if !defined(DRC_DISABLE) && !defined(LIGHTREC)
+    {
+       "speed_hack",
+       "Speed Hacks (Advanced)",
+       "Configure hacks that may improve performance at the expense of decreased accuracy/stability."
+    },
+-#endif
+    { NULL, NULL, NULL },
+ };
  
+@@ -182,7 +174,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       "sync",
+    },
+ #endif
 -#ifndef DRC_DISABLE
     {
        "pcsx_rearmed_drc",
        "Dynamic Recompiler",
-@@ -491,9 +490,7 @@ struct retro_core_option_definition option_defs_us[] = {
+@@ -197,7 +188,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "enabled",
     },
 -#endif
- 
--#if !defined(DRC_DISABLE) && !defined(LIGHTREC)
     {
        "pcsx_rearmed_psxclock",
-       "PSX CPU Clock",
-@@ -582,9 +579,7 @@ struct retro_core_option_definition option_defs_us[] = {
-       "57",
- #endif
-    },
--#endif /* !DRC_DISABLE && !LIGHTREC */
- 
--#ifdef GPU_NEON
-    {
-       "pcsx_rearmed_neon_interlace_enable",
-       "Enable Interlacing Mode",
-@@ -618,7 +613,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       "PSX CPU Clock Speed",
+@@ -326,7 +316,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
-       "disabled",
+       "enabled",
     },
--#endif /* GPU_NEON */
- 
-    {
-       "pcsx_rearmed_duping_enable",
-@@ -643,8 +637,6 @@ struct retro_core_option_definition option_defs_us[] = {
-       "disabled",
-    },
- 
--   /* GPU PEOPS OPTIONS */
--#ifdef GPU_PEOPS
-    {
-       "pcsx_rearmed_show_gpu_peops_settings",
-       "Advanced GPU P.E.Op.S. Settings",
-@@ -755,10 +747,7 @@ struct retro_core_option_definition option_defs_us[] = {
-       },
-       "disabled",
-    },
--#endif
- 
--    /* GPU UNAI Advanced Options */
--#ifdef GPU_UNAI
-    {
-       "pcsx_rearmed_show_gpu_unai_settings",
-       "Advance GPU UNAI/PCSX4All Settings",
-@@ -836,8 +825,6 @@ struct retro_core_option_definition option_defs_us[] = {
-       },
-       "disabled",
-    },
--#endif /* GPU UNAI Advanced Settings */
 -#ifdef THREAD_RENDERING
     {
        "pcsx_rearmed_gpu_thread_rendering",
        "Threaded Rendering",
-@@ -850,7 +837,6 @@ struct retro_core_option_definition option_defs_us[] = {
+@@ -342,7 +331,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
 -#endif
- 
     {
-       "pcsx_rearmed_show_bios_bootlogo",
-@@ -969,7 +955,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       "pcsx_rearmed_frameskip_type",
+       "Frameskip",
+@@ -438,7 +426,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
+       "auto",
+    },
+-#ifdef GPU_NEON
+    {
+       "pcsx_rearmed_neon_interlace_enable",
+       "(GPU) Show Interlaced Video",
+@@ -481,8 +468,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
        "disabled",
     },
- 
+-#endif /* GPU_NEON */
+-#ifdef GPU_PEOPS
+    {
+       "pcsx_rearmed_show_gpu_peops_settings",
+       "Show Advanced P.E.Op.S. GPU Settings",
+@@ -609,8 +594,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#endif /* GPU_PEOPS */
+-#ifdef GPU_UNAI
+    {
+       "pcsx_rearmed_show_gpu_unai_settings",
+       "Show Advanced UNAI GPU Settings",
+@@ -685,7 +668,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       "disabled",
+ #endif
+    },
+-#endif /* GPU_UNAI */
+    {
+       "pcsx_rearmed_spu_reverb",
+       "Audio Reverb Effects",
+@@ -1167,7 +1149,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
 -#if !defined(DRC_DISABLE) && !defined(LIGHTREC)
     {
-       "pcsx_rearmed_nosmccheck",
-       "(Speed Hack) Disable SMC Checks",
-@@ -1025,7 +1010,6 @@ struct retro_core_option_definition option_defs_us[] = {
+       "pcsx_rearmed_nocompathacks",
+       "Disable Automatic Compatibility Hacks",
+@@ -1238,7 +1219,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
 -#endif /* !DRC_DISABLE && !LIGHTREC */
- 
-    { NULL, NULL, NULL, {{0}}, NULL },
+    { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
  };
+ 
 -- 
-2.30.2
+2.34.1
 
