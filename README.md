@@ -15,7 +15,7 @@ GPLv2
 
 ### Icon
 
-![Icon](game.libretro.pcsx-rearmed/resources/icon.png)
+![Sony - PlayStation (PCSX ReARMed) icon](game.libretro.pcsx-rearmed/resources/icon.png)
 
 ### Fanart
 
