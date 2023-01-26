@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.pcsx-rearmed\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2022-08-04 02:14+0000\n"
+"PO-Revision-Date: 2023-01-26 07:56+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcsx-rearmed/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "Sony - PlayStation (PCSX ReARMed) r22"
@@ -30,221 +30,413 @@ msgid "Settings"
 msgstr "Asetukset"
 
 msgctxt "#30001"
-msgid "Frameskip"
-msgstr "Kuvaohitus"
-
-msgctxt "#30002"
-msgid "Use BIOS"
-msgstr "Käytä BIOS:ia"
-
-msgctxt "#30003"
 msgid "Region"
 msgstr "Alue"
+
+msgctxt "#30002"
+msgid "BIOS Selection"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Show BIOS Boot Logo"
+msgstr ""
 
 msgctxt "#30004"
 msgid "Enable Second Memory Card (Shared)"
 msgstr "Käytä toista muistikorttia (jaettu)"
 
 msgctxt "#30005"
-msgid "Show other input settings"
-msgstr "Näytä muut syöteasetukset"
-
-msgctxt "#30006"
-msgid "Emulated Mouse Sensitivity"
-msgstr "Emuloitu hiiren herkkyys"
-
-msgctxt "#30007"
-msgid "Multitap Mode (Restart)"
-msgstr "Multitap-tila (uudelleenkäynnistys)"
-
-msgctxt "#30008"
-msgid "NegCon Twist Deadzone (Percent)"
-msgstr "neGcon Twist -kuollut alue (%)"
-
-msgctxt "#30009"
-msgid "NegCon Twist Response"
-msgstr "neGcon Twist -vaste"
-
-msgctxt "#30010"
-msgid "Analog axis bounds."
-msgstr "Analogisten akselien ääripäät."
-
-msgctxt "#30011"
-msgid "Enable Vibration"
-msgstr "Käytä tärinää"
-
-msgctxt "#30012"
-msgid "Guncon Adjust X"
-msgstr "Guncon X-säätö"
-
-msgctxt "#30013"
-msgid "Guncon Adjust Y"
-msgstr "Guncon Y-säätö"
-
-msgctxt "#30014"
-msgid "Guncon Adjust Ratio X"
-msgstr "Guncon X-säätösuhde"
-
-msgctxt "#30015"
-msgid "Guncon Adjust Ratio Y"
-msgstr "Guncon Y-säätösuhde"
-
-msgctxt "#30016"
-msgid "Enable Dithering"
-msgstr "Käytä kohinaa"
-
-msgctxt "#30017"
 msgid "Dynamic Recompiler"
 msgstr "Dynaaminen uudelleenkääntäjä"
 
-msgctxt "#30018"
-msgid "PSX CPU Clock"
-msgstr "PSX-prosessorikellotaajuus"
+msgctxt "#30006"
+msgid "PSX CPU Clock Speed"
+msgstr ""
 
-msgctxt "#30019"
-msgid "Enable Interlacing Mode"
-msgstr "Käytä lomitustilaa"
+msgctxt "#30007"
+msgid "Dithering Pattern"
+msgstr ""
 
-msgctxt "#30020"
-msgid "Enhanced Resolution (Slow)"
-msgstr "Parannettu resoluutio (hidas)"
+msgctxt "#30008"
+msgid "Frame Duping (Speedup)"
+msgstr ""
 
-msgctxt "#30021"
-msgid "Enhanced Resolution (Speed Hack)"
-msgstr "Parannettu resoluutio (nopeushakkerointi)"
+msgctxt "#30009"
+msgid "Threaded Rendering"
+msgstr ""
 
-msgctxt "#30022"
-msgid "Frame Duping"
-msgstr "Kuvatuplaus"
+msgctxt "#30010"
+msgid "Frameskip"
+msgstr "Kuvaohitus"
 
-msgctxt "#30023"
+msgctxt "#30011"
+msgid "Frameskip Threshold (%)"
+msgstr "Kuvaohituskynnys (%)"
+
+msgctxt "#30012"
+msgid "Frameskip Interval"
+msgstr "Kuvaohitustiheys"
+
+msgctxt "#30013"
 msgid "Display Internal FPS"
 msgstr "Näytä sisäinen FPS"
 
-msgctxt "#30024"
+msgctxt "#30014"
+msgid "(GPU) Slow linked list processing"
+msgstr ""
+
+msgctxt "#30015"
+msgid "(GPU) Show Interlaced Video"
+msgstr ""
+
+msgctxt "#30016"
+msgid "(GPU) Enhanced Resolution (Slow)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "(GPU) Enhanced Resolution Speed Hack"
+msgstr ""
+
+msgctxt "#30018"
 msgid "(GPU) Odd/Even Bit Hack"
-msgstr "(Näytönohjain) pariton/parillinen hakkerointi"
+msgstr ""
+
+msgctxt "#30019"
+msgid "(GPU) Expand Screen Width"
+msgstr ""
+
+msgctxt "#30020"
+msgid "(GPU) Ignore Brightness Color"
+msgstr ""
+
+msgctxt "#30021"
+msgid "(GPU) Disable Coordinate Check"
+msgstr ""
+
+msgctxt "#30022"
+msgid "(GPU) Lazy Screen Update"
+msgstr ""
+
+msgctxt "#30023"
+msgid "(GPU) Repeat Flat Tex Triangles"
+msgstr ""
+
+msgctxt "#30024"
+msgid "(GPU) Draw Tex-Quads as Triangles"
+msgstr ""
 
 msgctxt "#30025"
-msgid "(GPU) Expand Screen Width"
-msgstr "(Näytönohjain) laajenna näytön leveyttä"
+msgid "(GPU) Fake 'GPU Busy' States"
+msgstr ""
 
 msgctxt "#30026"
-msgid "(GPU) Ignore Brightness Color"
-msgstr "(Näytönohjain) ohita kirkkauden väri"
+msgid "(GPU) Texture Blending"
+msgstr ""
 
 msgctxt "#30027"
-msgid "(GPU) Disable Coordinate Check"
-msgstr "(Näytönohjain) älä käytä koordinaattitarkistusta"
+msgid "(GPU) Lighting Effects"
+msgstr ""
 
 msgctxt "#30028"
-msgid "(GPU) Lazy Screen Update"
-msgstr "(Näytönohjain) laiska ruudunpäivitys"
+msgid "(GPU) Fast Lighting"
+msgstr ""
 
 msgctxt "#30029"
-msgid "(GPU) Old Frame Skipping"
-msgstr "(Näytönohjain) vanhojen kuvien ohitus"
+msgid "(GPU) Hi-Res Downscaling"
+msgstr ""
 
 msgctxt "#30030"
-msgid "(GPU) Repeated Flat Tex Triangles"
-msgstr "(Näytönohjain) toistetut litteät tex-kolmiot"
+msgid "Audio Reverb Effects"
+msgstr ""
 
 msgctxt "#30031"
-msgid "(GPU) Draw Quads with Triangles"
-msgstr "(Näytönohjain) Piirrä neloset kolmioilla"
-
-msgctxt "#30032"
-msgid "(GPU) Fake 'Gpu Busy' States"
-msgstr "(Näytönohjain) väärät 'Näytönohjain varattu' -tilat"
-
-msgctxt "#30033"
-msgid "Advance GPU UNAI/PCSX4All Settings"
-msgstr "Edistyneet GPU UNAI/PCSX4All -asetukset"
-
-msgctxt "#30034"
-msgid "(GPU) Enable Blending"
-msgstr "(Näytönohjain) käytä sekoitusta"
-
-msgctxt "#30035"
-msgid "(GPU) Enable Lighting"
-msgstr "(Näytönohjain) käytä valaisua"
-
-msgctxt "#30036"
-msgid "(GPU) Enable Fast Lighting"
-msgstr "(Näytönohjain) käytä nopeaa valaisua"
-
-msgctxt "#30037"
-msgid "(GPU) Enable Forced Interlace"
-msgstr "(Näytönohjain) käytä pakotettua lomitusta"
-
-msgctxt "#30038"
-msgid "(GPU) Enable Pixel Skip"
-msgstr "(Näytönohjain) käytä pikseliohitusta"
-
-msgctxt "#30039"
-msgid "(GPU) Enable Hi-Res Downscaling"
-msgstr "(Näytönohjain) käytä korkearesoluutioista alasskaalausta"
-
-msgctxt "#30040"
-msgid "Threaded Rendering"
-msgstr "Säikeistetty renderöinti"
-
-msgctxt "#30041"
-msgid "Show Bios Bootlogo"
-msgstr "Näytä BIOS:in käynnistyslogo"
-
-msgctxt "#30042"
-msgid "Sound Reverb"
-msgstr "Äänen kaiku"
-
-msgctxt "#30043"
 msgid "Sound Interpolation"
 msgstr "Äänen interpolaatio"
 
+msgctxt "#30032"
+msgid "CD Audio"
+msgstr ""
+
+msgctxt "#30033"
+msgid "XA Decoding"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Analog Axis Bounds"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Rumble Effects"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Multitap Mode (Restart)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "NegCon Twist Deadzone"
+msgstr ""
+
+msgctxt "#30038"
+msgid "NegCon Twist Response"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Guncon X Axis Offset"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Guncon Y Axis Offset"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Guncon X Axis Response"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Guncon Y Axis Response"
+msgstr ""
+
 msgctxt "#30044"
-msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
-msgstr "Parasite Eve 2/Vandal Hearts 1/2 -korjaus"
+msgid "Instruction Cache Emulation"
+msgstr ""
 
 msgctxt "#30045"
-msgid "Instruction Cache emulation"
-msgstr "Emuloi ohjevälimuistia"
+msgid "Disable Automatic Compatibility Hacks"
+msgstr ""
 
 msgctxt "#30046"
-msgid "InuYasha Sengoku Battle Fix"
-msgstr "InuYasha Sengoku Battle -korjaus"
+msgid "(Speed Hack) Disable SMC Checks"
+msgstr ""
 
 msgctxt "#30047"
-msgid "CD Access Method (Restart)"
-msgstr "CD:n käyttötapa (uudelleenkäynnistys)"
+msgid "(Speed Hack) Assume GTE Registers Unneeded"
+msgstr ""
 
 msgctxt "#30048"
-msgid "XA Decoding"
-msgstr "XA-dekoodaus"
+msgid "(Speed Hack) Disable GTE Flags"
+msgstr ""
 
 msgctxt "#30049"
-msgid "CD Audio"
-msgstr "CD-ääni"
+msgid "(Speed Hack) Disable CPU/GTE Stalls"
+msgstr ""
 
-msgctxt "#30050"
-msgid "SPU IRQ Always Enabled"
-msgstr "SPU IRQ aina käytössä"
+#~ msgctxt "#30001"
+#~ msgid "Frameskip"
+#~ msgstr "Kuvaohitus"
 
-msgctxt "#30051"
-msgid "(Speed Hack) Disable SMC Checks"
-msgstr "(Pikahakkerointi) Älä käytä SMC-tarkistuksia"
+#~ msgctxt "#30002"
+#~ msgid "Use BIOS"
+#~ msgstr "Käytä BIOS:ia"
 
-msgctxt "#30052"
-msgid "(Speed Hack) Assume GTE Regs Unneeded"
-msgstr "(Pikahakkerointi) Oleta, ettei GTE-säädöksiä tarvita"
+#~ msgctxt "#30003"
+#~ msgid "Region"
+#~ msgstr "Alue"
 
-msgctxt "#30053"
-msgid "(Speed Hack) Disable GTE Flags"
-msgstr "(Pikahakkerointi) Älä käytä GTE-lippuja"
+#~ msgctxt "#30005"
+#~ msgid "Show other input settings"
+#~ msgstr "Näytä muut syöteasetukset"
 
-msgctxt "#30054"
-msgid "Disable CPU/GTE stalls"
-msgstr "Älä emuloi CPU-/GTE-jumiutumista"
+#~ msgctxt "#30006"
+#~ msgid "Emulated Mouse Sensitivity"
+#~ msgstr "Emuloitu hiiren herkkyys"
 
-msgctxt "#30055"
-msgid "Disable compat hacks"
-msgstr "Älä käytä taisteluhakkerointeja"
+#~ msgctxt "#30007"
+#~ msgid "Multitap Mode (Restart)"
+#~ msgstr "Multitap-tila (uudelleenkäynnistys)"
+
+#~ msgctxt "#30008"
+#~ msgid "NegCon Twist Deadzone (Percent)"
+#~ msgstr "neGcon Twist -kuollut alue (%)"
+
+#~ msgctxt "#30009"
+#~ msgid "NegCon Twist Response"
+#~ msgstr "neGcon Twist -vaste"
+
+#~ msgctxt "#30010"
+#~ msgid "Analog axis bounds."
+#~ msgstr "Analogisten akselien ääripäät."
+
+#~ msgctxt "#30011"
+#~ msgid "Enable Vibration"
+#~ msgstr "Käytä tärinää"
+
+#~ msgctxt "#30012"
+#~ msgid "Guncon Adjust X"
+#~ msgstr "Guncon X-säätö"
+
+#~ msgctxt "#30013"
+#~ msgid "Guncon Adjust Y"
+#~ msgstr "Guncon Y-säätö"
+
+#~ msgctxt "#30014"
+#~ msgid "Guncon Adjust Ratio X"
+#~ msgstr "Guncon X-säätösuhde"
+
+#~ msgctxt "#30015"
+#~ msgid "Guncon Adjust Ratio Y"
+#~ msgstr "Guncon Y-säätösuhde"
+
+#~ msgctxt "#30016"
+#~ msgid "Enable Dithering"
+#~ msgstr "Käytä kohinaa"
+
+#~ msgctxt "#30017"
+#~ msgid "Dynamic Recompiler"
+#~ msgstr "Dynaaminen uudelleenkääntäjä"
+
+#~ msgctxt "#30018"
+#~ msgid "PSX CPU Clock"
+#~ msgstr "PSX-prosessorikellotaajuus"
+
+#~ msgctxt "#30019"
+#~ msgid "Enable Interlacing Mode"
+#~ msgstr "Käytä lomitustilaa"
+
+#~ msgctxt "#30020"
+#~ msgid "Enhanced Resolution (Slow)"
+#~ msgstr "Parannettu resoluutio (hidas)"
+
+#~ msgctxt "#30021"
+#~ msgid "Enhanced Resolution (Speed Hack)"
+#~ msgstr "Parannettu resoluutio (nopeushakkerointi)"
+
+#~ msgctxt "#30022"
+#~ msgid "Frame Duping"
+#~ msgstr "Kuvatuplaus"
+
+#~ msgctxt "#30023"
+#~ msgid "Display Internal FPS"
+#~ msgstr "Näytä sisäinen FPS"
+
+#~ msgctxt "#30024"
+#~ msgid "(GPU) Odd/Even Bit Hack"
+#~ msgstr "(Näytönohjain) pariton/parillinen hakkerointi"
+
+#~ msgctxt "#30025"
+#~ msgid "(GPU) Expand Screen Width"
+#~ msgstr "(Näytönohjain) laajenna näytön leveyttä"
+
+#~ msgctxt "#30026"
+#~ msgid "(GPU) Ignore Brightness Color"
+#~ msgstr "(Näytönohjain) ohita kirkkauden väri"
+
+#~ msgctxt "#30027"
+#~ msgid "(GPU) Disable Coordinate Check"
+#~ msgstr "(Näytönohjain) älä käytä koordinaattitarkistusta"
+
+#~ msgctxt "#30028"
+#~ msgid "(GPU) Lazy Screen Update"
+#~ msgstr "(Näytönohjain) laiska ruudunpäivitys"
+
+#~ msgctxt "#30029"
+#~ msgid "(GPU) Old Frame Skipping"
+#~ msgstr "(Näytönohjain) vanhojen kuvien ohitus"
+
+#~ msgctxt "#30030"
+#~ msgid "(GPU) Repeated Flat Tex Triangles"
+#~ msgstr "(Näytönohjain) toistetut litteät tex-kolmiot"
+
+#~ msgctxt "#30031"
+#~ msgid "(GPU) Draw Quads with Triangles"
+#~ msgstr "(Näytönohjain) Piirrä neloset kolmioilla"
+
+#~ msgctxt "#30032"
+#~ msgid "(GPU) Fake 'Gpu Busy' States"
+#~ msgstr "(Näytönohjain) väärät 'Näytönohjain varattu' -tilat"
+
+#~ msgctxt "#30033"
+#~ msgid "Advance GPU UNAI/PCSX4All Settings"
+#~ msgstr "Edistyneet GPU UNAI/PCSX4All -asetukset"
+
+#~ msgctxt "#30034"
+#~ msgid "(GPU) Enable Blending"
+#~ msgstr "(Näytönohjain) käytä sekoitusta"
+
+#~ msgctxt "#30035"
+#~ msgid "(GPU) Enable Lighting"
+#~ msgstr "(Näytönohjain) käytä valaisua"
+
+#~ msgctxt "#30036"
+#~ msgid "(GPU) Enable Fast Lighting"
+#~ msgstr "(Näytönohjain) käytä nopeaa valaisua"
+
+#~ msgctxt "#30037"
+#~ msgid "(GPU) Enable Forced Interlace"
+#~ msgstr "(Näytönohjain) käytä pakotettua lomitusta"
+
+#~ msgctxt "#30038"
+#~ msgid "(GPU) Enable Pixel Skip"
+#~ msgstr "(Näytönohjain) käytä pikseliohitusta"
+
+#~ msgctxt "#30039"
+#~ msgid "(GPU) Enable Hi-Res Downscaling"
+#~ msgstr "(Näytönohjain) käytä korkearesoluutioista alasskaalausta"
+
+#~ msgctxt "#30040"
+#~ msgid "Threaded Rendering"
+#~ msgstr "Säikeistetty renderöinti"
+
+#~ msgctxt "#30041"
+#~ msgid "Show Bios Bootlogo"
+#~ msgstr "Näytä BIOS:in käynnistyslogo"
+
+#~ msgctxt "#30042"
+#~ msgid "Sound Reverb"
+#~ msgstr "Äänen kaiku"
+
+#~ msgctxt "#30043"
+#~ msgid "Sound Interpolation"
+#~ msgstr "Äänen interpolaatio"
+
+#~ msgctxt "#30044"
+#~ msgid "Parasite Eve 2/Vandal Hearts 1/2 Fix"
+#~ msgstr "Parasite Eve 2/Vandal Hearts 1/2 -korjaus"
+
+#~ msgctxt "#30045"
+#~ msgid "Instruction Cache emulation"
+#~ msgstr "Emuloi ohjevälimuistia"
+
+#~ msgctxt "#30046"
+#~ msgid "InuYasha Sengoku Battle Fix"
+#~ msgstr "InuYasha Sengoku Battle -korjaus"
+
+#~ msgctxt "#30047"
+#~ msgid "CD Access Method (Restart)"
+#~ msgstr "CD:n käyttötapa (uudelleenkäynnistys)"
+
+#~ msgctxt "#30048"
+#~ msgid "XA Decoding"
+#~ msgstr "XA-dekoodaus"
+
+#~ msgctxt "#30049"
+#~ msgid "CD Audio"
+#~ msgstr "CD-ääni"
+
+#~ msgctxt "#30050"
+#~ msgid "SPU IRQ Always Enabled"
+#~ msgstr "SPU IRQ aina käytössä"
+
+#~ msgctxt "#30051"
+#~ msgid "(Speed Hack) Disable SMC Checks"
+#~ msgstr "(Pikahakkerointi) Älä käytä SMC-tarkistuksia"
+
+#~ msgctxt "#30052"
+#~ msgid "(Speed Hack) Assume GTE Regs Unneeded"
+#~ msgstr "(Pikahakkerointi) Oleta, ettei GTE-säädöksiä tarvita"
+
+#~ msgctxt "#30053"
+#~ msgid "(Speed Hack) Disable GTE Flags"
+#~ msgstr "(Pikahakkerointi) Älä käytä GTE-lippuja"
+
+#~ msgctxt "#30054"
+#~ msgid "Disable CPU/GTE stalls"
+#~ msgstr "Älä emuloi CPU-/GTE-jumiutumista"
+
+#~ msgctxt "#30055"
+#~ msgid "Disable compat hacks"
+#~ msgstr "Älä käytä taisteluhakkerointeja"
