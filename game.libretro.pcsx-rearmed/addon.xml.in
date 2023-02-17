@@ -29,6 +29,7 @@
 		</assets>
 		<summary lang="en_GB">Sony - PlayStation (PCSX ReARMed) r22</summary>
 		<description lang="da_DK">PCSX ReARMed er en PCSX-fork baseret på PCSX-Reloaded-projektet, som i sig selv indeholder kode fra PCSX, PCSX-df og PCSX-Revolution.[CR][CR]Denne version har en MIPS-til-ARM-recompiler, NEON GTE-kode og flere ydelsesforbedringer.</description>
+		<description lang="de_DE">PCSX ReARMed ist ein weiterer PCSX-Ableger, der auf dem Projekt PCSX-Reloaded basiert, das seinerseits Code aus PCSX, PCSX-df und PCSX-Revolution enthält, sowie einen MIPS-to-ARM-Recompiler, NEON-GTE-Code und weitere Leistungsverbesserungen.</description>
 		<description lang="en_GB">PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.[CR][CR]This version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements.</description>
 		<description lang="es_ES">PCSX ReARMed es otra bifurcación de PCSX basado en el proyecto PCSX-Reloaded, que a su vez contiene código de PCSX, PCSX-df y PCSX-Revolution[CR][CR]Esta versión incluye un recompilador de MIPS a ARM, código NEON GTE y más mejoras de rendimiento.</description>
 		<description lang="fi_FI">PCSX ReARMed on PCSX-haara, joka perustuu PCSX-Reloaded-projektiin, joka itsessään sisältää koodia PCSX:stä, PCSX-df:stä ja PCSX-Revolutionista.[CR][CR]Tässä versiossa on MIPS-to-ARM-uudelleenkääntäjä, NEON GTE -koodi ja muita suorituskykyparannuksia.</description>
