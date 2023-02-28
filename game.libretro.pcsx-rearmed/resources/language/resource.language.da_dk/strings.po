@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.pcsx-rearmed\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2023-02-17 23:02+0000\n"
+"PO-Revision-Date: 2023-02-28 11:26+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcsx-rearmed/da_dk/>\n"
 "Language: da_dk\n"
@@ -35,11 +35,11 @@ msgstr "Område"
 
 msgctxt "#30002"
 msgid "BIOS Selection"
-msgstr ""
+msgstr "Valg af BIOS"
 
 msgctxt "#30003"
 msgid "Show BIOS Boot Logo"
-msgstr ""
+msgstr "Vis BIOS logo ved opstart"
 
 msgctxt "#30004"
 msgid "Enable Second Memory Card (Shared)"
@@ -51,11 +51,11 @@ msgstr "Dynamisk recompiler"
 
 msgctxt "#30006"
 msgid "PSX CPU Clock Speed"
-msgstr ""
+msgstr "PSX CPU clockhastighed"
 
 msgctxt "#30007"
 msgid "Dithering Pattern"
-msgstr "Dithering-mønster"
+msgstr "Mønster for nuanceændring"
 
 msgctxt "#30008"
 msgid "Frame Duping (Speedup)"
@@ -63,7 +63,7 @@ msgstr "Frame-dupering (acceleration)"
 
 msgctxt "#30009"
 msgid "Threaded Rendering"
-msgstr ""
+msgstr "Threaded rendering"
 
 msgctxt "#30010"
 msgid "Frameskip"
@@ -83,71 +83,71 @@ msgstr "Vis intern FPS"
 
 msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
-msgstr ""
+msgstr "(GPU) Langsom sammenkædet listebehandling"
 
 msgctxt "#30015"
 msgid "(GPU) Show Interlaced Video"
-msgstr ""
+msgstr "(GPU) Vis interlaced video"
 
 msgctxt "#30016"
 msgid "(GPU) Enhanced Resolution (Slow)"
-msgstr ""
+msgstr "(GPU) Forbedret opløsning (langsom)"
 
 msgctxt "#30017"
 msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr ""
+msgstr "(GPU) Forbedret opløsning hastighedshack"
 
 msgctxt "#30018"
 msgid "(GPU) Odd/Even Bit Hack"
-msgstr ""
+msgstr "(GPU) Hack for ulige/lige bit"
 
 msgctxt "#30019"
 msgid "(GPU) Expand Screen Width"
-msgstr ""
+msgstr "(GPU) Udvid skærmbredde"
 
 msgctxt "#30020"
 msgid "(GPU) Ignore Brightness Color"
-msgstr ""
+msgstr "(GPU) Ignorer lysstyrkefarve"
 
 msgctxt "#30021"
 msgid "(GPU) Disable Coordinate Check"
-msgstr ""
+msgstr "(GPU) Deaktiver kontrol af koordinater"
 
 msgctxt "#30022"
 msgid "(GPU) Lazy Screen Update"
-msgstr ""
+msgstr "(GPU) Langsom skærmopdatering"
 
 msgctxt "#30023"
 msgid "(GPU) Repeat Flat Tex Triangles"
-msgstr ""
+msgstr "(GPU) Gentag flade Tex-trekanter"
 
 msgctxt "#30024"
 msgid "(GPU) Draw Tex-Quads as Triangles"
-msgstr ""
+msgstr "(GPU) Tegn tex-kvadrater som trekanter"
 
 msgctxt "#30025"
 msgid "(GPU) Fake 'GPU Busy' States"
-msgstr ""
+msgstr "(GPU) Falsk 'GPU optaget'-tilstand"
 
 msgctxt "#30026"
 msgid "(GPU) Texture Blending"
-msgstr ""
+msgstr "(GPU) Overfladeblanding"
 
 msgctxt "#30027"
 msgid "(GPU) Lighting Effects"
-msgstr ""
+msgstr "(GPU) Lyseffekter"
 
 msgctxt "#30028"
 msgid "(GPU) Fast Lighting"
-msgstr ""
+msgstr "(GPU) Hurtig belysning"
 
 msgctxt "#30029"
 msgid "(GPU) Hi-Res Downscaling"
-msgstr ""
+msgstr "(GPU) Nedskalering i høj kvalitet"
 
 msgctxt "#30030"
 msgid "Audio Reverb Effects"
-msgstr ""
+msgstr "Lyd rumklangseffekter"
 
 msgctxt "#30031"
 msgid "Sound Interpolation"
@@ -155,15 +155,15 @@ msgstr "Lydinterpolation"
 
 msgctxt "#30032"
 msgid "CD Audio"
-msgstr ""
+msgstr "CD-lyd"
 
 msgctxt "#30033"
 msgid "XA Decoding"
-msgstr ""
+msgstr "XA afkodning"
 
 msgctxt "#30034"
 msgid "Analog Axis Bounds"
-msgstr ""
+msgstr "Grænser for analog akse"
 
 msgctxt "#30035"
 msgid "Rumble Effects"
@@ -171,15 +171,15 @@ msgstr "Rumble-effekter"
 
 msgctxt "#30036"
 msgid "Multitap Mode (Restart)"
-msgstr ""
+msgstr "Tilstand for multitap (genstart)"
 
 msgctxt "#30037"
 msgid "NegCon Twist Deadzone"
-msgstr ""
+msgstr "Dødzone for NegCon Twist"
 
 msgctxt "#30038"
 msgid "NegCon Twist Response"
-msgstr ""
+msgstr "NegCon twist-svar"
 
 msgctxt "#30039"
 msgid "Mouse Sensitivity"
@@ -187,43 +187,43 @@ msgstr "Musens følsomhed"
 
 msgctxt "#30040"
 msgid "Guncon X Axis Offset"
-msgstr ""
+msgstr "Forskydning af Guncon X-akse"
 
 msgctxt "#30041"
 msgid "Guncon Y Axis Offset"
-msgstr ""
+msgstr "Forskydning af Guncon Y-akse"
 
 msgctxt "#30042"
 msgid "Guncon X Axis Response"
-msgstr ""
+msgstr "Svar for Guncon X-akse"
 
 msgctxt "#30043"
 msgid "Guncon Y Axis Response"
-msgstr ""
+msgstr "Svar for Guncon Y-akse"
 
 msgctxt "#30044"
 msgid "Instruction Cache Emulation"
-msgstr ""
+msgstr "Emuleret instruktions-cache"
 
 msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
-msgstr ""
+msgstr "Deaktiver automatiske kompatibilitetshacks"
 
 msgctxt "#30046"
 msgid "(Speed Hack) Disable SMC Checks"
-msgstr ""
+msgstr "(Hastighedshack) Deaktiver SMC-tjek"
 
 msgctxt "#30047"
 msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr ""
+msgstr "(Hastighedshack) Antag at GTE-registre er unødvendige"
 
 msgctxt "#30048"
 msgid "(Speed Hack) Disable GTE Flags"
-msgstr ""
+msgstr "(Hastighedshack) Deaktiver GTE-flag"
 
 msgctxt "#30049"
 msgid "(Speed Hack) Disable CPU/GTE Stalls"
-msgstr ""
+msgstr "(Hastighedshack) Deaktiver CPU/GTE stilstand"
 
 #~ msgctxt "#30001"
 #~ msgid "Frameskip"
