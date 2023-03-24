@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "Addon Summary"
-msgid "Sony - PlayStation (PCSX ReARMed) r22"
+msgid "Sony - PlayStation (PCSX ReARMed)"
 msgstr ""
 
 msgctxt "Addon Description"
