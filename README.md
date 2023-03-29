@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/kodi-game/game.libretro.pcsx-rearmed.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.pcsx-rearmed)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.pcsx-rearmed?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-pcsx-rearmed)
-
 # Sony - PlayStation (PCSX ReARMed)
 
 ### Description
