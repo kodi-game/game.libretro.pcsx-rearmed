@@ -15,12 +15,8 @@
 		<feature name="rightbumper" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
 		<feature name="lefttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
 		<feature name="righttrigger" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
-		<feature name="l3" mapto="RETRO_DEVICE_ID_JOYPAD_L3"/>
-		<feature name="r3" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
-		<feature name="strongmotor" mapto="RETRO_RUMBLE_STRONG"/>
-		<feature name="weakmotor" mapto="RETRO_RUMBLE_WEAK"/>
 	</controller>
-	<controller id="game.controller.ps.dualshock" type="RETRO_DEVICE_ANALOG" subclass="1">
+	<controller id="game.controller.ps.dualanalog" type="RETRO_DEVICE_ANALOG" subclass="0">
 		<feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
 		<feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
 		<feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
@@ -39,10 +35,8 @@
 		<feature name="r3" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
 		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
 		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
-		<feature name="strongmotor" mapto="RETRO_RUMBLE_STRONG"/>
-		<feature name="weakmotor" mapto="RETRO_RUMBLE_WEAK"/>
 	</controller>
-	<controller id="game.controller.ps.dualanalog" type="RETRO_DEVICE_ANALOG" subclass="0">
+	<controller id="game.controller.ps.dualshock" type="RETRO_DEVICE_ANALOG" subclass="1">
 		<feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
 		<feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
 		<feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
