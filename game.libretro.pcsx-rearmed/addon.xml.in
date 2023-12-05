@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.pcsx-rearmed"
 		name="Sony - PlayStation (PCSX ReARMed)"
-		version="23.0.0.49"
+		version="23.0.0.50"
 		provider-name="PCSX Team, notaz, Exophase">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -15,7 +15,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>PlayStation</platforms>
-		<extensions>bin|cue|img|mdf|pbp|toc|cbn|m3u|chd</extensions>
+		<extensions>bin|cue|img|mdf|pbp|toc|cbn|m3u|chd|iso|exe</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<requires_opengl>false</requires_opengl>
