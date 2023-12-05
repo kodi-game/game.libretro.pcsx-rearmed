@@ -57,10 +57,6 @@ msgctxt "#30007"
 msgid "Dithering Pattern"
 msgstr "Mønster for nuanceændring"
 
-msgctxt "#30008"
-msgid "Frame Duping (Speedup)"
-msgstr "Frame-dupering (acceleration)"
-
 msgctxt "#30009"
 msgid "Threaded Rendering"
 msgstr "Threaded rendering"
@@ -88,10 +84,6 @@ msgstr "(GPU) Langsom sammenkædet listebehandling"
 msgctxt "#30015"
 msgid "(GPU) Show Interlaced Video"
 msgstr "(GPU) Vis interlaced video"
-
-msgctxt "#30016"
-msgid "(GPU) Enhanced Resolution (Slow)"
-msgstr "(GPU) Forbedret opløsning (langsom)"
 
 msgctxt "#30017"
 msgid "(GPU) Enhanced Resolution Speed Hack"
@@ -169,10 +161,6 @@ msgctxt "#30035"
 msgid "Rumble Effects"
 msgstr "Rumble-effekter"
 
-msgctxt "#30036"
-msgid "Multitap Mode (Restart)"
-msgstr "Tilstand for multitap (genstart)"
-
 msgctxt "#30037"
 msgid "NegCon Twist Deadzone"
 msgstr "Dødzone for NegCon Twist"
@@ -221,9 +209,73 @@ msgctxt "#30048"
 msgid "(Speed Hack) Disable GTE Flags"
 msgstr "(Hastighedshack) Deaktiver GTE-flag"
 
-msgctxt "#30049"
-msgid "(Speed Hack) Disable CPU/GTE Stalls"
-msgstr "(Hastighedshack) Deaktiver CPU/GTE stilstand"
+msgctxt "#30050"
+msgid "(GPU) Screen centering"
+msgstr ""
+
+msgctxt "#30051"
+msgid "(GPU) Manual screen centering X"
+msgstr ""
+
+msgctxt "#30052"
+msgid "(GPU) Manual screen centering Y"
+msgstr ""
+
+msgctxt "#30053"
+msgid "(GPU) Enhanced Resolution"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Threaded SPU"
+msgstr ""
+
+msgctxt "#30055"
+msgid "DualShock Analog Mode Toggle Key Combo"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Multitap Mode"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Player 1 Lightgun Crosshair"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Player 2 Lightgun Crosshair"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Konami Gun X Axis Offset"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Konami Gun Y Axis Offset"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Exception and Breakpoint Emulation"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Disable CPU/GTE Stalls"
+msgstr ""
+
+#~ msgctxt "#30008"
+#~ msgid "Frame Duping (Speedup)"
+#~ msgstr "Frame-dupering (acceleration)"
+
+#~ msgctxt "#30016"
+#~ msgid "(GPU) Enhanced Resolution (Slow)"
+#~ msgstr "(GPU) Forbedret opløsning (langsom)"
+
+#~ msgctxt "#30036"
+#~ msgid "Multitap Mode (Restart)"
+#~ msgstr "Tilstand for multitap (genstart)"
+
+#~ msgctxt "#30049"
+#~ msgid "(Speed Hack) Disable CPU/GTE Stalls"
+#~ msgstr "(Hastighedshack) Deaktiver CPU/GTE stilstand"
 
 #~ msgctxt "#30001"
 #~ msgid "Frameskip"
