@@ -262,6 +262,10 @@ msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
 msgstr ""
 
+msgctxt "#30063"
+msgid "(GPU) Enhanced Resolution Texture Adjustment"
+msgstr ""
+
 #~ msgctxt "#30008"
 #~ msgid "Frame Duping (Speedup)"
 #~ msgstr "Frameverdopplung (Beschleunigung)"

@@ -261,6 +261,10 @@ msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
 msgstr ""
 
+msgctxt "#30063"
+msgid "(GPU) Enhanced Resolution Texture Adjustment"
+msgstr ""
+
 #~ msgctxt "#30001"
 #~ msgid "Frameskip"
 #~ msgstr "Saltar cuadros"
