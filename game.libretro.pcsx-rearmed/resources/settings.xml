@@ -20,6 +20,7 @@
 		<setting label="30015" type="select" id="pcsx_rearmed_neon_interlace_enable_v2" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30053" type="select" id="pcsx_rearmed_neon_enhancement_enable" values="disabled|enabled" default="disabled"/>
 		<setting label="30017" type="select" id="pcsx_rearmed_neon_enhancement_no_main" values="disabled|enabled" default="disabled"/>
+		<setting label="30063" type="select" id="pcsx_rearmed_neon_enhancement_tex_adj" values="disabled|enabled" default="disabled"/>
 		<setting label="30018" type="select" id="pcsx_rearmed_gpu_peops_odd_even_bit" values="disabled|enabled" default="disabled"/>
 		<setting label="30019" type="select" id="pcsx_rearmed_gpu_peops_expand_screen_width" values="disabled|enabled" default="disabled"/>
 		<setting label="30020" type="select" id="pcsx_rearmed_gpu_peops_ignore_brightness" values="disabled|enabled" default="disabled"/>
