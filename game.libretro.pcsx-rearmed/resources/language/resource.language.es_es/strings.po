@@ -49,10 +49,6 @@ msgctxt "#30005"
 msgid "Dynamic Recompiler"
 msgstr "Recompilador Dinámico"
 
-msgctxt "#30006"
-msgid "PSX CPU Clock Speed"
-msgstr "Velocidad del reloj de CPU PSX"
-
 msgctxt "#30007"
 msgid "Dithering Pattern"
 msgstr "Patrón de Difuminado"
@@ -264,6 +260,30 @@ msgstr "Desactivar paradas de CPU/GTE"
 msgctxt "#30063"
 msgid "(GPU) Enhanced Resolution Texture Adjustment"
 msgstr "(GPU) Ajuste de texturas con resolución mejorada"
+
+msgctxt "#30064"
+msgid "Physical CD read-ahead"
+msgstr ""
+
+msgctxt "#30065"
+msgid "PSX CPU Clock Speed (%)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Use fractional frame rate"
+msgstr ""
+
+msgctxt "#30067"
+msgid "(GPU) Show horizontal overscan"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Turbo CD"
+msgstr ""
+
+#~ msgctxt "#30006"
+#~ msgid "PSX CPU Clock Speed"
+#~ msgstr "Velocidad del reloj de CPU PSX"
 
 #~ msgctxt "#30008"
 #~ msgid "Frame Duping (Speedup)"

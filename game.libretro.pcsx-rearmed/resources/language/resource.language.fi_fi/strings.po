@@ -49,10 +49,6 @@ msgctxt "#30005"
 msgid "Dynamic Recompiler"
 msgstr "Dynaaminen uudelleenkääntäjä"
 
-msgctxt "#30006"
-msgid "PSX CPU Clock Speed"
-msgstr ""
-
 msgctxt "#30007"
 msgid "Dithering Pattern"
 msgstr ""
@@ -263,6 +259,26 @@ msgstr ""
 
 msgctxt "#30063"
 msgid "(GPU) Enhanced Resolution Texture Adjustment"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Physical CD read-ahead"
+msgstr ""
+
+msgctxt "#30065"
+msgid "PSX CPU Clock Speed (%)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Use fractional frame rate"
+msgstr ""
+
+msgctxt "#30067"
+msgid "(GPU) Show horizontal overscan"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Turbo CD"
 msgstr ""
 
 #~ msgctxt "#30001"
