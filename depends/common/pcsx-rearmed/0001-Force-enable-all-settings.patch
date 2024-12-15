@@ -1,14 +1,14 @@
-From a198c926d7f75121fcb1cf2fca1da01509a6ad27 Mon Sep 17 00:00:00 2001
+From 713422c8e17407fa708c03ff3327c736b5daf097 Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
-Date: Tue, 5 Dec 2023 14:37:09 -0800
+Date: Sat, 14 Dec 2024 19:33:09 -0800
 Subject: [PATCH] Force-enable all settings
 
 ---
- frontend/libretro_core_options.h | 22 ----------------------
- 1 file changed, 22 deletions(-)
+ frontend/libretro_core_options.h | 32 --------------------------------
+ 1 file changed, 32 deletions(-)
 
 diff --git a/frontend/libretro_core_options.h b/frontend/libretro_core_options.h
-index e4995277..e6b62040 100644
+index a07491b6..03bdb69b 100644
 --- a/frontend/libretro_core_options.h
 +++ b/frontend/libretro_core_options.h
 @@ -61,27 +61,21 @@ struct retro_core_option_v2_category option_cats_us[] = {
@@ -39,15 +39,35 @@ index e4995277..e6b62040 100644
     {
        "audio",
        "Audio",
-@@ -180,7 +174,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
-       "sync",
+@@ -163,19 +157,14 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
+       "disabled",
     },
- #endif
--#ifdef HAVE_CDROM
+-#if defined(HAVE_CDROM) || defined(USE_ASYNC_CDROM)
  #define V(x) { #x, NULL }
     {
-       "pcsx_rearmed_phys_cd_readahead",
-@@ -198,8 +191,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       "pcsx_rearmed_cd_readahead",
+       "CD read-ahead",
+       NULL,
+       "Reads the specified amount of sectors ahead of time to try to avoid later stalls. "
+-#ifdef HAVE_CDROM
+       "Affects both physical CD-ROM and CD images. "
+-#endif
+-#if !defined(_3DS) && !defined(VITA)
+       "333000 will try to read the complete disk (requires an additional 750MB of RAM)."
+-#endif
+       ,
+       NULL,
+       "system",
+@@ -183,16 +172,12 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+          V(0),  V(1),  V(2),  V(3),  V(4),  V(5),  V(6),  V(7),
+          V(8),  V(9),  V(10), V(11), V(12), V(13), V(14), V(15),
+          V(16), V(32), V(64), V(128), V(256), V(512), V(1024),
+-#if !defined(_3DS) && !defined(VITA)
+ 	 V(333000),
+-#endif
+          { NULL, NULL},
+       },
        "12",
     },
  #undef V
@@ -56,15 +76,24 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_drc",
        "Dynamic Recompiler",
-@@ -214,7 +205,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -207,7 +192,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "enabled",
     },
+-#if !defined(LIGHTREC) && defined(NDRC_THREAD)
+    {
+       "pcsx_rearmed_drc_thread",
+       "DynaRec threading",
+@@ -223,8 +207,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
+       "auto",
+    },
 -#endif
+-#endif // DRC_DISABLE
     {
        "pcsx_rearmed_psxclock",
        "PSX CPU Clock Speed (%)",
-@@ -326,7 +316,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -334,7 +316,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        "enabled",
  #endif
     },
@@ -72,7 +101,7 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_gpu_thread_rendering",
        "Threaded Rendering",
-@@ -342,7 +331,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -350,7 +331,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -80,7 +109,7 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_frameskip_type",
        "Frameskip",
-@@ -513,7 +501,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -522,7 +502,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        "0",
     },
  #undef V
@@ -88,16 +117,16 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_neon_interlace_enable_v2",
        "(GPU) Show Interlaced Video",
-@@ -571,8 +558,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -580,8 +559,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
-       "disabled",
+       "enabled",
     },
 -#endif /* GPU_NEON */
 -#ifdef GPU_PEOPS
     {
        "pcsx_rearmed_show_gpu_peops_settings",
        "Show Advanced P.E.Op.S. GPU Settings",
-@@ -699,8 +684,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -708,8 +685,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -106,7 +135,23 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_show_gpu_unai_settings",
        "Show Advanced UNAI GPU Settings",
-@@ -775,7 +758,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -724,7 +699,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#ifndef GPU_UNAI_NO_OLD
+    {
+       "pcsx_rearmed_gpu_unai_old_renderer",
+       "(GPU) Old renderer",
+@@ -739,7 +713,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+       },
+       "disabled",
+    },
+-#endif
+    {
+       "pcsx_rearmed_gpu_unai_blending",
+       "(GPU) Texture Blending",
+@@ -800,7 +773,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        "disabled",
  #endif
     },
@@ -114,7 +159,7 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_spu_reverb",
        "Audio Reverb Effects",
-@@ -842,7 +824,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -867,7 +839,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "enabled",
     },
@@ -122,7 +167,7 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_spu_thread",
        "Threaded SPU",
-@@ -857,7 +838,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -882,7 +853,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -130,7 +175,7 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_show_input_settings",
        "Show Input Settings",
-@@ -1599,7 +1579,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -1648,7 +1618,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -138,7 +183,7 @@ index e4995277..e6b62040 100644
     {
        "pcsx_rearmed_nocompathacks",
        "Disable Automatic Compatibility Hacks",
-@@ -1656,7 +1635,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -1705,7 +1674,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -147,5 +192,5 @@ index e4995277..e6b62040 100644
        "pcsx_rearmed_nostalls",
        "Disable CPU/GTE Stalls",
 -- 
-2.37.0.windows.1
+2.43.0
 
