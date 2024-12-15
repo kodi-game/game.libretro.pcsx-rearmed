@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.[CR][CR]This version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements."
 msgstr "PCSX ReARMed es otra bifurcación de PCSX basado en el proyecto PCSX-Reloaded, que a su vez contiene código de PCSX, PCSX-df y PCSX-Revolution[CR][CR]Esta versión incluye un recompilador de MIPS a ARM, código NEON GTE y más mejoras de rendimiento."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Ajustes"
-
 msgctxt "#30001"
 msgid "Region"
 msgstr "Región"
@@ -40,10 +36,6 @@ msgstr "Selección de BIOS"
 msgctxt "#30003"
 msgid "Show BIOS Boot Logo"
 msgstr "Mostrar Logo de arranque BIOS"
-
-msgctxt "#30004"
-msgid "Enable Second Memory Card (Shared)"
-msgstr "Activar Segunda Tarjeta de Memoria (compartida)"
 
 msgctxt "#30005"
 msgid "Dynamic Recompiler"
@@ -209,14 +201,6 @@ msgctxt "#30050"
 msgid "(GPU) Screen centering"
 msgstr "(GPU) Centrado de pantalla"
 
-msgctxt "#30051"
-msgid "(GPU) Manual screen centering X"
-msgstr "(GPU) Centrado manual X de la pantalla"
-
-msgctxt "#30052"
-msgid "(GPU) Manual screen centering Y"
-msgstr "(GPU) Centrado manual Y de la pantalla"
-
 msgctxt "#30053"
 msgid "(GPU) Enhanced Resolution"
 msgstr "(GPU) Resolución Mejorada"
@@ -261,10 +245,6 @@ msgctxt "#30063"
 msgid "(GPU) Enhanced Resolution Texture Adjustment"
 msgstr "(GPU) Ajuste de texturas con resolución mejorada"
 
-msgctxt "#30064"
-msgid "Physical CD read-ahead"
-msgstr "Pre-lectura de CD físico"
-
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
 msgstr "Velocidad de reloj de CPU PSX (%)"
@@ -273,13 +253,61 @@ msgctxt "#30066"
 msgid "Use fractional frame rate"
 msgstr "Usar tasa de fotogramas fraccionada"
 
-msgctxt "#30067"
-msgid "(GPU) Show horizontal overscan"
-msgstr "(GPU) Mostrar overscan horizontal"
-
 msgctxt "#30068"
 msgid "Turbo CD"
 msgstr "Turbo CD"
+
+msgctxt "#30069"
+msgid "Second Memory Card (Shared)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "CD read-ahead"
+msgstr ""
+
+msgctxt "#30071"
+msgid "DynaRec threading"
+msgstr ""
+
+msgctxt "#30072"
+msgid "(GPU) Horizontal overscan"
+msgstr ""
+
+msgctxt "#30073"
+msgid "(GPU) Manual position X"
+msgstr ""
+
+msgctxt "#30074"
+msgid "(GPU) Manual position Y"
+msgstr ""
+
+msgctxt "#30075"
+msgid "(GPU) Old renderer"
+msgstr ""
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Ajustes"
+
+#~ msgctxt "#30004"
+#~ msgid "Enable Second Memory Card (Shared)"
+#~ msgstr "Activar Segunda Tarjeta de Memoria (compartida)"
+
+#~ msgctxt "#30051"
+#~ msgid "(GPU) Manual screen centering X"
+#~ msgstr "(GPU) Centrado manual X de la pantalla"
+
+#~ msgctxt "#30052"
+#~ msgid "(GPU) Manual screen centering Y"
+#~ msgstr "(GPU) Centrado manual Y de la pantalla"
+
+#~ msgctxt "#30064"
+#~ msgid "Physical CD read-ahead"
+#~ msgstr "Pre-lectura de CD físico"
+
+#~ msgctxt "#30067"
+#~ msgid "(GPU) Show horizontal overscan"
+#~ msgstr "(GPU) Mostrar overscan horizontal"
 
 #~ msgctxt "#30006"
 #~ msgid "PSX CPU Clock Speed"

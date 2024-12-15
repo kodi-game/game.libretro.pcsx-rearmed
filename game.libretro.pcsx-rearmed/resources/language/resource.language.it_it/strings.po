@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.[CR][CR]This version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements."
 msgstr ""
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Impostazioni"
-
 msgctxt "#30001"
 msgid "Region"
 msgstr "Regione"
@@ -39,10 +35,6 @@ msgstr ""
 
 msgctxt "#30003"
 msgid "Show BIOS Boot Logo"
-msgstr ""
-
-msgctxt "#30004"
-msgid "Enable Second Memory Card (Shared)"
 msgstr ""
 
 msgctxt "#30005"
@@ -209,14 +201,6 @@ msgctxt "#30050"
 msgid "(GPU) Screen centering"
 msgstr ""
 
-msgctxt "#30051"
-msgid "(GPU) Manual screen centering X"
-msgstr ""
-
-msgctxt "#30052"
-msgid "(GPU) Manual screen centering Y"
-msgstr ""
-
 msgctxt "#30053"
 msgid "(GPU) Enhanced Resolution"
 msgstr ""
@@ -261,10 +245,6 @@ msgctxt "#30063"
 msgid "(GPU) Enhanced Resolution Texture Adjustment"
 msgstr ""
 
-msgctxt "#30064"
-msgid "Physical CD read-ahead"
-msgstr ""
-
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
 msgstr ""
@@ -273,13 +253,41 @@ msgctxt "#30066"
 msgid "Use fractional frame rate"
 msgstr ""
 
-msgctxt "#30067"
-msgid "(GPU) Show horizontal overscan"
-msgstr ""
-
 msgctxt "#30068"
 msgid "Turbo CD"
 msgstr ""
+
+msgctxt "#30069"
+msgid "Second Memory Card (Shared)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "CD read-ahead"
+msgstr ""
+
+msgctxt "#30071"
+msgid "DynaRec threading"
+msgstr ""
+
+msgctxt "#30072"
+msgid "(GPU) Horizontal overscan"
+msgstr ""
+
+msgctxt "#30073"
+msgid "(GPU) Manual position X"
+msgstr ""
+
+msgctxt "#30074"
+msgid "(GPU) Manual position Y"
+msgstr ""
+
+msgctxt "#30075"
+msgid "(GPU) Old renderer"
+msgstr ""
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
 
 #~ msgctxt "#30001"
 #~ msgid "Frameskip"
