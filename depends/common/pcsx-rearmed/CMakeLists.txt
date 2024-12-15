@@ -123,8 +123,6 @@ elseif(CORE_SYSTEM_NAME STREQUAL android)
                                     V7NEONOPTIMIZATION=1
                                     
                     && cp ${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}/${PLATFORM}/${LIBRETRO_JNISONAME} ${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}/${LIBRETRO_SONAME})
-elseif(CORE_SYSTEM_NAME STREQUAL rbpi)
-  message(FATAL_ERROR "${PROJECT_NAME} needs RPi build command in CMakeLists.txt!")
 elseif(CORE_SYSTEM_NAME STREQUAL freebsd)
   set(BUILD_COMMAND $(MAKE)
                     -C .

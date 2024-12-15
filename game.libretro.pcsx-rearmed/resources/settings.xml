@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="30000">
+	<category label="128">
 		<setting label="30001" type="select" id="pcsx_rearmed_region" values="auto|NTSC|PAL" default="auto"/>
 		<setting label="30002" type="select" id="pcsx_rearmed_bios" values="auto|HLE" default="auto"/>
 		<setting label="30003" type="select" id="pcsx_rearmed_show_bios_bootlogo" values="disabled|enabled" default="disabled"/>
-		<setting label="30004" type="select" id="pcsx_rearmed_memcard2" values="disabled|enabled" default="disabled"/>
-		<setting label="30064" type="select" id="pcsx_rearmed_phys_cd_readahead" values="12|0|1|2|3|4|5|6|7|8|9|10|11|13|14|15|16|32|64|128|256|512|1024|333000" default="12"/>
+		<setting label="30069" type="select" id="pcsx_rearmed_memcard2" values="disabled|enabled" default="disabled"/>
+		<setting label="30070" type="select" id="pcsx_rearmed_cd_readahead" values="12|0|1|2|3|4|5|6|7|8|9|10|11|13|14|15|16|32|64|128|256|512|1024|333000" default="12"/>
 		<setting label="30005" type="select" id="pcsx_rearmed_drc" values="enabled|disabled" default="enabled"/>
-		<setting label="30065" type="select" id="pcsx_rearmed_psxclock" values="57|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100" default="57"/>
-		<setting label="30007" type="select" id="pcsx_rearmed_dithering" values="enabled|disabled" default="enabled"/>
+		<setting label="30071" type="select" id="pcsx_rearmed_drc_thread" values="auto|disabled|enabled" default="auto"/>
+		<setting label="30065" type="select" id="pcsx_rearmed_psxclock" values="auto|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100" default="auto"/>
+		<setting label="30007" type="select" id="pcsx_rearmed_dithering" values="enabled|disabled|force" default="enabled"/>
 		<setting label="30009" type="select" id="pcsx_rearmed_gpu_thread_rendering" values="disabled|sync|async" default="disabled"/>
 		<setting label="30010" type="select" id="pcsx_rearmed_frameskip_type" values="disabled|auto|auto_threshold|fixed_interval" default="disabled"/>
 		<setting label="30011" type="select" id="pcsx_rearmed_frameskip_threshold" values="33|15|18|21|24|27|30|36|39|42|45|48|51|54|57|60" default="33"/>
 		<setting label="30012" type="select" id="pcsx_rearmed_frameskip_interval" values="3|1|2|4|5|6|7|8|9|10" default="3"/>
-		<setting label="30013" type="select" id="pcsx_rearmed_display_internal_fps" values="disabled|enabled" default="disabled"/>
+		<setting label="30013" type="select" id="pcsx_rearmed_display_fps_v2" values="disabled|enabled|extra" default="disabled"/>
 		<setting label="30066" type="select" id="pcsx_rearmed_fractional_framerate" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30014" type="select" id="pcsx_rearmed_gpu_slow_llists" values="auto|disabled|enabled" default="auto"/>
-		<setting label="30067" type="select" id="pcsx_rearmed_show_overscan" values="disabled|auto|hack" default="disabled"/>
+		<setting label="30072" type="select" id="pcsx_rearmed_show_overscan" values="disabled|auto|hack" default="disabled"/>
 		<setting label="30050" type="select" id="pcsx_rearmed_screen_centering" values="auto|game|borderless|manual" default="auto"/>
-		<setting label="30051" type="select" id="pcsx_rearmed_screen_centering_x" values="0|-16|-14|-12|-10|-8|-6|-4|-2|2|4|6|8|10|12|14|16" default="0"/>
-		<setting label="30052" type="select" id="pcsx_rearmed_screen_centering_y" values="0|-16|-15|-14|-13|-12|-11|-10|-9|-8|-7|-6|-5|-4|-3|-2|-1|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="0"/>
+		<setting label="30073" type="select" id="pcsx_rearmed_screen_centering_x" values="0|-16|-14|-12|-10|-8|-6|-4|-2|2|4|6|8|10|12|14|16" default="0"/>
+		<setting label="30074" type="select" id="pcsx_rearmed_screen_centering_y" values="0|-16|-15|-14|-13|-12|-11|-10|-9|-8|-7|-6|-5|-4|-3|-2|-1|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="0"/>
 		<setting label="30015" type="select" id="pcsx_rearmed_neon_interlace_enable_v2" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30053" type="select" id="pcsx_rearmed_neon_enhancement_enable" values="disabled|enabled" default="disabled"/>
 		<setting label="30017" type="select" id="pcsx_rearmed_neon_enhancement_no_main" values="disabled|enabled" default="disabled"/>
-		<setting label="30063" type="select" id="pcsx_rearmed_neon_enhancement_tex_adj" values="disabled|enabled" default="disabled"/>
+		<setting label="30063" type="select" id="pcsx_rearmed_neon_enhancement_tex_adj_v2" values="enabled|disabled" default="enabled"/>
 		<setting label="30018" type="select" id="pcsx_rearmed_gpu_peops_odd_even_bit" values="disabled|enabled" default="disabled"/>
 		<setting label="30019" type="select" id="pcsx_rearmed_gpu_peops_expand_screen_width" values="disabled|enabled" default="disabled"/>
 		<setting label="30020" type="select" id="pcsx_rearmed_gpu_peops_ignore_brightness" values="disabled|enabled" default="disabled"/>
@@ -32,6 +33,7 @@
 		<setting label="30023" type="select" id="pcsx_rearmed_gpu_peops_repeated_triangles" values="disabled|enabled" default="disabled"/>
 		<setting label="30024" type="select" id="pcsx_rearmed_gpu_peops_quads_with_triangles" values="disabled|enabled" default="disabled"/>
 		<setting label="30025" type="select" id="pcsx_rearmed_gpu_peops_fake_busy_state" values="disabled|enabled" default="disabled"/>
+		<setting label="30075" type="select" id="pcsx_rearmed_gpu_unai_old_renderer" values="disabled|enabled" default="disabled"/>
 		<setting label="30026" type="select" id="pcsx_rearmed_gpu_unai_blending" values="enabled|disabled" default="enabled"/>
 		<setting label="30027" type="select" id="pcsx_rearmed_gpu_unai_lighting" values="enabled|disabled" default="enabled"/>
 		<setting label="30028" type="select" id="pcsx_rearmed_gpu_unai_fast_lighting" values="disabled|enabled" default="disabled"/>
