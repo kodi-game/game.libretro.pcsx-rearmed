@@ -1,1 +1,1 @@
-pcsx-rearmed https://github.com/libretro/pcsx_rearmed/archive/ee07de2bec291e18a4d66210eeeeee77854b4c1f.tar.gz
+pcsx-rearmed https://github.com/libretro/pcsx_rearmed/archive/67881efbca82517dd6044fed1bb4ea2a724940f5.tar.gz
