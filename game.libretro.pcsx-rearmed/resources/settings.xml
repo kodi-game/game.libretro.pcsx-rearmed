@@ -43,7 +43,7 @@
 		<setting label="30032" type="select" id="pcsx_rearmed_nocdaudio" values="enabled|disabled" default="enabled"/>
 		<setting label="30033" type="select" id="pcsx_rearmed_noxadecoding" values="enabled|disabled" default="enabled"/>
 		<setting label="30054" type="select" id="pcsx_rearmed_spu_thread" values="disabled|enabled" default="disabled"/>
-		<setting label="30034" type="select" id="pcsx_rearmed_analog_axis_modifier" values="circle|square" default="circle"/>
+		<setting label="30034" type="select" id="pcsx_rearmed_analog_axis_modifier" values="square|circle" default="square"/>
 		<setting label="30035" type="select" id="pcsx_rearmed_vibration" values="enabled|disabled" default="enabled"/>
 		<setting label="30055" type="select" id="pcsx_rearmed_analog_combo" values="l1+r1+select|disabled|l1+r1+start|l1+r1+l3|l1+r1+r3|l3+r3" default="l1+r1+select"/>
 		<setting label="30056" type="select" id="pcsx_rearmed_multitap" values="disabled|port 1|port 2|ports 1 and 2" default="disabled"/>
