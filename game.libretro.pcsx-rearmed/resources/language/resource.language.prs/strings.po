@@ -1,0 +1,286 @@
+# game.libretro.pcsx-rearmed language file
+# Addon Name: game.libretro.pcsx-rearmed
+# Addon id: game.libretro.pcsx-rearmed
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.pcsx-rearmed\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2017-02-04 09:56i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: prs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Sony - PlayStation (PCSX ReARMed)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.[CR][CR]This version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements."
+msgstr ""
+
+# Empty string with ID 30000
+msgctxt "#30001"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30002"
+msgid "BIOS Selection"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Show BIOS Boot Logo"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Dynamic Recompiler"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Dithering Pattern"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Threaded Rendering"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Frameskip Interval"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Display Internal FPS"
+msgstr ""
+
+msgctxt "#30014"
+msgid "(GPU) Slow linked list processing"
+msgstr ""
+
+msgctxt "#30015"
+msgid "(GPU) Show Interlaced Video"
+msgstr ""
+
+msgctxt "#30017"
+msgid "(GPU) Enhanced Resolution Speed Hack"
+msgstr ""
+
+msgctxt "#30018"
+msgid "(GPU) Odd/Even Bit Hack"
+msgstr ""
+
+msgctxt "#30019"
+msgid "(GPU) Expand Screen Width"
+msgstr ""
+
+msgctxt "#30020"
+msgid "(GPU) Ignore Brightness Color"
+msgstr ""
+
+msgctxt "#30021"
+msgid "(GPU) Disable Coordinate Check"
+msgstr ""
+
+msgctxt "#30022"
+msgid "(GPU) Lazy Screen Update"
+msgstr ""
+
+msgctxt "#30023"
+msgid "(GPU) Repeat Flat Tex Triangles"
+msgstr ""
+
+msgctxt "#30024"
+msgid "(GPU) Draw Tex-Quads as Triangles"
+msgstr ""
+
+msgctxt "#30025"
+msgid "(GPU) Fake 'GPU Busy' States"
+msgstr ""
+
+msgctxt "#30026"
+msgid "(GPU) Texture Blending"
+msgstr ""
+
+msgctxt "#30027"
+msgid "(GPU) Lighting Effects"
+msgstr ""
+
+msgctxt "#30028"
+msgid "(GPU) Fast Lighting"
+msgstr ""
+
+msgctxt "#30029"
+msgid "(GPU) Hi-Res Downscaling"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Audio Reverb Effects"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Sound Interpolation"
+msgstr ""
+
+msgctxt "#30032"
+msgid "CD Audio"
+msgstr ""
+
+msgctxt "#30033"
+msgid "XA Decoding"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Analog Axis Bounds"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Rumble Effects"
+msgstr ""
+
+msgctxt "#30037"
+msgid "NegCon Twist Deadzone"
+msgstr ""
+
+msgctxt "#30038"
+msgid "NegCon Twist Response"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Guncon X Axis Offset"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Guncon Y Axis Offset"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Guncon X Axis Response"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Guncon Y Axis Response"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Instruction Cache Emulation"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Disable Automatic Compatibility Hacks"
+msgstr ""
+
+msgctxt "#30046"
+msgid "(Speed Hack) Disable SMC Checks"
+msgstr ""
+
+msgctxt "#30047"
+msgid "(Speed Hack) Assume GTE Registers Unneeded"
+msgstr ""
+
+msgctxt "#30048"
+msgid "(Speed Hack) Disable GTE Flags"
+msgstr ""
+
+msgctxt "#30050"
+msgid "(GPU) Screen centering"
+msgstr ""
+
+msgctxt "#30053"
+msgid "(GPU) Enhanced Resolution"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Threaded SPU"
+msgstr ""
+
+msgctxt "#30055"
+msgid "DualShock Analog Mode Toggle Key Combo"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Multitap Mode"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Player 1 Lightgun Crosshair"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Player 2 Lightgun Crosshair"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Konami Gun X Axis Offset"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Konami Gun Y Axis Offset"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Exception and Breakpoint Emulation"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Disable CPU/GTE Stalls"
+msgstr ""
+
+msgctxt "#30063"
+msgid "(GPU) Enhanced Resolution Texture Adjustment"
+msgstr ""
+
+msgctxt "#30065"
+msgid "PSX CPU Clock Speed (%)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Use fractional frame rate"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Turbo CD"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Second Memory Card (Shared)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "CD read-ahead"
+msgstr ""
+
+msgctxt "#30071"
+msgid "DynaRec threading"
+msgstr ""
+
+msgctxt "#30072"
+msgid "(GPU) Horizontal overscan"
+msgstr ""
+
+msgctxt "#30073"
+msgid "(GPU) Manual position X"
+msgstr ""
+
+msgctxt "#30074"
+msgid "(GPU) Manual position Y"
+msgstr ""
+
+msgctxt "#30075"
+msgid "(GPU) Old renderer"
+msgstr ""
