@@ -30,6 +30,7 @@
 		<summary lang="da_DK">Sony - PlayStation (PCSX ReARMed)</summary>
 		<summary lang="en_GB">Sony - PlayStation (PCSX ReARMed)</summary>
 		<summary lang="es_ES">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="sv_SE">Sony - PlayStation (PCSX ReARMed)</summary>
 		<summary lang="zh_CN">Sony - PlayStation (PCSX ReARMed)</summary>
 		<description lang="da_DK">PCSX ReARMed er en PCSX-fork baseret på PCSX-Reloaded-projektet, som i sig selv indeholder kode fra PCSX, PCSX-df og PCSX-Revolution.[CR][CR]Denne version har en MIPS-til-ARM-recompiler, NEON GTE-kode og flere ydelsesforbedringer.</description>
 		<description lang="de_DE">PCSX ReARMed ist ein weiterer PCSX-Ableger, der auf dem Projekt PCSX-Reloaded basiert, das seinerseits Code aus PCSX, PCSX-df und PCSX-Revolution enthält, sowie einen MIPS-to-ARM-Recompiler, NEON-GTE-Code und weitere Leistungsverbesserungen.</description>
@@ -38,6 +39,7 @@
 		<description lang="fi_FI">PCSX ReARMed on PCSX-haara, joka perustuu PCSX-Reloaded-projektiin, joka itsessään sisältää koodia PCSX:stä, PCSX-df:stä ja PCSX-Revolutionista.[CR][CR]Tässä versiossa on MIPS-to-ARM-uudelleenkääntäjä, NEON GTE -koodi ja muita suorituskykyparannuksia.</description>
 		<description lang="id_ID">PCSX ReARMed adalah fork PCSX lain berdasarkan proyek PCSX-Reloaded, yang berisi kode dari PCSX, PCSX-df, dan PCSX-Revolution.[CR][CR]Versi ini menampilkan rekompiler MIPS-ke-ARM, kode NEON GTE, dan lebih banyak peningkatan kinerja.</description>
 		<description lang="ru_RU">PCSX ReARMed — это еще один форк PCSX, основанный на проекте PCSX-Reloaded, содержащий в себе код из PCSX, PCSX-df и PCSX-Revolution.[CR][CR]Эта версия включает рекомпилятор MIPS-to-ARM, код NEON GTE и больше улучшений производительности.</description>
+		<description lang="sv_SE">PCSX ReARMed är en annan PCSX-fork baserad på PCSX-Reloaded-projektet, som i sig innehåller kod från PCSX, PCSX-df och PCSX-Revolution.[CR][CR]Denna version innehåller en MIPS-to-ARM-omkompilator, NEON GTE-kod och fler prestandaförbättringar.</description>
 		<description lang="zh_CN">PCSX ReARMed 是基于 PCSX-Reloaded 项目的另一个 PCSX 分叉，该项目本身包含来自 PCSX、PCSX-df 和 PCSX-Revolution 的代码。[CR][CR]此版本具有 MIPS-to-ARM 重新编译、NEON GTE 代码和更多性能改进。</description>
 	</extension>
 </addon>
