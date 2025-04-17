@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.pcsx-rearmed\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2025-04-12 12:26+0000\n"
+"PO-Revision-Date: 2025-04-17 04:26+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcsx-rearmed/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
 msgid "Sony - PlayStation (PCSX ReARMed)"
@@ -55,8 +55,9 @@ msgstr "Hoppa över bildrutor"
 
 msgctxt "#30011"
 msgid "Frameskip Threshold (%)"
-msgstr "Tröskelvärde för överhoppning av bildrutor (%)"
+msgstr "Tröskelvärde för bildöverhoppning (%)"
 
+#, fuzzy
 msgctxt "#30012"
 msgid "Frameskip Interval"
 msgstr "Intervall för överhoppning av bildrutor"
@@ -70,22 +71,19 @@ msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
 msgstr "(GPU) Långsam bearbetning av länkade listor"
 
-#, fuzzy
 msgctxt "#30015"
 msgid "(GPU) Show Interlaced Video"
-msgstr "(GPU) Visa sammanflätad video"
+msgstr "(GPU) Visa interlaced video"
 
-#, fuzzy
 msgctxt "#30017"
 msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr "(GPU) Förbättrad upplösningshastighet Hack"
+msgstr "(GPU) Hastighetshack för förbättrad upplösning"
 
 #, fuzzy
 msgctxt "#30018"
 msgid "(GPU) Odd/Even Bit Hack"
 msgstr "(GPU) Odd/Even Bit Hack"
 
-#, fuzzy
 msgctxt "#30019"
 msgid "(GPU) Expand Screen Width"
 msgstr "(GPU) Utöka skärmens bredd"
@@ -95,10 +93,9 @@ msgctxt "#30020"
 msgid "(GPU) Ignore Brightness Color"
 msgstr "(GPU) Ignorera Ljusstyrka Färg"
 
-#, fuzzy
 msgctxt "#30021"
 msgid "(GPU) Disable Coordinate Check"
-msgstr "(GPU) Avaktivera koordinatkontroll"
+msgstr "(GPU) Inaktivera koordinatkontroll"
 
 #, fuzzy
 msgctxt "#30022"
@@ -115,27 +112,22 @@ msgctxt "#30024"
 msgid "(GPU) Draw Tex-Quads as Triangles"
 msgstr "(GPU) Rita Tex-Quads som trianglar"
 
-#, fuzzy
 msgctxt "#30025"
 msgid "(GPU) Fake 'GPU Busy' States"
 msgstr "(GPU) Falska \"GPU upptagen\"-tillstånd"
 
-#, fuzzy
 msgctxt "#30026"
 msgid "(GPU) Texture Blending"
 msgstr "(GPU) Blandning av texturer"
 
-#, fuzzy
 msgctxt "#30027"
 msgid "(GPU) Lighting Effects"
 msgstr "(GPU) Ljuseffekter"
 
-#, fuzzy
 msgctxt "#30028"
 msgid "(GPU) Fast Lighting"
 msgstr "(GPU) Snabb belysning"
 
-#, fuzzy
 msgctxt "#30029"
 msgid "(GPU) Hi-Res Downscaling"
 msgstr "(GPU) Högupplöst nedskalning"
@@ -145,42 +137,35 @@ msgctxt "#30030"
 msgid "Audio Reverb Effects"
 msgstr "Audio Reverb-effekter"
 
-#, fuzzy
 msgctxt "#30031"
 msgid "Sound Interpolation"
 msgstr "Interpolering av ljud"
 
-#, fuzzy
 msgctxt "#30032"
 msgid "CD Audio"
-msgstr "CD Audio"
+msgstr "CD-ljud"
 
-#, fuzzy
 msgctxt "#30033"
 msgid "XA Decoding"
-msgstr "XA Avkodning"
+msgstr "XA-avkodning"
 
 #, fuzzy
 msgctxt "#30034"
 msgid "Analog Axis Bounds"
 msgstr "Gränser för analog axel"
 
-#, fuzzy
 msgctxt "#30035"
 msgid "Rumble Effects"
 msgstr "Rumble-effekter"
 
-#, fuzzy
 msgctxt "#30037"
 msgid "NegCon Twist Deadzone"
-msgstr "neGcon Twist-dödzon"
+msgstr "NegCon Twist-dödzon"
 
-#, fuzzy
 msgctxt "#30038"
 msgid "NegCon Twist Response"
-msgstr "neGcon Twist-respons"
+msgstr "NegCon Twist-respons"
 
-#, fuzzy
 msgctxt "#30039"
 msgid "Mouse Sensitivity"
 msgstr "Muskänslighet"
@@ -230,27 +215,23 @@ msgctxt "#30048"
 msgid "(Speed Hack) Disable GTE Flags"
 msgstr "(Speed Hack) Inaktivera GTE-flaggor"
 
-#, fuzzy
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
 msgstr "(GPU) Centrering av skärm"
 
-#, fuzzy
 msgctxt "#30053"
 msgid "(GPU) Enhanced Resolution"
 msgstr "(GPU) Förbättrad upplösning"
 
-#, fuzzy
 msgctxt "#30054"
 msgid "Threaded SPU"
-msgstr "Gängad SPU"
+msgstr "Trådad SPU"
 
 #, fuzzy
 msgctxt "#30055"
 msgid "DualShock Analog Mode Toggle Key Combo"
 msgstr "DualShock Analogt läge Växla tangentkombination"
 
-#, fuzzy
 msgctxt "#30056"
 msgid "Multitap Mode"
 msgstr "Multitap-läge"
@@ -315,30 +296,26 @@ msgctxt "#30070"
 msgid "CD read-ahead"
 msgstr "CD-läsning framåt"
 
-#, fuzzy
 msgctxt "#30071"
 msgid "DynaRec threading"
-msgstr "DynaRec-gängning"
+msgstr "DynaRec-trådning"
 
 #, fuzzy
 msgctxt "#30072"
 msgid "(GPU) Horizontal overscan"
 msgstr "(GPU) Horisontell överskanning"
 
-#, fuzzy
 msgctxt "#30073"
 msgid "(GPU) Manual position X"
-msgstr "(GPU) Manuellt läge X"
+msgstr "(GPU) Manuell position X"
 
-#, fuzzy
 msgctxt "#30074"
 msgid "(GPU) Manual position Y"
-msgstr "(GPU) Manuellt läge Y"
+msgstr "(GPU) Manuell position Y"
 
-#, fuzzy
 msgctxt "#30075"
 msgid "(GPU) Old renderer"
-msgstr "(GPU) Gammal renderingsenhet"
+msgstr "(GPU) Gammal renderare"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
