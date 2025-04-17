@@ -16,11 +16,13 @@
 		<setting label="30012" type="select" id="pcsx_rearmed_frameskip_interval" values="3|1|2|4|5|6|7|8|9|10" default="3"/>
 		<setting label="30013" type="select" id="pcsx_rearmed_display_fps_v2" values="disabled|enabled|extra" default="disabled"/>
 		<setting label="30066" type="select" id="pcsx_rearmed_fractional_framerate" values="auto|disabled|enabled" default="auto"/>
+		<setting label="30076" type="select" id="pcsx_rearmed_rgb32_output" values="disabled|enabled" default="disabled"/>
 		<setting label="30014" type="select" id="pcsx_rearmed_gpu_slow_llists" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30072" type="select" id="pcsx_rearmed_show_overscan" values="disabled|auto|hack" default="disabled"/>
 		<setting label="30050" type="select" id="pcsx_rearmed_screen_centering" values="auto|game|borderless|manual" default="auto"/>
 		<setting label="30073" type="select" id="pcsx_rearmed_screen_centering_x" values="0|-16|-14|-12|-10|-8|-6|-4|-2|2|4|6|8|10|12|14|16" default="0"/>
 		<setting label="30074" type="select" id="pcsx_rearmed_screen_centering_y" values="0|-16|-15|-14|-13|-12|-11|-10|-9|-8|-7|-6|-5|-4|-3|-2|-1|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="0"/>
+		<setting label="30077" type="select" id="pcsx_rearmed_screen_centering_h_adj" values="0|-64|-48|-40|-32|-24|-16|-8|-7|-6|-5|-4|-3|-2|-1" default="0"/>
 		<setting label="30015" type="select" id="pcsx_rearmed_neon_interlace_enable_v2" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30053" type="select" id="pcsx_rearmed_neon_enhancement_enable" values="disabled|enabled" default="disabled"/>
 		<setting label="30017" type="select" id="pcsx_rearmed_neon_enhancement_no_main" values="disabled|enabled" default="disabled"/>
@@ -35,6 +37,7 @@
 		<setting label="30025" type="select" id="pcsx_rearmed_gpu_peops_fake_busy_state" values="disabled|enabled" default="disabled"/>
 		<setting label="30075" type="select" id="pcsx_rearmed_gpu_unai_old_renderer" values="disabled|enabled" default="disabled"/>
 		<setting label="30026" type="select" id="pcsx_rearmed_gpu_unai_blending" values="enabled|disabled" default="enabled"/>
+		<setting label="30078" type="select" id="pcsx_rearmed_gpu_unai_skipline" values="disabled|enabled" default="disabled"/>
 		<setting label="30027" type="select" id="pcsx_rearmed_gpu_unai_lighting" values="enabled|disabled" default="enabled"/>
 		<setting label="30028" type="select" id="pcsx_rearmed_gpu_unai_fast_lighting" values="disabled|enabled" default="disabled"/>
 		<setting label="30029" type="select" id="pcsx_rearmed_gpu_unai_scale_hires" values="disabled|enabled" default="disabled"/>
