@@ -285,6 +285,18 @@ msgctxt "#30075"
 msgid "(GPU) Old renderer"
 msgstr ""
 
+msgctxt "#30076"
+msgid "RGB32 output"
+msgstr ""
+
+msgctxt "#30077"
+msgid "(GPU) Manual height adjustment"
+msgstr ""
+
+msgctxt "#30078"
+msgid "(GPU) Skip every 2nd line"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Agordoj"
