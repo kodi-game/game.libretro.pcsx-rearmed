@@ -128,10 +128,6 @@ msgctxt "#30028"
 msgid "(GPU) Fast Lighting"
 msgstr "(GPU) Snabb belysning"
 
-msgctxt "#30029"
-msgid "(GPU) Hi-Res Downscaling"
-msgstr "(GPU) Högupplöst nedskalning"
-
 #, fuzzy
 msgctxt "#30030"
 msgid "Audio Reverb Effects"
@@ -326,6 +322,14 @@ msgstr ""
 msgctxt "#30078"
 msgid "(GPU) Skip every 2nd line"
 msgstr ""
+
+msgctxt "#30079"
+msgid "Hi-Res Downscaling"
+msgstr ""
+
+#~ msgctxt "#30029"
+#~ msgid "(GPU) Hi-Res Downscaling"
+#~ msgstr "(GPU) Högupplöst nedskalning"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

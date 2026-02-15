@@ -121,10 +121,6 @@ msgctxt "#30028"
 msgid "(GPU) Fast Lighting"
 msgstr "（GPU）快速光照"
 
-msgctxt "#30029"
-msgid "(GPU) Hi-Res Downscaling"
-msgstr "（GPU）高分辨率缩小"
-
 msgctxt "#30030"
 msgid "Audio Reverb Effects"
 msgstr "音频混响效果"
@@ -296,6 +292,14 @@ msgstr "(GPU) 手动高度调节"
 msgctxt "#30078"
 msgid "(GPU) Skip every 2nd line"
 msgstr "(GPU) 隔行扫描"
+
+msgctxt "#30079"
+msgid "Hi-Res Downscaling"
+msgstr ""
+
+#~ msgctxt "#30029"
+#~ msgid "(GPU) Hi-Res Downscaling"
+#~ msgstr "（GPU）高分辨率缩小"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
