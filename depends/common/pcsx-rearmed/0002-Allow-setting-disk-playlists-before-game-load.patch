@@ -1,0 +1,42 @@
+From cc111e7cb376689616faba0e0e95cc8edbd5b492 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <garrett.brown@aclima.earth>
+Date: Tue, 10 Mar 2026 08:06:54 -0700
+Subject: [PATCH 2/2] Allow setting disk playlists before game load
+
+---
+ frontend/libretro.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+diff --git a/frontend/libretro.c b/frontend/libretro.c
+index baf53c7e..fc216084 100644
+--- a/frontend/libretro.c
++++ b/frontend/libretro.c
+@@ -1944,8 +1944,6 @@ bool retro_load_game(const struct retro_game_info *info)
+       plugins_opened = 0;
+    }
+ 
+-   disk_init();
+-
+    extract_directory(base_dir, info->path, sizeof(base_dir));
+ 
+    if (is_m3u)
+@@ -1956,7 +1954,7 @@ bool retro_load_game(const struct retro_game_info *info)
+          return false;
+       }
+    }
+-   else
++   else if (disk_count == 0)
+    {
+       char disk_label[PATH_MAX];
+       disk_label[0] = '\0';
+@@ -3797,6 +3795,7 @@ void retro_init(void)
+    if (!vout_can_dupe)
+       LogWarn("CAN_DUPE reports false\n");
+ 
++   disk_init();
+    disk_initial_index = 0;
+    disk_initial_path[0] = '\0';
+    if (environ_cb(RETRO_ENVIRONMENT_GET_DISK_CONTROL_INTERFACE_VERSION, &dci_version) && (dci_version >= 1))
+-- 
+2.43.0
+
