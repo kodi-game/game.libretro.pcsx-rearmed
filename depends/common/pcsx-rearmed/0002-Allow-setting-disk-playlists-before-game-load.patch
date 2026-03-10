@@ -1,14 +1,14 @@
-From cc111e7cb376689616faba0e0e95cc8edbd5b492 Mon Sep 17 00:00:00 2001
+From d92a2aa95a7fd2a84d6076810bf0483e50c164cc Mon Sep 17 00:00:00 2001
 From: Garrett Brown <garrett.brown@aclima.earth>
 Date: Tue, 10 Mar 2026 08:06:54 -0700
 Subject: [PATCH 2/2] Allow setting disk playlists before game load
 
 ---
- frontend/libretro.c | 5 ++---
- 1 file changed, 2 insertions(+), 3 deletions(-)
+ frontend/libretro.c | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
 
 diff --git a/frontend/libretro.c b/frontend/libretro.c
-index baf53c7e..fc216084 100644
+index baf53c7e..15714834 100644
 --- a/frontend/libretro.c
 +++ b/frontend/libretro.c
 @@ -1944,8 +1944,6 @@ bool retro_load_game(const struct retro_game_info *info)
@@ -29,7 +29,19 @@ index baf53c7e..fc216084 100644
     {
        char disk_label[PATH_MAX];
        disk_label[0] = '\0';
-@@ -3797,6 +3795,7 @@ void retro_init(void)
+@@ -1968,9 +1966,8 @@ bool retro_load_game(const struct retro_game_info *info)
+       disks[0].flabel = strdup(disk_label);
+    }
+ 
+-   /* If this is an M3U file, attempt to set the
+-    * initial disk image */
+-   if (is_m3u && (disk_initial_index > 0) && (disk_initial_index < disk_count))
++   /* Attempt to set the initial disk image */
++   if ((disk_initial_index > 0) && (disk_initial_index < disk_count))
+    {
+       const char *fname = disks[disk_initial_index].fname;
+ 
+@@ -3797,6 +3794,7 @@ void retro_init(void)
     if (!vout_can_dupe)
        LogWarn("CAN_DUPE reports false\n");
  
