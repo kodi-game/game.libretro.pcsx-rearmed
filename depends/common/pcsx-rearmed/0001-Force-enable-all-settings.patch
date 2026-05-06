@@ -1,14 +1,14 @@
-From 32b0aa2deb89fc7561881a7d79e0f7eee0de57db Mon Sep 17 00:00:00 2001
+From d3b243d06400033937d2c0bf15c60afcc0c1e3e2 Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
-Date: Sat, 14 Dec 2024 19:33:09 -0800
-Subject: [PATCH 1/2] Force-enable all settings
+Date: Wed, 6 May 2026 05:17:22 -0700
+Subject: [PATCH] Force-enable all settings
 
 ---
  frontend/libretro_core_options.h | 32 --------------------------------
  1 file changed, 32 deletions(-)
 
 diff --git a/frontend/libretro_core_options.h b/frontend/libretro_core_options.h
-index 95ea4abe..4d9b9d08 100644
+index e049c6f4..123490da 100644
 --- a/frontend/libretro_core_options.h
 +++ b/frontend/libretro_core_options.h
 @@ -61,27 +61,21 @@ struct retro_core_option_v2_category option_cats_us[] = {
@@ -101,15 +101,15 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_gpu_thread_rendering",
        "Threaded Rendering",
-@@ -344,7 +325,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -345,7 +326,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
-       "disabled",
+       "auto",
     },
 -#endif
     {
        "pcsx_rearmed_frameskip_type",
        "Frameskip",
-@@ -565,7 +545,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -581,7 +561,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        "0",
     },
  #undef V
@@ -117,7 +117,7 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_neon_interlace_enable_v2",
        "(GPU) Show Interlaced Video",
-@@ -623,8 +602,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -639,8 +618,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "enabled",
     },
@@ -126,7 +126,7 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_show_gpu_peops_settings",
        "Show Advanced P.E.Op.S. GPU Settings",
-@@ -751,8 +728,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -767,8 +744,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -135,7 +135,7 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_show_gpu_unai_settings",
        "Show Advanced UNAI GPU Settings",
-@@ -767,7 +742,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -783,7 +758,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -143,7 +143,7 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_gpu_unai_old_renderer",
        "(GPU) Old renderer",
-@@ -782,7 +756,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -798,7 +772,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -151,7 +151,7 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_gpu_unai_blending",
        "(GPU) Texture Blending",
-@@ -839,7 +812,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -855,7 +828,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -159,23 +159,23 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_spu_reverb",
        "Audio Reverb Effects",
-@@ -906,7 +878,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -922,7 +894,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "enabled",
     },
--#if P_HAVE_PTHREAD
+-#ifdef USE_ASYNC_SPU
     {
        "pcsx_rearmed_spu_thread",
        "Threaded SPU",
-@@ -921,7 +892,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -937,7 +908,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
--#endif // P_HAVE_PTHREAD
+-#endif
     {
        "pcsx_rearmed_show_input_settings",
        "Show Input Settings",
-@@ -1687,7 +1657,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -1703,7 +1673,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -183,7 +183,7 @@ index 95ea4abe..4d9b9d08 100644
     {
        "pcsx_rearmed_nocompathacks",
        "Disable Automatic Compatibility Hacks",
-@@ -1744,7 +1713,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
+@@ -1760,7 +1729,6 @@ struct retro_core_option_v2_definition option_defs_us[] = {
        },
        "disabled",
     },
@@ -192,5 +192,5 @@ index 95ea4abe..4d9b9d08 100644
        "pcsx_rearmed_nostalls",
        "Disable CPU/GTE Stalls",
 -- 
-2.43.0
+2.50.1 (Apple Git-155)
 
