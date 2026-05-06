@@ -33,10 +33,6 @@ msgctxt "#30002"
 msgid "BIOS Selection"
 msgstr "Selección de BIOS"
 
-msgctxt "#30003"
-msgid "Show BIOS Boot Logo"
-msgstr "Mostrar Logo de arranque BIOS"
-
 msgctxt "#30005"
 msgid "Dynamic Recompiler"
 msgstr "Recompilador Dinámico"
@@ -296,6 +292,18 @@ msgstr "(GPU) Saltar cada 2 líneas"
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
 msgstr "Reducción de escalado Alta-Resolución"
+
+msgctxt "#30080"
+msgid "Show BIOS Name/Boot Logo"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Framebuffer readout"
+msgstr ""
+
+#~ msgctxt "#30003"
+#~ msgid "Show BIOS Boot Logo"
+#~ msgstr "Mostrar Logo de arranque BIOS"
 
 #~ msgctxt "#30029"
 #~ msgid "(GPU) Hi-Res Downscaling"

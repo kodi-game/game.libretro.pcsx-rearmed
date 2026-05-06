@@ -33,10 +33,6 @@ msgctxt "#30002"
 msgid "BIOS Selection"
 msgstr ""
 
-msgctxt "#30003"
-msgid "Show BIOS Boot Logo"
-msgstr ""
-
 msgctxt "#30005"
 msgid "Dynamic Recompiler"
 msgstr ""
@@ -295,4 +291,12 @@ msgstr ""
 
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Show BIOS Name/Boot Logo"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Framebuffer readout"
 msgstr ""

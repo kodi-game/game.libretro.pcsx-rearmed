@@ -33,10 +33,6 @@ msgctxt "#30002"
 msgid "BIOS Selection"
 msgstr "BIOS 选择"
 
-msgctxt "#30003"
-msgid "Show BIOS Boot Logo"
-msgstr "显示 BIOS 引导徽标"
-
 msgctxt "#30005"
 msgid "Dynamic Recompiler"
 msgstr "动态重编译器"
@@ -296,6 +292,18 @@ msgstr "(GPU) 隔行扫描"
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
 msgstr "高分辨率降采样"
+
+msgctxt "#30080"
+msgid "Show BIOS Name/Boot Logo"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Framebuffer readout"
+msgstr ""
+
+#~ msgctxt "#30003"
+#~ msgid "Show BIOS Boot Logo"
+#~ msgstr "显示 BIOS 引导徽标"
 
 #~ msgctxt "#30029"
 #~ msgid "(GPU) Hi-Res Downscaling"
