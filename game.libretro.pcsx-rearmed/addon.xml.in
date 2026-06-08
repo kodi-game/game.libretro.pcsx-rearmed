@@ -32,6 +32,7 @@
 		<summary lang="en_GB">Sony - PlayStation (PCSX ReARMed)</summary>
 		<summary lang="es_ES">Sony - PlayStation (PCSX ReARMed)</summary>
 		<summary lang="ga">Sony - PlayStation (PCSX ReARMed)</summary>
+		<summary lang="ru_RU">Sony — PlayStation (PCSX ReARMed)</summary>
 		<summary lang="sv_SE">Sony - PlayStation (PCSX ReARMed)</summary>
 		<summary lang="zh_CN">Sony - PlayStation (PCSX ReARMed)</summary>
 		<description lang="da_DK">PCSX ReARMed er en PCSX-fork baseret på PCSX-Reloaded-projektet, som i sig selv indeholder kode fra PCSX, PCSX-df og PCSX-Revolution.[CR][CR]Denne version har en MIPS-til-ARM-recompiler, NEON GTE-kode og flere ydelsesforbedringer.</description>
