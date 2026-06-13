@@ -4,7 +4,8 @@
 		<setting label="30001" type="select" id="pcsx_rearmed_region" values="auto|NTSC|PAL" default="auto"/>
 		<setting label="30002" type="select" id="pcsx_rearmed_bios" values="auto|HLE" default="auto"/>
 		<setting label="30080" type="select" id="pcsx_rearmed_show_bios_bootlogo" values="disabled|enabled|enabled_no_pcsx" default="disabled"/>
-		<setting label="30069" type="select" id="pcsx_rearmed_memcard2" values="disabled|enabled" default="disabled"/>
+		<setting label="30082" type="select" id="pcsx_rearmed_memcard1" values="libretro|serial|shared|none" default="libretro"/>
+		<setting label="30083" type="select" id="pcsx_rearmed_memcard2" values="shared|serial|none" default="shared"/>
 		<setting label="30070" type="select" id="pcsx_rearmed_cd_readahead" values="12|0|1|2|3|4|5|6|7|8|9|10|11|13|14|15|16|32|64|128|256|512|1024|333000" default="12"/>
 		<setting label="30005" type="select" id="pcsx_rearmed_drc" values="enabled|disabled" default="enabled"/>
 		<setting label="30071" type="select" id="pcsx_rearmed_drc_thread" values="auto|disabled|enabled" default="auto"/>
