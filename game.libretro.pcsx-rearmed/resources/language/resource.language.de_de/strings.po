@@ -250,10 +250,6 @@ msgctxt "#30068"
 msgid "Turbo CD"
 msgstr ""
 
-msgctxt "#30069"
-msgid "Second Memory Card (Shared)"
-msgstr ""
-
 msgctxt "#30070"
 msgid "CD read-ahead"
 msgstr ""
@@ -300,6 +296,14 @@ msgstr ""
 
 msgctxt "#30081"
 msgid "Framebuffer readout"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Memory Card 1 Type (Restart)"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Memory Card 2 Type"
 msgstr ""
 
 #~ msgctxt "#30003"
