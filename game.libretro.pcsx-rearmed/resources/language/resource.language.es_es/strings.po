@@ -305,6 +305,10 @@ msgctxt "#30083"
 msgid "Memory Card 2 Type"
 msgstr "Tipo de Memory Card 2"
 
+msgctxt "#30084"
+msgid "Display Informational Notifications"
+msgstr ""
+
 #~ msgctxt "#30069"
 #~ msgid "Second Memory Card (Shared)"
 #~ msgstr "Segunda Tarjeta de Memoria (Compartida)"

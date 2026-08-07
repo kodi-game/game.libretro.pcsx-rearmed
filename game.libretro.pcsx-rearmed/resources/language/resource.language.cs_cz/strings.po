@@ -304,3 +304,7 @@ msgstr "Typ paměťové karty 1 (vyžaduje restart)"
 msgctxt "#30083"
 msgid "Memory Card 2 Type"
 msgstr "Typ paměťové karty 2"
+
+msgctxt "#30084"
+msgid "Display Informational Notifications"
+msgstr ""

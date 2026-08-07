@@ -306,6 +306,10 @@ msgctxt "#30083"
 msgid "Memory Card 2 Type"
 msgstr ""
 
+msgctxt "#30084"
+msgid "Display Informational Notifications"
+msgstr ""
+
 #~ msgctxt "#30003"
 #~ msgid "Show BIOS Boot Logo"
 #~ msgstr "BIOS-Bootlogo anzeigen"
