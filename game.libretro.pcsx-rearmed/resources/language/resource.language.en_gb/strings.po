@@ -305,3 +305,7 @@ msgstr ""
 msgctxt "#30083"
 msgid "Memory Card 2 Type"
 msgstr ""
+
+msgctxt "#30084"
+msgid "Display Informational Notifications"
+msgstr ""
