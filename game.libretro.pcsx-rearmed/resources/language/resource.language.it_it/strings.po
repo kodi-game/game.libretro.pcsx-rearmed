@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.pcsx-rearmed\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2026-08-15 18:20+0000\n"
+"PO-Revision-Date: 2026-08-22 00:08+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcsx-rearmed/it_it/>\n"
 "Language: it_it\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 msgctxt "Addon Summary"
 msgid "Sony - PlayStation (PCSX ReARMed)"
-msgstr ""
+msgstr "Sony - PlayStation (PCSX ReARMed)"
 
 msgctxt "Addon Description"
 msgid "PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.[CR][CR]This version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements."
-msgstr ""
+msgstr "PCSX ReARMed è un altro fork di PCSX basato sul progetto PCSX-Reloaded, che a sua volta contiene codice proveniente da PCSX, PCSX-df e PCSX-Revolution.[CR][CR]Questa versione include un ricompilatore da MIPS ad ARM, codice NEON GTE e ulteriori miglioramenti delle prestazioni."
 
 msgctxt "#30001"
 msgid "Region"
@@ -31,7 +31,7 @@ msgstr "Regione"
 
 msgctxt "#30002"
 msgid "BIOS Selection"
-msgstr ""
+msgstr "Selezione BIOS"
 
 msgctxt "#30005"
 msgid "Dynamic Recompiler"
@@ -43,7 +43,7 @@ msgstr "Schema di dithering"
 
 msgctxt "#30009"
 msgid "Threaded Rendering"
-msgstr ""
+msgstr "Rendering multithread"
 
 msgctxt "#30010"
 msgid "Frameskip"
@@ -63,63 +63,63 @@ msgstr "Mostra FPS interni"
 
 msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
-msgstr ""
+msgstr "(GPU) Elaborazione lenta della lista concatenata"
 
 msgctxt "#30015"
 msgid "(GPU) Show Interlaced Video"
-msgstr ""
+msgstr "(GPU) Mostra video interlacciato"
 
 msgctxt "#30017"
 msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr ""
+msgstr "(GPU) Hack velocità risoluzione avanzata"
 
 msgctxt "#30018"
 msgid "(GPU) Odd/Even Bit Hack"
-msgstr ""
+msgstr "(GPU) Hack bit pari/dispari"
 
 msgctxt "#30019"
 msgid "(GPU) Expand Screen Width"
-msgstr ""
+msgstr "(GPU) Espandi larghezza schermo"
 
 msgctxt "#30020"
 msgid "(GPU) Ignore Brightness Color"
-msgstr ""
+msgstr "(GPU) Ignora colore luminosità"
 
 msgctxt "#30021"
 msgid "(GPU) Disable Coordinate Check"
-msgstr ""
+msgstr "(GPU) Disabilita controllo coordinate"
 
 msgctxt "#30022"
 msgid "(GPU) Lazy Screen Update"
-msgstr ""
+msgstr "(GPU) Aggiornamento schermo differito"
 
 msgctxt "#30023"
 msgid "(GPU) Repeat Flat Tex Triangles"
-msgstr ""
+msgstr "(GPU) Ripeti triangoli tex piatti"
 
 msgctxt "#30024"
 msgid "(GPU) Draw Tex-Quads as Triangles"
-msgstr ""
+msgstr "(GPU) Disegna quad texture come triangoli"
 
 msgctxt "#30025"
 msgid "(GPU) Fake 'GPU Busy' States"
-msgstr ""
+msgstr "(GPU) Simula stati 'GPU occupata'"
 
 msgctxt "#30026"
 msgid "(GPU) Texture Blending"
-msgstr ""
+msgstr "(GPU) Fusione texture"
 
 msgctxt "#30027"
 msgid "(GPU) Lighting Effects"
-msgstr ""
+msgstr "(GPU) Effetti di illuminazione"
 
 msgctxt "#30028"
 msgid "(GPU) Fast Lighting"
-msgstr ""
+msgstr "(GPU) Illuminazione rapida"
 
 msgctxt "#30030"
 msgid "Audio Reverb Effects"
-msgstr ""
+msgstr "Effetti riverbero audio"
 
 msgctxt "#30031"
 msgid "Sound Interpolation"
@@ -127,27 +127,27 @@ msgstr "Interpolazione suono"
 
 msgctxt "#30032"
 msgid "CD Audio"
-msgstr ""
+msgstr "Audio CD"
 
 msgctxt "#30033"
 msgid "XA Decoding"
-msgstr ""
+msgstr "Decodifica XA"
 
 msgctxt "#30034"
 msgid "Analog Axis Bounds"
-msgstr ""
+msgstr "Limiti asse analogico"
 
 msgctxt "#30035"
 msgid "Rumble Effects"
-msgstr ""
+msgstr "Effetti vibrazione"
 
 msgctxt "#30037"
 msgid "NegCon Twist Deadzone"
-msgstr ""
+msgstr "Zona morta rotazione NegCon"
 
 msgctxt "#30038"
 msgid "NegCon Twist Response"
-msgstr ""
+msgstr "Risposta rotazione NegCon"
 
 msgctxt "#30039"
 msgid "Mouse Sensitivity"
@@ -155,55 +155,55 @@ msgstr "Sensibilità mouse"
 
 msgctxt "#30040"
 msgid "Guncon X Axis Offset"
-msgstr ""
+msgstr "Offset asse X Guncon"
 
 msgctxt "#30041"
 msgid "Guncon Y Axis Offset"
-msgstr ""
+msgstr "Offset asse Y Guncon"
 
 msgctxt "#30042"
 msgid "Guncon X Axis Response"
-msgstr ""
+msgstr "Risposta asse X Guncon"
 
 msgctxt "#30043"
 msgid "Guncon Y Axis Response"
-msgstr ""
+msgstr "Risposta asse Y Guncon"
 
 msgctxt "#30044"
 msgid "Instruction Cache Emulation"
-msgstr ""
+msgstr "Emulazione cache istruzioni"
 
 msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
-msgstr ""
+msgstr "Disabilita hack di compatibilità automatici"
 
 msgctxt "#30046"
 msgid "(Speed Hack) Disable SMC Checks"
-msgstr ""
+msgstr "(Hack velocità) Disabilita controlli SMC"
 
 msgctxt "#30047"
 msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr ""
+msgstr "(Hack velocità) Presuppone registri GTE non necessari"
 
 msgctxt "#30048"
 msgid "(Speed Hack) Disable GTE Flags"
-msgstr ""
+msgstr "(Hack velocità) Disabilita flag GTE"
 
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
-msgstr ""
+msgstr "(GPU) Centratura schermo"
 
 msgctxt "#30053"
 msgid "(GPU) Enhanced Resolution"
-msgstr ""
+msgstr "(GPU) Risoluzione avanzata"
 
 msgctxt "#30054"
 msgid "Threaded SPU"
-msgstr ""
+msgstr "SPU multithread"
 
 msgctxt "#30055"
 msgid "DualShock Analog Mode Toggle Key Combo"
-msgstr ""
+msgstr "Combinazione tasti attiva/disattiva modalità analogica DualShock"
 
 msgctxt "#30056"
 msgid "Multitap Mode"
@@ -211,95 +211,95 @@ msgstr "Modalità Multitap"
 
 msgctxt "#30057"
 msgid "Player 1 Lightgun Crosshair"
-msgstr ""
+msgstr "Mirino pistola ottica giocatore 1"
 
 msgctxt "#30058"
 msgid "Player 2 Lightgun Crosshair"
-msgstr ""
+msgstr "Mirino pistola ottica giocatore 2"
 
 msgctxt "#30059"
 msgid "Konami Gun X Axis Offset"
-msgstr ""
+msgstr "Offset asse X Konami Gun"
 
 msgctxt "#30060"
 msgid "Konami Gun Y Axis Offset"
-msgstr ""
+msgstr "Offset asse Y Konami Gun"
 
 msgctxt "#30061"
 msgid "Exception and Breakpoint Emulation"
-msgstr ""
+msgstr "Emulazione eccezioni e breakpoint"
 
 msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
-msgstr ""
+msgstr "Disabilita stalli CPU/GTE"
 
 msgctxt "#30063"
 msgid "(GPU) Enhanced Resolution Texture Adjustment"
-msgstr ""
+msgstr "(GPU) Regolazione texture risoluzione avanzata"
 
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
-msgstr ""
+msgstr "Velocità clock CPU PSX (%)"
 
 msgctxt "#30066"
 msgid "Use fractional frame rate"
-msgstr ""
+msgstr "Usa frequenza fotogrammi frazionaria"
 
 msgctxt "#30068"
 msgid "Turbo CD"
-msgstr ""
+msgstr "CD turbo"
 
 msgctxt "#30070"
 msgid "CD read-ahead"
-msgstr ""
+msgstr "Lettura anticipata CD"
 
 msgctxt "#30071"
 msgid "DynaRec threading"
-msgstr ""
+msgstr "Multithreading DynaRec"
 
 msgctxt "#30072"
 msgid "(GPU) Horizontal overscan"
-msgstr ""
+msgstr "(GPU) Overscan orizzontale"
 
 msgctxt "#30073"
 msgid "(GPU) Manual position X"
-msgstr ""
+msgstr "(GPU) Posizione manuale X"
 
 msgctxt "#30074"
 msgid "(GPU) Manual position Y"
-msgstr ""
+msgstr "(GPU) Posizione manuale Y"
 
 msgctxt "#30075"
 msgid "(GPU) Old renderer"
-msgstr ""
+msgstr "(GPU) Motore di rendering precedente"
 
 msgctxt "#30076"
 msgid "RGB32 output"
-msgstr ""
+msgstr "Uscita RGB32"
 
 msgctxt "#30077"
 msgid "(GPU) Manual height adjustment"
-msgstr ""
+msgstr "(GPU) Regolazione manuale altezza"
 
 msgctxt "#30078"
 msgid "(GPU) Skip every 2nd line"
-msgstr ""
+msgstr "(GPU) Salta ogni 2ª riga"
 
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
-msgstr ""
+msgstr "Downscaling alta risoluzione"
 
 msgctxt "#30080"
 msgid "Show BIOS Name/Boot Logo"
-msgstr ""
+msgstr "Mostra nome BIOS/logo di avvio"
 
 msgctxt "#30081"
 msgid "Framebuffer readout"
-msgstr ""
+msgstr "Lettura framebuffer"
 
 msgctxt "#30082"
 msgid "Memory Card 1 Type (Restart)"
-msgstr "Tipo Memory Card 1 (riavvio)"
+msgstr "Tipo Memory Card 1 (richiede riavvio)"
 
 msgctxt "#30083"
 msgid "Memory Card 2 Type"
@@ -307,7 +307,7 @@ msgstr "Tipo Memory Card 2"
 
 msgctxt "#30084"
 msgid "Display Informational Notifications"
-msgstr ""
+msgstr "Mostra notifiche informative"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
