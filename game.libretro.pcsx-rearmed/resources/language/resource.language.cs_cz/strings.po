@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.pcsx-rearmed\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2026-08-22 22:05+0000\n"
+"PO-Revision-Date: 2026-08-23 09:11+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcsx-rearmed/cs_cz/>\n"
 "Language: cs_cz\n"
@@ -659,7 +659,7 @@ msgstr "Určuje meze rozsahu levé a pravé analogové páčky, když je vstupn�
 
 msgctxt "#30172"
 msgid "Circle"
-msgstr "Kolečko"
+msgstr "Kruhové"
 
 msgctxt "#30173"
 msgid "Square"
@@ -860,3 +860,319 @@ msgstr "Způsobí chyby vykreslování."
 msgctxt "#30222"
 msgid "Will cause some games to run too quickly. Should be disabled in almost all cases. Interpreter only."
 msgstr "Způsobí, že některé hry poběží příliš rychle. Téměř ve všech případech by mělo být zakázáno. Pouze interpret."
+
+msgctxt "#30223"
+msgid "NTSC"
+msgstr "NTSC"
+
+msgctxt "#30224"
+msgid "PAL"
+msgstr "PAL"
+
+msgctxt "#30225"
+msgid "HLE"
+msgstr "HLE"
+
+msgctxt "#30226"
+msgid "30"
+msgstr "30"
+
+msgctxt "#30227"
+msgid "31"
+msgstr "31"
+
+msgctxt "#30228"
+msgid "32"
+msgstr "32"
+
+msgctxt "#30229"
+msgid "33"
+msgstr "33"
+
+msgctxt "#30230"
+msgid "34"
+msgstr "34"
+
+msgctxt "#30231"
+msgid "35"
+msgstr "35"
+
+msgctxt "#30232"
+msgid "36"
+msgstr "36"
+
+msgctxt "#30233"
+msgid "37"
+msgstr "37"
+
+msgctxt "#30234"
+msgid "38"
+msgstr "38"
+
+msgctxt "#30235"
+msgid "39"
+msgstr "39"
+
+msgctxt "#30236"
+msgid "40"
+msgstr "40"
+
+msgctxt "#30237"
+msgid "41"
+msgstr "41"
+
+msgctxt "#30238"
+msgid "42"
+msgstr "42"
+
+msgctxt "#30239"
+msgid "43"
+msgstr "43"
+
+msgctxt "#30240"
+msgid "44"
+msgstr "44"
+
+msgctxt "#30241"
+msgid "45"
+msgstr "45"
+
+msgctxt "#30242"
+msgid "46"
+msgstr "46"
+
+msgctxt "#30243"
+msgid "47"
+msgstr "47"
+
+msgctxt "#30244"
+msgid "48"
+msgstr "48"
+
+msgctxt "#30245"
+msgid "49"
+msgstr "49"
+
+msgctxt "#30246"
+msgid "50"
+msgstr "50"
+
+msgctxt "#30247"
+msgid "51"
+msgstr "51"
+
+msgctxt "#30248"
+msgid "52"
+msgstr "52"
+
+msgctxt "#30249"
+msgid "53"
+msgstr "53"
+
+msgctxt "#30250"
+msgid "54"
+msgstr "54"
+
+msgctxt "#30251"
+msgid "55"
+msgstr "55"
+
+msgctxt "#30252"
+msgid "56"
+msgstr "56"
+
+msgctxt "#30253"
+msgid "57"
+msgstr "57"
+
+msgctxt "#30254"
+msgid "58"
+msgstr "58"
+
+msgctxt "#30255"
+msgid "59"
+msgstr "59"
+
+msgctxt "#30256"
+msgid "60"
+msgstr "60"
+
+msgctxt "#30257"
+msgid "61"
+msgstr "61"
+
+msgctxt "#30258"
+msgid "62"
+msgstr "62"
+
+msgctxt "#30259"
+msgid "63"
+msgstr "63"
+
+msgctxt "#30260"
+msgid "64"
+msgstr "64"
+
+msgctxt "#30261"
+msgid "65"
+msgstr "65"
+
+msgctxt "#30262"
+msgid "66"
+msgstr "66"
+
+msgctxt "#30263"
+msgid "67"
+msgstr "67"
+
+msgctxt "#30264"
+msgid "68"
+msgstr "68"
+
+msgctxt "#30265"
+msgid "69"
+msgstr "69"
+
+msgctxt "#30266"
+msgid "70"
+msgstr "70"
+
+msgctxt "#30267"
+msgid "71"
+msgstr "71"
+
+msgctxt "#30268"
+msgid "72"
+msgstr "72"
+
+msgctxt "#30269"
+msgid "73"
+msgstr "73"
+
+msgctxt "#30270"
+msgid "74"
+msgstr "74"
+
+msgctxt "#30271"
+msgid "75"
+msgstr "75"
+
+msgctxt "#30272"
+msgid "76"
+msgstr "76"
+
+msgctxt "#30273"
+msgid "77"
+msgstr "77"
+
+msgctxt "#30274"
+msgid "78"
+msgstr "78"
+
+msgctxt "#30275"
+msgid "79"
+msgstr "79"
+
+msgctxt "#30276"
+msgid "80"
+msgstr "80"
+
+msgctxt "#30277"
+msgid "81"
+msgstr "81"
+
+msgctxt "#30278"
+msgid "82"
+msgstr "82"
+
+msgctxt "#30279"
+msgid "83"
+msgstr "83"
+
+msgctxt "#30280"
+msgid "84"
+msgstr "84"
+
+msgctxt "#30281"
+msgid "85"
+msgstr "85"
+
+msgctxt "#30282"
+msgid "86"
+msgstr "86"
+
+msgctxt "#30283"
+msgid "87"
+msgstr "87"
+
+msgctxt "#30284"
+msgid "88"
+msgstr "88"
+
+msgctxt "#30285"
+msgid "89"
+msgstr "89"
+
+msgctxt "#30286"
+msgid "90"
+msgstr "90"
+
+msgctxt "#30287"
+msgid "91"
+msgstr "91"
+
+msgctxt "#30288"
+msgid "92"
+msgstr "92"
+
+msgctxt "#30289"
+msgid "93"
+msgstr "93"
+
+msgctxt "#30290"
+msgid "94"
+msgstr "94"
+
+msgctxt "#30291"
+msgid "95"
+msgstr "95"
+
+msgctxt "#30292"
+msgid "96"
+msgstr "96"
+
+msgctxt "#30293"
+msgid "97"
+msgstr "97"
+
+msgctxt "#30294"
+msgid "98"
+msgstr "98"
+
+msgctxt "#30295"
+msgid "99"
+msgstr "99"
+
+msgctxt "#30296"
+msgid "100"
+msgstr "100"
+
+msgctxt "#30297"
+msgid "extra"
+msgstr "rozšířené"
+
+msgctxt "#30298"
+msgid "blue"
+msgstr "modrá"
+
+msgctxt "#30299"
+msgid "green"
+msgstr "zelená"
+
+msgctxt "#30300"
+msgid "red"
+msgstr "červená"
+
+msgctxt "#30301"
+msgid "white"
+msgstr "bílá"

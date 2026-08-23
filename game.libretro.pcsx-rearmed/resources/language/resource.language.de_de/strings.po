@@ -862,6 +862,322 @@ msgctxt "#30222"
 msgid "Will cause some games to run too quickly. Should be disabled in almost all cases. Interpreter only."
 msgstr ""
 
+msgctxt "#30223"
+msgid "NTSC"
+msgstr ""
+
+msgctxt "#30224"
+msgid "PAL"
+msgstr ""
+
+msgctxt "#30225"
+msgid "HLE"
+msgstr ""
+
+msgctxt "#30226"
+msgid "30"
+msgstr ""
+
+msgctxt "#30227"
+msgid "31"
+msgstr ""
+
+msgctxt "#30228"
+msgid "32"
+msgstr ""
+
+msgctxt "#30229"
+msgid "33"
+msgstr ""
+
+msgctxt "#30230"
+msgid "34"
+msgstr ""
+
+msgctxt "#30231"
+msgid "35"
+msgstr ""
+
+msgctxt "#30232"
+msgid "36"
+msgstr ""
+
+msgctxt "#30233"
+msgid "37"
+msgstr ""
+
+msgctxt "#30234"
+msgid "38"
+msgstr ""
+
+msgctxt "#30235"
+msgid "39"
+msgstr ""
+
+msgctxt "#30236"
+msgid "40"
+msgstr ""
+
+msgctxt "#30237"
+msgid "41"
+msgstr ""
+
+msgctxt "#30238"
+msgid "42"
+msgstr ""
+
+msgctxt "#30239"
+msgid "43"
+msgstr ""
+
+msgctxt "#30240"
+msgid "44"
+msgstr ""
+
+msgctxt "#30241"
+msgid "45"
+msgstr ""
+
+msgctxt "#30242"
+msgid "46"
+msgstr ""
+
+msgctxt "#30243"
+msgid "47"
+msgstr ""
+
+msgctxt "#30244"
+msgid "48"
+msgstr ""
+
+msgctxt "#30245"
+msgid "49"
+msgstr ""
+
+msgctxt "#30246"
+msgid "50"
+msgstr ""
+
+msgctxt "#30247"
+msgid "51"
+msgstr ""
+
+msgctxt "#30248"
+msgid "52"
+msgstr ""
+
+msgctxt "#30249"
+msgid "53"
+msgstr ""
+
+msgctxt "#30250"
+msgid "54"
+msgstr ""
+
+msgctxt "#30251"
+msgid "55"
+msgstr ""
+
+msgctxt "#30252"
+msgid "56"
+msgstr ""
+
+msgctxt "#30253"
+msgid "57"
+msgstr ""
+
+msgctxt "#30254"
+msgid "58"
+msgstr ""
+
+msgctxt "#30255"
+msgid "59"
+msgstr ""
+
+msgctxt "#30256"
+msgid "60"
+msgstr ""
+
+msgctxt "#30257"
+msgid "61"
+msgstr ""
+
+msgctxt "#30258"
+msgid "62"
+msgstr ""
+
+msgctxt "#30259"
+msgid "63"
+msgstr ""
+
+msgctxt "#30260"
+msgid "64"
+msgstr ""
+
+msgctxt "#30261"
+msgid "65"
+msgstr ""
+
+msgctxt "#30262"
+msgid "66"
+msgstr ""
+
+msgctxt "#30263"
+msgid "67"
+msgstr ""
+
+msgctxt "#30264"
+msgid "68"
+msgstr ""
+
+msgctxt "#30265"
+msgid "69"
+msgstr ""
+
+msgctxt "#30266"
+msgid "70"
+msgstr ""
+
+msgctxt "#30267"
+msgid "71"
+msgstr ""
+
+msgctxt "#30268"
+msgid "72"
+msgstr ""
+
+msgctxt "#30269"
+msgid "73"
+msgstr ""
+
+msgctxt "#30270"
+msgid "74"
+msgstr ""
+
+msgctxt "#30271"
+msgid "75"
+msgstr ""
+
+msgctxt "#30272"
+msgid "76"
+msgstr ""
+
+msgctxt "#30273"
+msgid "77"
+msgstr ""
+
+msgctxt "#30274"
+msgid "78"
+msgstr ""
+
+msgctxt "#30275"
+msgid "79"
+msgstr ""
+
+msgctxt "#30276"
+msgid "80"
+msgstr ""
+
+msgctxt "#30277"
+msgid "81"
+msgstr ""
+
+msgctxt "#30278"
+msgid "82"
+msgstr ""
+
+msgctxt "#30279"
+msgid "83"
+msgstr ""
+
+msgctxt "#30280"
+msgid "84"
+msgstr ""
+
+msgctxt "#30281"
+msgid "85"
+msgstr ""
+
+msgctxt "#30282"
+msgid "86"
+msgstr ""
+
+msgctxt "#30283"
+msgid "87"
+msgstr ""
+
+msgctxt "#30284"
+msgid "88"
+msgstr ""
+
+msgctxt "#30285"
+msgid "89"
+msgstr ""
+
+msgctxt "#30286"
+msgid "90"
+msgstr ""
+
+msgctxt "#30287"
+msgid "91"
+msgstr ""
+
+msgctxt "#30288"
+msgid "92"
+msgstr ""
+
+msgctxt "#30289"
+msgid "93"
+msgstr ""
+
+msgctxt "#30290"
+msgid "94"
+msgstr ""
+
+msgctxt "#30291"
+msgid "95"
+msgstr ""
+
+msgctxt "#30292"
+msgid "96"
+msgstr ""
+
+msgctxt "#30293"
+msgid "97"
+msgstr ""
+
+msgctxt "#30294"
+msgid "98"
+msgstr ""
+
+msgctxt "#30295"
+msgid "99"
+msgstr ""
+
+msgctxt "#30296"
+msgid "100"
+msgstr ""
+
+msgctxt "#30297"
+msgid "extra"
+msgstr ""
+
+msgctxt "#30298"
+msgid "blue"
+msgstr ""
+
+msgctxt "#30299"
+msgid "green"
+msgstr ""
+
+msgctxt "#30300"
+msgid "red"
+msgstr ""
+
+msgctxt "#30301"
+msgid "white"
+msgstr ""
+
 #~ msgctxt "#30003"
 #~ msgid "Show BIOS Boot Logo"
 #~ msgstr "BIOS-Bootlogo anzeigen"
