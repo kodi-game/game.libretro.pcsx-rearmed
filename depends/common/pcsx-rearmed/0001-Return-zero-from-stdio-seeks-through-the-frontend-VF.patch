@@ -1,0 +1,31 @@
+From cb52d440a2da14cb5c019efd85a1532d31cfcd9e Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Sat, 5 Sep 2026 01:06:45 -0700
+Subject: [PATCH] Return zero from stdio seeks through the frontend VFS
+
+rfseek returned the successful VFS seek result directly, so callers treated
+successful seeks as errors. MGS CHDs failed to load in Kodi while the built-in
+file path worked. Normalize successful seeks to zero and preserve failures.
+
+Reproduced with a VFS that returns offsets, then passed CHD loading and
+the disc-state matrix through that same interface.
+---
+ deps/libretro-common/streams/file_stream_transforms.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/deps/libretro-common/streams/file_stream_transforms.c b/deps/libretro-common/streams/file_stream_transforms.c
+index b5edc49e..cfe6c402 100644
+--- a/deps/libretro-common/streams/file_stream_transforms.c
++++ b/deps/libretro-common/streams/file_stream_transforms.c
+@@ -99,7 +99,7 @@ int64_t rfseek(RFILE* stream, int64_t offset, int origin)
+          break;
+    }
+ 
+-   return filestream_seek(stream, offset, seek_position);
++   return filestream_seek(stream, offset, seek_position) < 0 ? -1 : 0;
+ }
+ 
+ int64_t rfread(void* buffer,
+-- 
+2.50.1 (Apple Git-155)
+
