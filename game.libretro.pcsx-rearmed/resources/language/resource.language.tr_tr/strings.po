@@ -27,19 +27,19 @@ msgstr ""
 
 msgctxt "#30001"
 msgid "Region"
-msgstr ""
+msgstr "Bölge"
 
 msgctxt "#30002"
 msgid "BIOS Selection"
-msgstr ""
+msgstr "BIOS Kullan"
 
 msgctxt "#30005"
 msgid "Dynamic Recompiler"
-msgstr ""
+msgstr "Dinamik Yeniden Derleyici"
 
 msgctxt "#30007"
 msgid "Dithering Pattern"
-msgstr ""
+msgstr "Dithering Etkinleştir"
 
 msgctxt "#30009"
 msgid "Threaded Rendering"
@@ -67,11 +67,11 @@ msgstr ""
 
 msgctxt "#30015"
 msgid "(GPU) Show Interlaced Video"
-msgstr ""
+msgstr "Interlacing Mode'u etkinleştir"
 
 msgctxt "#30017"
 msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr ""
+msgstr "Geliştirilmiş Çözünürlük (Speed Hack)"
 
 msgctxt "#30018"
 msgid "(GPU) Odd/Even Bit Hack"
@@ -119,19 +119,19 @@ msgstr ""
 
 msgctxt "#30030"
 msgid "Audio Reverb Effects"
-msgstr ""
+msgstr "Ses Yankısı"
 
 msgctxt "#30031"
 msgid "Sound Interpolation"
-msgstr ""
+msgstr "Ses Enterpolasyonu"
 
 msgctxt "#30032"
 msgid "CD Audio"
-msgstr ""
+msgstr "CD Ses"
 
 msgctxt "#30033"
 msgid "XA Decoding"
-msgstr ""
+msgstr "XA Kod Çözme"
 
 msgctxt "#30034"
 msgid "Analog Axis Bounds"
@@ -139,11 +139,11 @@ msgstr ""
 
 msgctxt "#30035"
 msgid "Rumble Effects"
-msgstr ""
+msgstr "Titreşimi Etkinleştir"
 
 msgctxt "#30037"
 msgid "NegCon Twist Deadzone"
-msgstr ""
+msgstr "NegCon Twist Deadzone (Yüzdelik)"
 
 msgctxt "#30038"
 msgid "NegCon Twist Response"
@@ -171,7 +171,7 @@ msgstr ""
 
 msgctxt "#30044"
 msgid "Instruction Cache Emulation"
-msgstr ""
+msgstr "ICache Düzeltmleri"
 
 msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
@@ -179,15 +179,15 @@ msgstr ""
 
 msgctxt "#30046"
 msgid "(Speed Hack) Disable SMC Checks"
-msgstr ""
+msgstr "(Speed Hack) SMC Kontrollerini Devre Dışı Bırak"
 
 msgctxt "#30047"
 msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr ""
+msgstr "(Speed Hack) GTE'nin Gereksiz Olduğunu Varsayın"
 
 msgctxt "#30048"
 msgid "(Speed Hack) Disable GTE Flags"
-msgstr ""
+msgstr "(Speed Hack) GTE Bayraklarını Devredışı Bırakın"
 
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
@@ -195,7 +195,7 @@ msgstr ""
 
 msgctxt "#30053"
 msgid "(GPU) Enhanced Resolution"
-msgstr ""
+msgstr "Geliştirilmiş Çözünürlük"
 
 msgctxt "#30054"
 msgid "Threaded SPU"
@@ -239,7 +239,7 @@ msgstr ""
 
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
-msgstr ""
+msgstr "PSX CPU Saat Hızı"
 
 msgctxt "#30066"
 msgid "Use fractional frame rate"
@@ -291,7 +291,7 @@ msgstr ""
 
 msgctxt "#30080"
 msgid "Show BIOS Name/Boot Logo"
-msgstr ""
+msgstr "Bios Bootlogo'yu Göster"
 
 msgctxt "#30081"
 msgid "Framebuffer readout"
@@ -303,7 +303,7 @@ msgstr ""
 
 msgctxt "#30083"
 msgid "Memory Card 2 Type"
-msgstr ""
+msgstr "İkinci Bellek Kartını Etkinleştir (Paylaşılan)"
 
 msgctxt "#30084"
 msgid "Display Informational Notifications"
@@ -343,19 +343,19 @@ msgstr ""
 
 msgctxt "#30093"
 msgid "Specify which region the system is from. 'NTSC' is 60 Hz while 'PAL' is 50 Hz. 'Auto' will detect the region of the currently loaded content. Games may run faster or slower than normal if the incorrect region is selected."
-msgstr ""
+msgstr "Sistemin hangi bölgeden olduğunu seçin. NTSC için 60 Hz, PAL için 50 Hz."
 
 msgctxt "#30094"
 msgid "Auto"
-msgstr ""
+msgstr "otomatik"
 
 msgctxt "#30095"
 msgid "Specify which BIOS to use. 'Auto' will attempt to load a real bios file from the frontend 'system' directory, falling back to high level emulation if unavailable. 'HLE' forces high level BIOS emulation. It is recommended to use an official bios file for better compatibility."
-msgstr ""
+msgstr "Gerçek bios dosyasını (varsa) veya öykünmüş bios'u (HLE) kullanmanızı sağlar. Daha iyi uyumluluk için resmi bios dosyasını kullanmanız önerilir."
 
 msgctxt "#30096"
 msgid "When using a custom BIOS file, enables the display of its file name in the OSD. Also specifies whether to show the BIOS logo when starting or selecting Reset. Warning: Enabling the logo may reduce game compatibility."
-msgstr ""
+msgstr "Etkinleştirildiğinde, başlatırken veya sıfırlarken PlayStation logosunu gösterir. (Bazı oyunları bozabilir)."
 
 msgctxt "#30097"
 msgid "ON, w/o PCSXtm"
@@ -383,7 +383,7 @@ msgstr ""
 
 msgctxt "#30103"
 msgid "Same as above, but card in slot 2."
-msgstr ""
+msgstr "2. Hafıza kartı yuvasını etkinleştirin. Bu hafıza kartı tüm oyunlar arasında paylaşılır."
 
 msgctxt "#30104"
 msgid "Reads the specified amount of sectors ahead of time to try to avoid later stalls. Affects both physical CD-ROM and CD images. 333000 will try to read the complete disk (requires an additional 750MB of RAM)."
@@ -391,7 +391,7 @@ msgstr ""
 
 msgctxt "#30105"
 msgid "Dynamically recompile PSX CPU instructions to native instructions. Much faster than using an interpreter, but may be less accurate on some platforms."
-msgstr ""
+msgstr "Çekirdeğin dinamik yeniden derleyici veya tercüman(daha yavaş) CPU talimatlarını kullanmasını sağlar."
 
 msgctxt "#30106"
 msgid "Run the dynarec on another thread."
@@ -399,7 +399,7 @@ msgstr ""
 
 msgctxt "#30107"
 msgid "Overclock or under-clock the PSX CPU. Should be much less than 100 (something like 57) due to some real hardware slowdowns not being emulated. Usually should be left at 'Auto', else glitches or hangs are likely."
-msgstr ""
+msgstr "Overclock or under-clock the PSX CPU. Try adjusting this if the game is too slow, too fast or hangs. Default is 57."
 
 msgctxt "#30108"
 msgid "Video"
@@ -411,7 +411,7 @@ msgstr ""
 
 msgctxt "#30110"
 msgid "Enable emulation of the dithering technique used by the PSX to smooth out color banding artifacts. \"Force\" enables it even if the game turns it off. Increases performance requirements."
-msgstr ""
+msgstr "Kapalı ise, PSX'in renk bantlarıyla mücadele etmek için uyguladığı renk taklidi düzenini devre dışı bırakır."
 
 msgctxt "#30111"
 msgid "Force"
@@ -523,15 +523,15 @@ msgstr ""
 
 msgctxt "#30138"
 msgid "When enabled, games that run in high resolution video modes (480i, 512i) will produced interlaced video output. While this displays correctly on CRT televisions, it will produce artifacts on modern displays. When disabled, all video is output in progressive format. Note: there are games that will glitch is this is off."
-msgstr ""
+msgstr "Sahte tarama çizgileri efektini etkinleştirir."
 
 msgctxt "#30139"
 msgid "Render games that do not already run in high resolution video modes (480i, 512i) at twice the native internal resolution. Improves the fidelity of 3D models at the expense of increased performance requirements. 2D elements are generally unaffected by this setting."
-msgstr ""
+msgstr "Düşük performans pahasına çift çözünürlükte işler."
 
 msgctxt "#30140"
 msgid "('Enhanced Resolution' Hack) Improves performance but reduces compatibility and may cause rendering errors."
-msgstr ""
+msgstr "Geliştirilmiş çözünürlük seçeneği için hız aşırtma(bazı oyunlarda sorun çıkartabilir)."
 
 msgctxt "#30141"
 msgid "('Enhanced Resolution' Hack) Solves some texturing issues in some games in Enhanced Resolution mode. May cause a small performance hit."
@@ -611,7 +611,7 @@ msgstr ""
 
 msgctxt "#30160"
 msgid "Enable emulation of the reverb feature provided by the PSX SPU. Can be disabled to improve performance at the expense of reduced audio quality/authenticity."
-msgstr ""
+msgstr "Ses yankı efektini etkinleştirir veya devre dışı bırakır."
 
 msgctxt "#30161"
 msgid "Enable emulation of the in-built audio interpolation provided by the PSX SPU. 'Gaussian' sounds closest to original hardware. 'Simple' improves performance but reduces quality. 'Cubic' has the highest performance requirements but produces increased clarity. Can be disabled entirely for maximum performance, at the expense of greatly reduced audio quality."
@@ -667,7 +667,7 @@ msgstr ""
 
 msgctxt "#30174"
 msgid "Enable haptic feedback when using a rumble-equipped gamepad with input device set to 'dualshock'."
-msgstr ""
+msgstr "Titreşim özelliklerini destekleyen kontrolörler için titreşim geri bildirimini etkinleştirir."
 
 msgctxt "#30175"
 msgid "When the input device type is DualShock, this option allows the emulated DualShock to be toggled between DIGITAL and ANALOG mode like original hardware. You can select the button combination for this."
@@ -711,7 +711,7 @@ msgstr ""
 
 msgctxt "#30185"
 msgid "Set the deadzone of the RetroPad left analog stick when simulating the 'twist' action of emulated neGcon Controllers. Used to eliminate drift/unwanted input."
-msgstr ""
+msgstr "Öykünülmüş neGcon kontrolörünün 'büküm' eylemini simüle ederken RetroPad sol analog çubuğunun ölü bölgesini ayarlar. Sürüklenme/istenmeyen girişi ortadan kaldırmak için kullanılır."
 
 msgctxt "#30186"
 msgid "0%"
@@ -767,7 +767,7 @@ msgstr ""
 
 msgctxt "#30199"
 msgid "Specify the analog response when using a RetroPad left analog stick to simulate the 'twist' action of emulated neGcon Controllers."
-msgstr ""
+msgstr "Öykünülmüş neGcon kontrolörünün 'bükümünü' simule etmek için bir RetroPad sol analog çubuğu kullanırken analog cevabını belirtir."
 
 msgctxt "#30200"
 msgid "Linear"
@@ -847,15 +847,15 @@ msgstr ""
 
 msgctxt "#30219"
 msgid "Will cause crashes when loading, and lead to memory card failure."
-msgstr ""
+msgstr "Yükleme sırasında çökmelere neden olabilir, hafıza kartını bozabilir."
 
 msgctxt "#30220"
 msgid "May cause rendering errors."
-msgstr ""
+msgstr "Grafiksel bozukluklara neden olabilir."
 
 msgctxt "#30221"
 msgid "Will cause rendering errors."
-msgstr ""
+msgstr "Grafiksel bozukluklara neden olur."
 
 msgctxt "#30222"
 msgid "Will cause some games to run too quickly. Should be disabled in almost all cases. Interpreter only."
