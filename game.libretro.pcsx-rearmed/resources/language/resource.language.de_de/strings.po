@@ -1178,6 +1178,14 @@ msgctxt "#30301"
 msgid "white"
 msgstr ""
 
+msgctxt "#30302"
+msgid "(Hack) Disable Pipeline Delays"
+msgstr ""
+
+msgctxt "#30303"
+msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
+msgstr ""
+
 #~ msgctxt "#30003"
 #~ msgid "Show BIOS Boot Logo"
 #~ msgstr "BIOS-Bootlogo anzeigen"

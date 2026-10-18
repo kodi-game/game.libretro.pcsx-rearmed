@@ -1177,6 +1177,14 @@ msgctxt "#30301"
 msgid "white"
 msgstr ""
 
+msgctxt "#30302"
+msgid "(Hack) Disable Pipeline Delays"
+msgstr ""
+
+msgctxt "#30303"
+msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
+msgstr ""
+
 #~ msgctxt "#30069"
 #~ msgid "Second Memory Card (Shared)"
 #~ msgstr "第二存储卡（共享）"
