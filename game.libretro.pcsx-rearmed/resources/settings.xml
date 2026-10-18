@@ -1467,6 +1467,17 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
+				<setting id="pcsx_rearmed_nolddelay" type="string" label="30302" help="30303">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 			</group>
 		</category>
 		<category id="speed_hack" label="30216" help="30217">

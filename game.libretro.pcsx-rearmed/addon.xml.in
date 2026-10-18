@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.pcsx-rearmed"
 		name="Sony - PlayStation (PCSX ReARMed)"
-		version="26.0.0.82"
+		version="26.0.0.83"
 		provider-name="PCSX Team, notaz, Exophase">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -19,7 +19,7 @@
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_disc_control>true</supports_disc_control>
-		<requires_opengl>false</requires_opengl>
+		<libretro_core>pcsx_rearmed_libretro</libretro_core>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv2</license>
