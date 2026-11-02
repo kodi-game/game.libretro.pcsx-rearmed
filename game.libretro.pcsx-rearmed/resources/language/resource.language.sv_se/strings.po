@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.pcsx-rearmed\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2026-02-08 15:13+0000\n"
+"PO-Revision-Date: 2026-11-02 20:47+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pcsx-rearmed/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 msgctxt "Addon Summary"
 msgid "Sony - PlayStation (PCSX ReARMed)"
@@ -43,7 +43,7 @@ msgstr "Dithering-mönster"
 
 msgctxt "#30009"
 msgid "Threaded Rendering"
-msgstr "Trådad rendering"
+msgstr "Trådad återgivning"
 
 msgctxt "#30010"
 msgid "Frameskip"
@@ -53,16 +53,14 @@ msgctxt "#30011"
 msgid "Frameskip Threshold (%)"
 msgstr "Tröskelvärde för bildöverhoppning (%)"
 
-#, fuzzy
 msgctxt "#30012"
 msgid "Frameskip Interval"
-msgstr "Intervall för överhoppning av bildrutor"
+msgstr "Intervall för bildrutehoppning"
 
 msgctxt "#30013"
 msgid "Display Internal FPS"
 msgstr "Visa intern bildfrekvens"
 
-#, fuzzy
 msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
 msgstr "(GPU) Långsam bearbetning av länkade listor"
@@ -75,38 +73,33 @@ msgctxt "#30017"
 msgid "(GPU) Enhanced Resolution Speed Hack"
 msgstr "(GPU) Hastighetshack för förbättrad upplösning"
 
-#, fuzzy
 msgctxt "#30018"
 msgid "(GPU) Odd/Even Bit Hack"
-msgstr "(GPU) Odd/Even Bit Hack"
+msgstr "(GPU) Hack för udda/jämn bit"
 
 msgctxt "#30019"
 msgid "(GPU) Expand Screen Width"
 msgstr "(GPU) Utöka skärmens bredd"
 
-#, fuzzy
 msgctxt "#30020"
 msgid "(GPU) Ignore Brightness Color"
-msgstr "(GPU) Ignorera Ljusstyrka Färg"
+msgstr "(GPU) Ignorera färgens ljusstyrka"
 
 msgctxt "#30021"
 msgid "(GPU) Disable Coordinate Check"
 msgstr "(GPU) Inaktivera koordinatkontroll"
 
-#, fuzzy
 msgctxt "#30022"
 msgid "(GPU) Lazy Screen Update"
-msgstr "(GPU) Uppdatering av lat skärm"
+msgstr "(GPU) Lat skärmuppdatering"
 
-#, fuzzy
 msgctxt "#30023"
 msgid "(GPU) Repeat Flat Tex Triangles"
-msgstr "(GPU) Upprepa platta Tex-trianglar"
+msgstr "(GPU) Upprepa plana texturtrianglar"
 
-#, fuzzy
 msgctxt "#30024"
 msgid "(GPU) Draw Tex-Quads as Triangles"
-msgstr "(GPU) Rita Tex-Quads som trianglar"
+msgstr "(GPU) Rita texturfyrhörningar som trianglar"
 
 msgctxt "#30025"
 msgid "(GPU) Fake 'GPU Busy' States"
@@ -124,10 +117,9 @@ msgctxt "#30028"
 msgid "(GPU) Fast Lighting"
 msgstr "(GPU) Snabb belysning"
 
-#, fuzzy
 msgctxt "#30030"
 msgid "Audio Reverb Effects"
-msgstr "Audio Reverb-effekter"
+msgstr "Efterklangseffekter för ljud"
 
 msgctxt "#30031"
 msgid "Sound Interpolation"
@@ -141,7 +133,6 @@ msgctxt "#30033"
 msgid "XA Decoding"
 msgstr "XA-avkodning"
 
-#, fuzzy
 msgctxt "#30034"
 msgid "Analog Axis Bounds"
 msgstr "Gränser för analog axel"
@@ -162,50 +153,41 @@ msgctxt "#30039"
 msgid "Mouse Sensitivity"
 msgstr "Muskänslighet"
 
-#, fuzzy
 msgctxt "#30040"
 msgid "Guncon X Axis Offset"
-msgstr "Guncon X-axelförskjutning"
+msgstr "Guncon-förskjutning för X-axel"
 
-#, fuzzy
 msgctxt "#30041"
 msgid "Guncon Y Axis Offset"
-msgstr "Guncon Y-axelförskjutning"
+msgstr "Guncon-förskjutning för Y-axel"
 
-#, fuzzy
 msgctxt "#30042"
 msgid "Guncon X Axis Response"
-msgstr "Guncon X Axis svar"
+msgstr "Guncon-svar för X-axel"
 
-#, fuzzy
 msgctxt "#30043"
 msgid "Guncon Y Axis Response"
-msgstr "Guncon Y-axel svar"
+msgstr "Guncon-svar för Y-axel"
 
-#, fuzzy
 msgctxt "#30044"
 msgid "Instruction Cache Emulation"
 msgstr "Emulering av instruktionscache"
 
-#, fuzzy
 msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
 msgstr "Inaktivera automatiska kompatibilitetshack"
 
-#, fuzzy
 msgctxt "#30046"
 msgid "(Speed Hack) Disable SMC Checks"
-msgstr "(Speed Hack) Avaktivera SMC-kontroller"
+msgstr "(Prestandahack) Inaktivera SMC-kontroller"
 
-#, fuzzy
 msgctxt "#30047"
 msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr "(Speed Hack) Anta att GTE-register inte behövs"
+msgstr "(Prestandahack) Anta att GTE-register inte behövs"
 
-#, fuzzy
 msgctxt "#30048"
 msgid "(Speed Hack) Disable GTE Flags"
-msgstr "(Speed Hack) Inaktivera GTE-flaggor"
+msgstr "(Prestandahack) Inaktivera GTE-flaggor"
 
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
@@ -219,68 +201,57 @@ msgctxt "#30054"
 msgid "Threaded SPU"
 msgstr "Trådad SPU"
 
-#, fuzzy
 msgctxt "#30055"
 msgid "DualShock Analog Mode Toggle Key Combo"
-msgstr "DualShock Analogt läge Växla tangentkombination"
+msgstr "Tangentkombination för växling av DualShock-analogläge"
 
 msgctxt "#30056"
 msgid "Multitap Mode"
 msgstr "Multitap-läge"
 
-#, fuzzy
 msgctxt "#30057"
 msgid "Player 1 Lightgun Crosshair"
-msgstr "Spelare 1 Hårkors för ljuspistol"
+msgstr "Ljuspistolsikte för spelare 1"
 
-#, fuzzy
 msgctxt "#30058"
 msgid "Player 2 Lightgun Crosshair"
-msgstr "Spelare 2 Hårkors för ljuspistol"
+msgstr "Ljuspistolsikte för spelare 2"
 
-#, fuzzy
 msgctxt "#30059"
 msgid "Konami Gun X Axis Offset"
-msgstr "Konami Gun X Axis Offset"
+msgstr "Konami Gun-förskjutning för X-axel"
 
-#, fuzzy
 msgctxt "#30060"
 msgid "Konami Gun Y Axis Offset"
-msgstr "Konami Gun Y Axis Offset"
+msgstr "Konami Gun-förskjutning för Y-axel"
 
-#, fuzzy
 msgctxt "#30061"
 msgid "Exception and Breakpoint Emulation"
 msgstr "Emulering av undantag och brytpunkter"
 
-#, fuzzy
 msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
 msgstr "Inaktivera CPU/GTE-stopp"
 
-#, fuzzy
 msgctxt "#30063"
 msgid "(GPU) Enhanced Resolution Texture Adjustment"
-msgstr "(GPU) Texturjustering med förbättrad upplösning"
+msgstr "(GPU) Justering av textur för förbättrad upplösning"
 
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
 msgstr "PSX CPU-klockhastighet (%)"
 
-#, fuzzy
 msgctxt "#30066"
 msgid "Use fractional frame rate"
-msgstr "Använd fraktionerad bildfrekvens"
+msgstr "Använd fraktionell bildfrekvens"
 
-#, fuzzy
 msgctxt "#30068"
 msgid "Turbo CD"
-msgstr "Turbo CD"
+msgstr "Turbo-CD"
 
-#, fuzzy
 msgctxt "#30070"
 msgid "CD read-ahead"
-msgstr "CD-läsning framåt"
+msgstr "CD-förinläsning"
 
 msgctxt "#30071"
 msgid "DynaRec threading"
@@ -308,911 +279,911 @@ msgstr "RGB32-utmatning"
 
 msgctxt "#30077"
 msgid "(GPU) Manual height adjustment"
-msgstr ""
+msgstr "(GPU) Manuell höjdjustering"
 
 msgctxt "#30078"
 msgid "(GPU) Skip every 2nd line"
-msgstr ""
+msgstr "(GPU) Hoppa över varannan rad"
 
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
-msgstr ""
+msgstr "Nedskalning med hög upplösning"
 
 msgctxt "#30080"
 msgid "Show BIOS Name/Boot Logo"
-msgstr ""
+msgstr "Visa BIOS-namn/startlogotyp"
 
 msgctxt "#30081"
 msgid "Framebuffer readout"
-msgstr ""
+msgstr "Avläsning av bildbuffert"
 
 msgctxt "#30082"
 msgid "Memory Card 1 Type (Restart)"
-msgstr ""
+msgstr "Typ av minneskort 1 (kräver omstart)"
 
 msgctxt "#30083"
 msgid "Memory Card 2 Type"
-msgstr ""
+msgstr "Typ av minneskort 2"
 
 msgctxt "#30084"
 msgid "Display Informational Notifications"
-msgstr ""
+msgstr "Visa informationsnotiser"
 
 msgctxt "#30085"
 msgid "Show Advanced P.E.Op.S. GPU Settings"
-msgstr ""
+msgstr "Visa avancerade P.E.Op.S. GPU-inställningar"
 
 msgctxt "#30086"
 msgid "Show low-level configuration options for the P.E.Op.S. GPU plugin. Quick Menu may need to be toggled for this setting to take effect."
-msgstr ""
+msgstr "Visa lågnivåkonfigurationsalternativ för P.E.Op.S. GPU-insticksmodulen. Snabbmenyn kan behöva växlas för att inställningen ska gälla."
 
 msgctxt "#30087"
 msgid "Show Advanced UNAI GPU Settings"
-msgstr ""
+msgstr "Visa avancerade UNAI GPU-inställningar"
 
 msgctxt "#30088"
 msgid "Show low-level configuration options for the UNAI GPU plugin. Quick Menu may need to be toggled for this setting to take effect."
-msgstr ""
+msgstr "Visa lågnivåkonfigurationsalternativ för UNAI GPU-insticksmodulen. Snabbmenyn kan behöva växlas för att inställningen ska gälla."
 
 msgctxt "#30089"
 msgid "Show Input Settings"
-msgstr ""
+msgstr "Visa inmatningsinställningar"
 
 msgctxt "#30090"
 msgid "Show configuration options for all input devices: analog response, Multitaps, light guns, etc. Quick Menu may need to be toggled for this setting to take effect."
-msgstr ""
+msgstr "Visa konfigurationsalternativ för alla inmatningsenheter: analog respons, multitaps, ljuspistoler osv. Snabbmenyn kan behöva växlas för att inställningen ska gälla."
 
 msgctxt "#30091"
 msgid "System"
-msgstr ""
+msgstr "System"
 
 msgctxt "#30092"
 msgid "Configure base hardware parameters: region, BIOS selection, memory cards, etc."
-msgstr ""
+msgstr "Konfigurera grundläggande maskinvaruparametrar: region, BIOS-val, minneskort osv."
 
 msgctxt "#30093"
 msgid "Specify which region the system is from. 'NTSC' is 60 Hz while 'PAL' is 50 Hz. 'Auto' will detect the region of the currently loaded content. Games may run faster or slower than normal if the incorrect region is selected."
-msgstr ""
+msgstr "Ange vilken region systemet kommer från. ”NTSC” är 60 Hz medan ”PAL” är 50 Hz. ”Automatiskt” identifierar regionen för det för närvarande inlästa innehållet. Spel kan köras snabbare eller långsammare än normalt om fel region väljs."
 
 msgctxt "#30094"
 msgid "Auto"
-msgstr ""
+msgstr "Automatiskt"
 
 msgctxt "#30095"
 msgid "Specify which BIOS to use. 'Auto' will attempt to load a real bios file from the frontend 'system' directory, falling back to high level emulation if unavailable. 'HLE' forces high level BIOS emulation. It is recommended to use an official bios file for better compatibility."
-msgstr ""
+msgstr "Ange vilket BIOS som ska användas. ”Automatiskt” försöker läsa in en verklig BIOS-fil från gränssnittets systemkatalog och använder högnivåemulering om den saknas. ”HLE” tvingar BIOS-emulering på hög nivå. En officiell BIOS-fil rekommenderas för bättre kompatibilitet."
 
 msgctxt "#30096"
 msgid "When using a custom BIOS file, enables the display of its file name in the OSD. Also specifies whether to show the BIOS logo when starting or selecting Reset. Warning: Enabling the logo may reduce game compatibility."
-msgstr ""
+msgstr "När en anpassad BIOS-fil används aktiverar detta visning av filnamnet på skärmvisningen. Anger även om BIOS-logotypen ska visas vid start eller när Återställ väljs. Varning: Aktivering av logotypen kan minska spelkompatibiliteten."
 
 msgctxt "#30097"
 msgid "ON, w/o PCSXtm"
-msgstr ""
+msgstr "PÅ, utan PCSXtm"
 
 msgctxt "#30098"
 msgid "How to emulate the memory card in slot 1. 'Libretro' passes the card data to the frontend (usually saved as .srm). 'Game Code' saves it to a file named based on the serial, such as SCUS-00001_1.mcd, for compatibility with some other emulators."
-msgstr ""
+msgstr "Anger hur minneskortet i plats 1 ska emuleras. ”Libretro” skickar kortdata till gränssnittet (vanligen sparad som .srm). ”Spelkod” sparar data i en fil vars namn baseras på serienumret, exempelvis SCUS-00001_1.mcd, för kompatibilitet med vissa andra emulatorer."
 
 msgctxt "#30099"
 msgid "Libretro (Default)"
-msgstr ""
+msgstr "Libretro (standard)"
 
 msgctxt "#30100"
 msgid "Game Code (Serial)"
-msgstr ""
+msgstr "Spelkod (serie)"
 
 msgctxt "#30101"
 msgid "Shared Between All Games"
-msgstr ""
+msgstr "Delad mellan alla spel"
 
 msgctxt "#30102"
 msgid "No Memory Card"
-msgstr ""
+msgstr "Inget minneskort"
 
 msgctxt "#30103"
 msgid "Same as above, but card in slot 2."
-msgstr ""
+msgstr "Samma som ovan, men kortet i plats 2."
 
 msgctxt "#30104"
 msgid "Reads the specified amount of sectors ahead of time to try to avoid later stalls. Affects both physical CD-ROM and CD images. 333000 will try to read the complete disk (requires an additional 750MB of RAM)."
-msgstr ""
+msgstr "Läser i förväg angivet antal sektorer för att försöka undvika senare stopp. Påverkar både fysisk CD-ROM och CD-avbilder. 333000 försöker läsa hela skivan (kräver ytterligare 750 MB RAM)."
 
 msgctxt "#30105"
 msgid "Dynamically recompile PSX CPU instructions to native instructions. Much faster than using an interpreter, but may be less accurate on some platforms."
-msgstr ""
+msgstr "Rekompilerar PSX-CPU-instruktioner dynamiskt till inhemska instruktioner. Mycket snabbare än en tolk, men kan vara mindre noggrann på vissa plattformar."
 
 msgctxt "#30106"
 msgid "Run the dynarec on another thread."
-msgstr ""
+msgstr "Kör dynarec på en annan tråd."
 
 msgctxt "#30107"
 msgid "Overclock or under-clock the PSX CPU. Should be much less than 100 (something like 57) due to some real hardware slowdowns not being emulated. Usually should be left at 'Auto', else glitches or hangs are likely."
-msgstr ""
+msgstr "Överklocka eller underklocka PSX-CPU:n. Bör vara betydligt mindre än 100 (ungefär 57) eftersom vissa verkliga maskinvarufördröjningar inte emuleras. Bör normalt lämnas på ”Automatiskt”; annars är grafiska fel eller låsningar sannolika."
 
 msgctxt "#30108"
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 msgctxt "#30109"
 msgid "Configure base display parameters."
-msgstr ""
+msgstr "Konfigurera grundläggande visningsparametrar."
 
 msgctxt "#30110"
 msgid "Enable emulation of the dithering technique used by the PSX to smooth out color banding artifacts. \"Force\" enables it even if the game turns it off. Increases performance requirements."
-msgstr ""
+msgstr "Aktivera emulering av den gitterteknik som PSX använder för att jämna ut färgbandningsartefakter. ”Tvinga” aktiverar den även om spelet stänger av den. Ökar prestandakraven."
 
 msgctxt "#30111"
 msgid "Force"
-msgstr ""
+msgstr "Tvinga"
 
 msgctxt "#30112"
 msgid "When enabled, runs GPU commands in a secondary thread. 'Auto' enables it if at least 2 CPU cores are detected."
-msgstr ""
+msgstr "När detta är aktiverat körs GPU-kommandon på en sekundär tråd. ”Automatiskt” aktiverar den om minst två CPU-kärnor identifieras."
 
 msgctxt "#30113"
 msgid "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Auto (Threshold)' utilises the 'Frameskip Threshold (%)' setting. 'Fixed Interval' utilises the 'Frameskip Interval' setting."
-msgstr ""
+msgstr "Hoppa över bildrutor för att undvika underfyllning av ljudbufferten (knaster). Förbättrar prestandan på bekostnad av bildens jämnhet. ”Automatiskt” hoppar över bildrutor när gränssnittet rekommenderar det. ”Automatiskt (tröskelvärde)” använder inställningen ”Tröskelvärde för bildrutehoppning (%)”. ”Fast intervall” använder inställningen ”Intervall för bildrutehoppning”."
 
 msgctxt "#30114"
 msgid "Auto (Threshold)"
-msgstr ""
+msgstr "Automatiskt (tröskelvärde)"
 
 msgctxt "#30115"
 msgid "Fixed Interval"
-msgstr ""
+msgstr "Fast intervall"
 
 msgctxt "#30116"
 msgid "When 'Frameskip' is set to 'Auto (Threshold)', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently."
-msgstr ""
+msgstr "När ”Bildrutehoppning” är inställt på ”Automatiskt (tröskelvärde)” anger detta tröskelvärdet för ljudbuffertens fyllnadsgrad (procent) under vilket bildrutor hoppas över. Högre värden minskar risken för knaster genom att bildrutor tappas oftare."
 
 msgctxt "#30117"
 msgid "Specify the maximum number of frames that can be skipped before a new frame is rendered."
-msgstr ""
+msgstr "Ange högsta antal bildrutor som kan hoppas över innan en ny bildruta återges."
 
 msgctxt "#30118"
 msgid "Show the internal frame rate at which the emulated system is rendering content. Note: Requires on-screen notifications to be enabled in the libretro frontend."
-msgstr ""
+msgstr "Visa den interna bildfrekvens som det emulerade systemet använder för att återge innehåll. Observera: Kräver att skärmnotiser är aktiverade i Libretro-gränssnittet."
 
 msgctxt "#30119"
 msgid "Shows things like unsafe hack options that are enabled and the BIOS name that is booting."
-msgstr ""
+msgstr "Visar exempelvis osäkra hackalternativ som är aktiverade och namnet på BIOS som startas."
 
 msgctxt "#30120"
 msgid "Instead of the exact 50 or 60 (maximum) fps for PAL/NTSC the real console runs closer to something like 49.75 and 59.81fps (varies slightly between hw versions). PCSX-ReARMed uses the former \"round\" framerates to better match modern displays, however that may cause audio/video desync in games like DDR and Spyro 2 (intro). With this option you can try to use fractional framerates."
-msgstr ""
+msgstr "I stället för exakt 50 eller 60 (högsta) fps för PAL/NTSC kör den verkliga konsolen närmare 49,75 respektive 59,81 fps (varierar något mellan maskinvaruversioner). PCSX-ReARMed använder de tidigare ”avrundade” bildfrekvenserna för att bättre passa moderna skärmar, men detta kan orsaka osynkroniserat ljud/video i spel som DDR och Spyro 2 (intro). Med detta alternativ kan du försöka använda fraktionella bildfrekvenser."
 
 msgctxt "#30121"
 msgid "Some games make changes to the framebuffer while it's being sent to the display, which is currently not emulated. However this option allows to choose if the emulator takes the video frame before the emulated PSX active display period ('Early') or after ('Late'). Normally this should be left at 'Auto'."
-msgstr ""
+msgstr "Vissa spel ändrar bildbufferten medan den skickas till skärmen, vilket för närvarande inte emuleras. Alternativet låter dig välja om emulatorn tar videobildrutan före den emulerade PSX:ens aktiva visningsperiod (”Tidigt”) eller efter (”Sent”). Normalt bör detta lämnas på ”Automatiskt”."
 
 msgctxt "#30122"
 msgid "Early"
-msgstr ""
+msgstr "Tidigt"
 
 msgctxt "#30123"
 msgid "Late"
-msgstr ""
+msgstr "Sent"
 
 msgctxt "#30124"
 msgid "Improves color depth for true color modes (most FMVs and occasional title screens). Causes higher CPU usage due to double memory bandwidth requirement, even in 15bpp modes. Takes effect on game reload only (libretro limitation)."
-msgstr ""
+msgstr "Förbättrar färgdjupet för lägen med äkta färg (de flesta FMV:er och enstaka titelskärmar). Ger högre CPU-användning på grund av dubbelt minnesbandbreddskrav, även i 15 bpp-lägen. Gäller endast vid ominläsning av spelet (Libretro-begränsning)."
 
 msgctxt "#30125"
 msgid "When enabled, games that run in high resolution video modes (480i, 512i) will be downscaled to 320x240 by skipping lines and/or columns. May be useful on some devices with native 240p display resolutions that lack efficient hardware scaling."
-msgstr ""
+msgstr "När detta är aktiverat nedskalas spel som körs i videolägen med hög upplösning (480i, 512i) till 320 × 240 genom att rader och/eller kolumner hoppas över. Kan vara användbart på vissa enheter med inhemsk visningsupplösning på 240p som saknar effektiv maskinvaruskalning."
 
 msgctxt "#30126"
 msgid "Slower but more accurate GPU linked list processing. Needed by only a few games like Vampire Hunter D. Should be autodetected in most cases."
-msgstr ""
+msgstr "Långsammare men noggrannare bearbetning av GPU-länkad lista. Krävs endast av ett fåtal spel, till exempel Vampire Hunter D. Bör identifieras automatiskt i de flesta fall."
 
 msgctxt "#30127"
 msgid "The PSX can display graphics way into the horizontal borders, even if most screens would crop it. This option tries to display all such graphics. Note that this may result in unusual resolutions that your device might not handle well. The 'Hack' option is intended for the widescreen hacks."
-msgstr ""
+msgstr "PSX kan visa grafik långt ut i de horisontella kanterna, även om de flesta skärmar beskär den. Detta alternativ försöker visa all sådan grafik. Observera att detta kan ge ovanliga upplösningar som enheten kanske inte klarar. Alternativet ”Hack” är avsett för bredbildshack."
 
 msgctxt "#30128"
 msgid "Hack"
-msgstr ""
+msgstr "Hack"
 
 msgctxt "#30129"
 msgid "The PSX has a feature allowing it to shift the image position on screen. Some (mostly PAL) games used this feature in a strange way making the image miscentered and causing uneven borders to appear. With 'Auto' the emulator tries to correct this miscentering automatically. 'Game-controlled' uses the settings supplied by the game. 'Manual' allows to override those values with the settings below."
-msgstr ""
+msgstr "PSX har en funktion som kan flytta bildens position på skärmen. Vissa (främst PAL-)spel använde den på ett märkligt sätt, vilket gav en felcentrerad bild och ojämna kanter. Med ”Automatiskt” försöker emulatorn korrigera felcentreringen automatiskt. ”Spelstyrd” använder spelets inställningar. ”Manuellt” gör det möjligt att åsidosätta dessa värden med inställningarna nedan."
 
 msgctxt "#30130"
 msgid "Game-controlled"
-msgstr ""
+msgstr "Spelstyrd"
 
 msgctxt "#30131"
 msgid "Borderless"
-msgstr ""
+msgstr "Utan kanter"
 
 msgctxt "#30132"
 msgid "Manual"
-msgstr ""
+msgstr "Manuellt"
 
 msgctxt "#30133"
 msgid "X offset of the frame buffer. Only effective when 'Screen centering' is set to 'Manual'."
-msgstr ""
+msgstr "X-förskjutning för bildbufferten. Gäller endast när ”Skärmcentrering” är inställd på ”Manuellt”."
 
 msgctxt "#30134"
 msgid "Y offset of the frame buffer. Only effective when 'Screen centering' is set to 'Manual'."
-msgstr ""
+msgstr "Y-förskjutning för bildbufferten. Gäller endast när ”Skärmcentrering” är inställd på ”Manuellt”."
 
 msgctxt "#30135"
 msgid "Height adjustment. Only effective when 'Screen centering' is set to 'Manual'."
-msgstr ""
+msgstr "Höjdjustering. Gäller endast när ”Skärmcentrering” är inställd på ”Manuellt”."
 
 msgctxt "#30136"
 msgid "GPU Plugin"
-msgstr ""
+msgstr "GPU-insticksmodul"
 
 msgctxt "#30137"
 msgid "Configure low-level settings of the NEON GPU plugin."
-msgstr ""
+msgstr "Konfigurera lågnivåinställningar för NEON GPU-insticksmodulen."
 
 msgctxt "#30138"
 msgid "When enabled, games that run in high resolution video modes (480i, 512i) will produced interlaced video output. While this displays correctly on CRT televisions, it will produce artifacts on modern displays. When disabled, all video is output in progressive format. Note: there are games that will glitch is this is off."
-msgstr ""
+msgstr "När detta är aktiverat ger spel som körs i videolägen med hög upplösning (480i, 512i) sammanflätad videoutmatning. Det visas korrekt på CRT-tv-apparater men ger artefakter på moderna skärmar. När det är inaktiverat matas all video ut i progressivt format. Observera: Vissa spel kan få fel om detta är av."
 
 msgctxt "#30139"
 msgid "Render games that do not already run in high resolution video modes (480i, 512i) at twice the native internal resolution. Improves the fidelity of 3D models at the expense of increased performance requirements. 2D elements are generally unaffected by this setting."
-msgstr ""
+msgstr "Återge spel som inte redan körs i videolägen med hög upplösning (480i, 512i) med dubbel inhemsk intern upplösning. Förbättrar detaljrikedomen i 3D-modeller till priset av högre prestandakrav. 2D-element påverkas vanligtvis inte av inställningen."
 
 msgctxt "#30140"
 msgid "('Enhanced Resolution' Hack) Improves performance but reduces compatibility and may cause rendering errors."
-msgstr ""
+msgstr "(Hack för förbättrad upplösning) Förbättrar prestandan men minskar kompatibiliteten och kan orsaka återgivningsfel."
 
 msgctxt "#30141"
 msgid "('Enhanced Resolution' Hack) Solves some texturing issues in some games in Enhanced Resolution mode. May cause a small performance hit."
-msgstr ""
+msgstr "(Hack för förbättrad upplösning) Löser vissa texturproblem i vissa spel i läget Förbättrad upplösning. Kan ge en liten prestandaförlust."
 
 msgctxt "#30142"
 msgid "GPU Plugin (Advanced)"
-msgstr ""
+msgstr "GPU-insticksmodul (avancerat)"
 
 msgctxt "#30143"
 msgid "Configure low-level settings of the P.E.Op.S. GPU plugin."
-msgstr ""
+msgstr "Konfigurera lågnivåinställningar för P.E.Op.S. GPU-insticksmodulen."
 
 msgctxt "#30144"
 msgid "A hack fix used to correct lock-ups that may occur in games such as Chrono Cross. Disable unless required."
-msgstr ""
+msgstr "En hackrättning som används för att korrigera låsningar som kan uppstå i spel som Chrono Cross. Inaktivera om den inte behövs."
 
 msgctxt "#30145"
 msgid "Intended for use only with Capcom 2D fighting games. Enlarges the display area at the right side of the screen to show all background elements without cut-off. May cause rendering errors."
-msgstr ""
+msgstr "Avsedd endast för Capcoms 2D-kampspel. Förstorar visningsområdet på skärmens högra sida för att visa alla bakgrundselement utan avskärning. Kan orsaka återgivningsfel."
 
 msgctxt "#30146"
 msgid "A hack fix used to repair black screens in Lunar Silver Star Story Complete when entering a house or a menu. Disable unless required."
-msgstr ""
+msgstr "En hackrättning som används för att åtgärda svarta skärmar i Lunar Silver Star Story Complete när du går in i ett hus eller en meny. Inaktivera om den inte behövs."
 
 msgctxt "#30147"
 msgid "Legacy compatibility mode. May improve games that fail to run correctly on newer GPU hardware. Disable unless required."
-msgstr ""
+msgstr "Äldre kompatibilitetsläge. Kan förbättra spel som inte körs korrekt på nyare GPU-maskinvara. Inaktivera om det inte behövs."
 
 msgctxt "#30148"
 msgid "A partial fix to prevent text box flickering in Dragon Warrior VII. May also improve Pandemonium 2. Disable unless required."
-msgstr ""
+msgstr "En delvis rättning för att förhindra flimmer i textrutor i Dragon Warrior VII. Kan även förbättra Pandemonium 2. Inaktivera om den inte behövs."
 
 msgctxt "#30149"
 msgid "A hack fix used to correct rendering errors in Star Wars: Dark Forces. Disable unless required."
-msgstr ""
+msgstr "En hackrättning som används för att korrigera återgivningsfel i Star Wars: Dark Forces. Inaktivera om den inte behövs."
 
 msgctxt "#30150"
 msgid "Corrects graphical distortions that may occur when games utilize Gouraud Shading, at the expense of reduced texture quality. Disable unless required."
-msgstr ""
+msgstr "Korrigerar grafiska förvrängningar som kan uppstå när spel använder Gouraud-skuggning, på bekostnad av sämre texturkvalitet. Inaktivera om den inte behövs."
 
 msgctxt "#30151"
 msgid "Emulate the 'GPU is busy' (drawing primitives) status flag of the original hardware instead of assuming the GPU is always ready for commands. May improve compatibility at the expense of reduced performance. Disable unless required."
-msgstr ""
+msgstr "Emulera statusflaggan ”GPU är upptagen” (ritar primitiver) från ursprunglig maskinvara i stället för att anta att GPU:n alltid är redo för kommandon. Kan förbättra kompatibiliteten på bekostnad av sämre prestanda. Inaktivera om den inte behövs."
 
 msgctxt "#30152"
 msgid "Configure low-level settings of the UNAI GPU plugin."
-msgstr ""
+msgstr "Konfigurera lågnivåinställningar för UNAI GPU-insticksmodulen."
 
 msgctxt "#30153"
 msgid "This enables faster, but less accurate code."
-msgstr ""
+msgstr "Aktiverar snabbare, men mindre noggrann, kod."
 
 msgctxt "#30154"
 msgid "Enable alpha-based (and additive) texture blending. Required for various rendering effects, including transparency (e.g. water, shadows). Can be disabled to improve performance at the expense of severe display errors/inaccuracies."
-msgstr ""
+msgstr "Aktivera alfabaserad (och additiv) texturblandning. Krävs för olika återgivningseffekter, bland annat transparens (t.ex. vatten och skuggor). Kan inaktiveras för att förbättra prestandan på bekostnad av allvarliga visningsfel/avvikelser."
 
 msgctxt "#30155"
 msgid "Skips every second scanline. Can be enabled to improve performance at the expense of display inaccuracies (artifacts etc.)."
-msgstr ""
+msgstr "Hoppar över varannan skanningsrad. Kan aktiveras för att förbättra prestandan på bekostnad av visningsavvikelser (artefakter osv.)."
 
 msgctxt "#30156"
 msgid "Enable simulated lighting effects (via vertex coloring combined with texture mapping). Required by almost all 3D games. Can be disabled to improve performance at the expense of severe display errors/inaccuracies (missing shadows, flat textures, etc.)."
-msgstr ""
+msgstr "Aktivera simulerade ljuseffekter (via vertexfärgning kombinerad med texturmappning). Krävs av nästan alla 3D-spel. Kan inaktiveras för att förbättra prestandan på bekostnad av allvarliga visningsfel/avvikelser (saknade skuggor, platta texturer osv.)."
 
 msgctxt "#30157"
 msgid "Improves performance when 'Lighting Effects' are enabled, but may cause moderate/severe rendering errors."
-msgstr ""
+msgstr "Förbättrar prestandan när ”Ljuseffekter” är aktiverade, men kan orsaka måttliga eller allvarliga återgivningsfel."
 
 msgctxt "#30158"
 msgid "Audio"
-msgstr ""
+msgstr "Ljud"
 
 msgctxt "#30159"
 msgid "Configure sound emulation: reverb, interpolation, CD audio decoding."
-msgstr ""
+msgstr "Konfigurera ljudemulering: efterklang, interpolering och avkodning av CD-ljud."
 
 msgctxt "#30160"
 msgid "Enable emulation of the reverb feature provided by the PSX SPU. Can be disabled to improve performance at the expense of reduced audio quality/authenticity."
-msgstr ""
+msgstr "Aktivera emulering av efterklangsfunktionen som tillhandahålls av PSX SPU. Kan inaktiveras för att förbättra prestandan på bekostnad av lägre ljudkvalitet och autenticitet."
 
 msgctxt "#30161"
 msgid "Enable emulation of the in-built audio interpolation provided by the PSX SPU. 'Gaussian' sounds closest to original hardware. 'Simple' improves performance but reduces quality. 'Cubic' has the highest performance requirements but produces increased clarity. Can be disabled entirely for maximum performance, at the expense of greatly reduced audio quality."
-msgstr ""
+msgstr "Aktivera emulering av den inbyggda ljudinterpolering som tillhandahålls av PSX SPU. ”Gaussisk” låter mest som ursprunglig maskinvara. ”Enkel” förbättrar prestandan men minskar kvaliteten. ”Kubisk” har högst prestandakrav men ger bättre klarhet. Kan inaktiveras helt för högsta prestanda, på bekostnad av kraftigt lägre ljudkvalitet."
 
 msgctxt "#30162"
 msgid "Simple"
-msgstr ""
+msgstr "Enkel"
 
 msgctxt "#30163"
 msgid "Gaussian"
-msgstr ""
+msgstr "Gaussisk"
 
 msgctxt "#30164"
 msgid "Cubic"
-msgstr ""
+msgstr "Kubisk"
 
 msgctxt "#30165"
 msgid "disabled"
-msgstr ""
+msgstr "inaktiverad"
 
 msgctxt "#30166"
 msgid "Enable playback of CD (CD-DA) audio tracks. Can be disabled to improve performance in games that include CD audio, at the expense of missing music."
-msgstr ""
+msgstr "Aktivera uppspelning av CD-ljudspår (CD-DA). Kan inaktiveras för att förbättra prestandan i spel som innehåller CD-ljud, på bekostnad av saknad musik."
 
 msgctxt "#30167"
 msgid "Enable playback of XA (eXtended Architecture ADPCM) audio tracks. Can be disabled to improve performance in games that include XA audio, at the expense of missing music."
-msgstr ""
+msgstr "Aktivera uppspelning av XA-ljudspår (eXtended Architecture ADPCM). Kan inaktiveras för att förbättra prestandan i spel som innehåller XA-ljud, på bekostnad av saknad musik."
 
 msgctxt "#30168"
 msgid "Emulates the PSX SPU on another CPU thread. May cause audio glitches in some games."
-msgstr ""
+msgstr "Emulerar PSX SPU på en annan CPU-tråd. Kan orsaka ljudfel i vissa spel."
 
 msgctxt "#30169"
 msgid "Input"
-msgstr ""
+msgstr "Inmatning"
 
 msgctxt "#30170"
 msgid "Configure input devices: analog response, haptic feedback, Multitaps, light guns, etc."
-msgstr ""
+msgstr "Konfigurera inmatningsenheter: analog respons, haptisk återkoppling, multitaps, ljuspistoler osv."
 
 msgctxt "#30171"
 msgid "Specify range limits for the left and right analog sticks when input device is set to 'analog' or 'dualshock'. 'Square' bounds improve input response when using controllers with highly circular ranges that are unable to fully saturate the X and Y axes at 45 degree deflections."
-msgstr ""
+msgstr "Ange intervallgränser för vänster och höger analogspak när inmatningsenheten är inställd på ”analog” eller ”dualshock”. ”Fyrkantiga” gränser förbättrar inmatningsresponsen med handkontroller som har mycket cirkulära intervall och inte kan mätta X- och Y-axlarna helt vid 45 graders utslag."
 
 msgctxt "#30172"
 msgid "Circle"
-msgstr ""
+msgstr "Cirkel"
 
 msgctxt "#30173"
 msgid "Square"
-msgstr ""
+msgstr "Fyrkant"
 
 msgctxt "#30174"
 msgid "Enable haptic feedback when using a rumble-equipped gamepad with input device set to 'dualshock'."
-msgstr ""
+msgstr "Aktivera haptisk återkoppling när en handkontroll med vibration används och inmatningsenheten är inställd på ”dualshock”."
 
 msgctxt "#30175"
 msgid "When the input device type is DualShock, this option allows the emulated DualShock to be toggled between DIGITAL and ANALOG mode like original hardware. You can select the button combination for this."
-msgstr ""
+msgstr "När inmatningsenhetstypen är DualShock kan detta alternativ växla den emulerade DualShock mellan DIGITALT och ANALOGT läge som ursprunglig maskinvara. Du kan välja knappkombinationen för detta."
 
 msgctxt "#30176"
 msgid "L1 + R1 + Select"
-msgstr ""
+msgstr "L1 + R1 + Select"
 
 msgctxt "#30177"
 msgid "L1 + R1 + Start"
-msgstr ""
+msgstr "L1 + R1 + Start"
 
 msgctxt "#30178"
 msgid "L1 + R1 + L3"
-msgstr ""
+msgstr "L1 + R1 + L3"
 
 msgctxt "#30179"
 msgid "L1 + R1 + R3"
-msgstr ""
+msgstr "L1 + R1 + R3"
 
 msgctxt "#30180"
 msgid "L3 + R3"
-msgstr ""
+msgstr "L3 + R3"
 
 msgctxt "#30181"
 msgid "Connect a virtual PSX Multitap peripheral to either controller 'Port 1' or controller 'Port 2' for 5 player simultaneous input, or to both 'Ports 1 and 2' for 8 player input. Mutlitap usage requires compatible games."
-msgstr ""
+msgstr "Anslut en virtuell PSX Multitap-kringutrustning till antingen handkontroll ”Port 1” eller ”Port 2” för samtidig inmatning från fem spelare, eller till båda ”Port 1 och 2” för inmatning från åtta spelare. Multitap-användning kräver kompatibla spel."
 
 msgctxt "#30182"
 msgid "Port 1"
-msgstr ""
+msgstr "Port 1"
 
 msgctxt "#30183"
 msgid "Port 2"
-msgstr ""
+msgstr "Port 2"
 
 msgctxt "#30184"
 msgid "Ports 1 and 2"
-msgstr ""
+msgstr "Port 1 och 2"
 
 msgctxt "#30185"
 msgid "Set the deadzone of the RetroPad left analog stick when simulating the 'twist' action of emulated neGcon Controllers. Used to eliminate drift/unwanted input."
-msgstr ""
+msgstr "Ange dödzonen för RetroPads vänstra analogspak när ”vridningsåtgärden” för emulerade neGcon-handkontroller simuleras. Används för att eliminera drift och oönskad inmatning."
 
 msgctxt "#30186"
 msgid "0%"
-msgstr ""
+msgstr "0 %"
 
 msgctxt "#30187"
 msgid "3%"
-msgstr ""
+msgstr "3 %"
 
 msgctxt "#30188"
 msgid "5%"
-msgstr ""
+msgstr "5 %"
 
 msgctxt "#30189"
 msgid "7%"
-msgstr ""
+msgstr "7 %"
 
 msgctxt "#30190"
 msgid "10%"
-msgstr ""
+msgstr "10 %"
 
 msgctxt "#30191"
 msgid "13%"
-msgstr ""
+msgstr "13 %"
 
 msgctxt "#30192"
 msgid "15%"
-msgstr ""
+msgstr "15 %"
 
 msgctxt "#30193"
 msgid "17%"
-msgstr ""
+msgstr "17 %"
 
 msgctxt "#30194"
 msgid "20%"
-msgstr ""
+msgstr "20 %"
 
 msgctxt "#30195"
 msgid "23%"
-msgstr ""
+msgstr "23 %"
 
 msgctxt "#30196"
 msgid "25%"
-msgstr ""
+msgstr "25 %"
 
 msgctxt "#30197"
 msgid "27%"
-msgstr ""
+msgstr "27 %"
 
 msgctxt "#30198"
 msgid "30%"
-msgstr ""
+msgstr "30 %"
 
 msgctxt "#30199"
 msgid "Specify the analog response when using a RetroPad left analog stick to simulate the 'twist' action of emulated neGcon Controllers."
-msgstr ""
+msgstr "Ange den analoga responsen när RetroPads vänstra analogspak används för att simulera ”vridningsåtgärden” hos emulerade neGcon-handkontroller."
 
 msgctxt "#30200"
 msgid "Linear"
-msgstr ""
+msgstr "Linjär"
 
 msgctxt "#30201"
 msgid "Quadratic"
-msgstr ""
+msgstr "Kvadratisk"
 
 msgctxt "#30202"
 msgid "Adjust responsiveness of emulated 'mouse' input devices."
-msgstr ""
+msgstr "Justerar responsen för emulerade inmatningsenheter av typen ”mus”."
 
 msgctxt "#30203"
 msgid "Toggle player 1's crosshair for the Guncon or Konami Gun. Only works if RGB32 output is off (video options)."
-msgstr ""
+msgstr "Växla sikte för spelare 1 för Guncon eller Konami Gun. Fungerar endast om RGB32-utmatning är av (videoalternativ)."
 
 msgctxt "#30204"
 msgid "Toggle player 2's crosshair for the Guncon or Konami Gun. Only works if RGB32 output is off (video options)."
-msgstr ""
+msgstr "Växla sikte för spelare 2 för Guncon eller Konami Gun. Fungerar endast om RGB32-utmatning är av (videoalternativ)."
 
 msgctxt "#30205"
 msgid "Apply an X axis offset to light gun input when emulating a Konami Gun (Hyper Blaster / Justifier) device. Can be used to correct aiming misalignments."
-msgstr ""
+msgstr "Tillämpa en X-axelförskjutning på ljuspistolsinmatning när en Konami Gun-enhet (Hyper Blaster/Justifier) emuleras. Kan användas för att korrigera felriktning."
 
 msgctxt "#30206"
 msgid "Apply a Y axis offset to light gun input when emulating a Konami Gun (Hyper Blaster / Justifier) device. Can be used to correct aiming misalignments."
-msgstr ""
+msgstr "Tillämpa en Y-axelförskjutning på ljuspistolsinmatning när en Konami Gun-enhet (Hyper Blaster/Justifier) emuleras. Kan användas för att korrigera felriktning."
 
 msgctxt "#30207"
 msgid "Apply an X axis offset to light gun input when emulating a Guncon device. Can be used to correct aiming misalignments."
-msgstr ""
+msgstr "Tillämpa en X-axelförskjutning på ljuspistolsinmatning när en Guncon-enhet emuleras. Kan användas för att korrigera felriktning."
 
 msgctxt "#30208"
 msgid "Apply a Y axis offset to light gun input when emulating a Guncon device. Can be used to correct aiming misalignments."
-msgstr ""
+msgstr "Tillämpa en Y-axelförskjutning på ljuspistolsinmatning när en Guncon-enhet emuleras. Kan användas för att korrigera felriktning."
 
 msgctxt "#30209"
 msgid "Adjust relative magnitude of horizontal light gun motion when emulating a Guncon device. Can be used to correct aiming misalignments."
-msgstr ""
+msgstr "Justerar den relativa storleken på horisontell ljuspistolsrörelse när en Guncon-enhet emuleras. Kan användas för att korrigera felriktning."
 
 msgctxt "#30210"
 msgid "Adjust relative magnitude of vertical light gun motion when emulating a Guncon device. Can be used to correct aiming misalignments."
-msgstr ""
+msgstr "Justerar den relativa storleken på vertikal ljuspistolsrörelse när en Guncon-enhet emuleras. Kan användas för att korrigera felriktning."
 
 msgctxt "#30211"
 msgid "Compatibility Fixes"
-msgstr ""
+msgstr "Kompatibilitetsrättningar"
 
 msgctxt "#30212"
 msgid "Configure settings/workarounds required for correct operation of specific games."
-msgstr ""
+msgstr "Konfigurera inställningar och lösningar som krävs för att vissa spel ska fungera korrekt."
 
 msgctxt "#30213"
 msgid "Enable emulation of the PSX CPU instruction cache. Improves accuracy at the expense of increased performance overheads. Required for Formula One 2001, Formula One Arcade and Formula One 99. [Interpreter only; partial on lightrec and ARM dynarecs]"
-msgstr ""
+msgstr "Aktivera emulering av PSX CPU-instruktionscachen. Förbättrar noggrannheten på bekostnad av ökad prestandaöverbelastning. Krävs för Formula One 2001, Formula One Arcade och Formula One 99. [Endast tolk; delvis för lightrec- och ARM-dynarec]"
 
 msgctxt "#30214"
 msgid "Enable emulation of some almost never used PSX's debug features. This causes a performance hit, is not useful for games and is intended for PSX homebrew and romhack developers only. Only enable if you know what you are doing. [Interpreter only]"
-msgstr ""
+msgstr "Aktivera emulering av några nästan aldrig använda felsökningsfunktioner i PSX. Detta ger prestandaförlust, är inte användbart för spel och är endast avsett för PSX-homebrew- och ROM-hackutvecklare. Aktivera endast om du vet vad du gör. [Endast tolk]"
 
 msgctxt "#30215"
 msgid "By default, PCSX-ReARMed will apply auxiliary compatibility hacks automatically, based on the currently loaded content. This behaviour is required for correct operation, but may be disabled if desired."
-msgstr ""
+msgstr "Som standard tillämpar PCSX-ReARMed extra kompatibilitetshack automatiskt utifrån aktuellt inläst innehåll. Beteendet krävs för korrekt funktion, men kan inaktiveras om så önskas."
 
 msgctxt "#30216"
 msgid "Speed Hacks (Advanced)"
-msgstr ""
+msgstr "Prestandahack (avancerat)"
 
 msgctxt "#30217"
 msgid "Configure hacks that may improve performance at the expense of decreased accuracy/stability."
-msgstr ""
+msgstr "Konfigurera hack som kan förbättra prestandan på bekostnad av minskad noggrannhet och stabilitet."
 
 msgctxt "#30218"
 msgid "This makes the emulated CD-ROM extremely fast and can reduce loading times in some cases. Warning: many games were not programmed to handle such a speed. The game (or even the emulator) MAY CRASH at ANY TIME if this is enabled."
-msgstr ""
+msgstr "Gör den emulerade CD-ROM:en extremt snabb och kan i vissa fall minska inläsningstiderna. Varning: Många spel är inte programmerade för att hantera sådan hastighet. Spelet (eller till och med emulatorn) KAN KRASCHA NÄR SOM HELST om detta aktiveras."
 
 msgctxt "#30219"
 msgid "Will cause crashes when loading, and lead to memory card failure."
-msgstr ""
+msgstr "Orsakar krascher vid inläsning och leder till fel på minneskort."
 
 msgctxt "#30220"
 msgid "May cause rendering errors."
-msgstr ""
+msgstr "Kan orsaka återgivningsfel."
 
 msgctxt "#30221"
 msgid "Will cause rendering errors."
-msgstr ""
+msgstr "Orsakar återgivningsfel."
 
 msgctxt "#30222"
 msgid "Will cause some games to run too quickly. Should be disabled in almost all cases. Interpreter only."
-msgstr ""
+msgstr "Gör att vissa spel körs för snabbt. Bör inaktiveras i nästan alla fall. Endast tolk."
 
 msgctxt "#30223"
 msgid "NTSC"
-msgstr ""
+msgstr "NTSC"
 
 msgctxt "#30224"
 msgid "PAL"
-msgstr ""
+msgstr "PAL"
 
 msgctxt "#30225"
 msgid "HLE"
-msgstr ""
+msgstr "HLE"
 
 msgctxt "#30226"
 msgid "30"
-msgstr ""
+msgstr "30"
 
 msgctxt "#30227"
 msgid "31"
-msgstr ""
+msgstr "31"
 
 msgctxt "#30228"
 msgid "32"
-msgstr ""
+msgstr "32"
 
 msgctxt "#30229"
 msgid "33"
-msgstr ""
+msgstr "33"
 
 msgctxt "#30230"
 msgid "34"
-msgstr ""
+msgstr "34"
 
 msgctxt "#30231"
 msgid "35"
-msgstr ""
+msgstr "35"
 
 msgctxt "#30232"
 msgid "36"
-msgstr ""
+msgstr "36"
 
 msgctxt "#30233"
 msgid "37"
-msgstr ""
+msgstr "37"
 
 msgctxt "#30234"
 msgid "38"
-msgstr ""
+msgstr "38"
 
 msgctxt "#30235"
 msgid "39"
-msgstr ""
+msgstr "39"
 
 msgctxt "#30236"
 msgid "40"
-msgstr ""
+msgstr "40"
 
 msgctxt "#30237"
 msgid "41"
-msgstr ""
+msgstr "41"
 
 msgctxt "#30238"
 msgid "42"
-msgstr ""
+msgstr "42"
 
 msgctxt "#30239"
 msgid "43"
-msgstr ""
+msgstr "43"
 
 msgctxt "#30240"
 msgid "44"
-msgstr ""
+msgstr "44"
 
 msgctxt "#30241"
 msgid "45"
-msgstr ""
+msgstr "45"
 
 msgctxt "#30242"
 msgid "46"
-msgstr ""
+msgstr "46"
 
 msgctxt "#30243"
 msgid "47"
-msgstr ""
+msgstr "47"
 
 msgctxt "#30244"
 msgid "48"
-msgstr ""
+msgstr "48"
 
 msgctxt "#30245"
 msgid "49"
-msgstr ""
+msgstr "49"
 
 msgctxt "#30246"
 msgid "50"
-msgstr ""
+msgstr "50"
 
 msgctxt "#30247"
 msgid "51"
-msgstr ""
+msgstr "51"
 
 msgctxt "#30248"
 msgid "52"
-msgstr ""
+msgstr "52"
 
 msgctxt "#30249"
 msgid "53"
-msgstr ""
+msgstr "53"
 
 msgctxt "#30250"
 msgid "54"
-msgstr ""
+msgstr "54"
 
 msgctxt "#30251"
 msgid "55"
-msgstr ""
+msgstr "55"
 
 msgctxt "#30252"
 msgid "56"
-msgstr ""
+msgstr "56"
 
 msgctxt "#30253"
 msgid "57"
-msgstr ""
+msgstr "57"
 
 msgctxt "#30254"
 msgid "58"
-msgstr ""
+msgstr "58"
 
 msgctxt "#30255"
 msgid "59"
-msgstr ""
+msgstr "59"
 
 msgctxt "#30256"
 msgid "60"
-msgstr ""
+msgstr "60"
 
 msgctxt "#30257"
 msgid "61"
-msgstr ""
+msgstr "61"
 
 msgctxt "#30258"
 msgid "62"
-msgstr ""
+msgstr "62"
 
 msgctxt "#30259"
 msgid "63"
-msgstr ""
+msgstr "63"
 
 msgctxt "#30260"
 msgid "64"
-msgstr ""
+msgstr "64"
 
 msgctxt "#30261"
 msgid "65"
-msgstr ""
+msgstr "65"
 
 msgctxt "#30262"
 msgid "66"
-msgstr ""
+msgstr "66"
 
 msgctxt "#30263"
 msgid "67"
-msgstr ""
+msgstr "67"
 
 msgctxt "#30264"
 msgid "68"
-msgstr ""
+msgstr "68"
 
 msgctxt "#30265"
 msgid "69"
-msgstr ""
+msgstr "69"
 
 msgctxt "#30266"
 msgid "70"
-msgstr ""
+msgstr "70"
 
 msgctxt "#30267"
 msgid "71"
-msgstr ""
+msgstr "71"
 
 msgctxt "#30268"
 msgid "72"
-msgstr ""
+msgstr "72"
 
 msgctxt "#30269"
 msgid "73"
-msgstr ""
+msgstr "73"
 
 msgctxt "#30270"
 msgid "74"
-msgstr ""
+msgstr "74"
 
 msgctxt "#30271"
 msgid "75"
-msgstr ""
+msgstr "75"
 
 msgctxt "#30272"
 msgid "76"
-msgstr ""
+msgstr "76"
 
 msgctxt "#30273"
 msgid "77"
-msgstr ""
+msgstr "77"
 
 msgctxt "#30274"
 msgid "78"
-msgstr ""
+msgstr "78"
 
 msgctxt "#30275"
 msgid "79"
-msgstr ""
+msgstr "79"
 
 msgctxt "#30276"
 msgid "80"
-msgstr ""
+msgstr "80"
 
 msgctxt "#30277"
 msgid "81"
-msgstr ""
+msgstr "81"
 
 msgctxt "#30278"
 msgid "82"
-msgstr ""
+msgstr "82"
 
 msgctxt "#30279"
 msgid "83"
-msgstr ""
+msgstr "83"
 
 msgctxt "#30280"
 msgid "84"
-msgstr ""
+msgstr "84"
 
 msgctxt "#30281"
 msgid "85"
-msgstr ""
+msgstr "85"
 
 msgctxt "#30282"
 msgid "86"
-msgstr ""
+msgstr "86"
 
 msgctxt "#30283"
 msgid "87"
-msgstr ""
+msgstr "87"
 
 msgctxt "#30284"
 msgid "88"
-msgstr ""
+msgstr "88"
 
 msgctxt "#30285"
 msgid "89"
-msgstr ""
+msgstr "89"
 
 msgctxt "#30286"
 msgid "90"
-msgstr ""
+msgstr "90"
 
 msgctxt "#30287"
 msgid "91"
-msgstr ""
+msgstr "91"
 
 msgctxt "#30288"
 msgid "92"
-msgstr ""
+msgstr "92"
 
 msgctxt "#30289"
 msgid "93"
-msgstr ""
+msgstr "93"
 
 msgctxt "#30290"
 msgid "94"
-msgstr ""
+msgstr "94"
 
 msgctxt "#30291"
 msgid "95"
-msgstr ""
+msgstr "95"
 
 msgctxt "#30292"
 msgid "96"
-msgstr ""
+msgstr "96"
 
 msgctxt "#30293"
 msgid "97"
-msgstr ""
+msgstr "97"
 
 msgctxt "#30294"
 msgid "98"
-msgstr ""
+msgstr "98"
 
 msgctxt "#30295"
 msgid "99"
-msgstr ""
+msgstr "99"
 
 msgctxt "#30296"
 msgid "100"
-msgstr ""
+msgstr "100"
 
 msgctxt "#30297"
 msgid "extra"
-msgstr ""
+msgstr "extra"
 
 msgctxt "#30298"
 msgid "blue"
-msgstr ""
+msgstr "blå"
 
 msgctxt "#30299"
 msgid "green"
-msgstr ""
+msgstr "grön"
 
 msgctxt "#30300"
 msgid "red"
-msgstr ""
+msgstr "röd"
 
 msgctxt "#30301"
 msgid "white"
-msgstr ""
+msgstr "vit"
 
 msgctxt "#30302"
 msgid "(Hack) Disable Pipeline Delays"
-msgstr ""
+msgstr "(Hack) Inaktivera pipelinefördröjningar"
 
 msgctxt "#30303"
 msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
-msgstr ""
+msgstr "För kompatibilitet med äldre emulatorer och felaktiga ROM-hack. Motsvarar inte vad den verkliga konsolen gör och bör normalt vara inaktiverat."
 
 #, fuzzy
 #~ msgctxt "#30069"
