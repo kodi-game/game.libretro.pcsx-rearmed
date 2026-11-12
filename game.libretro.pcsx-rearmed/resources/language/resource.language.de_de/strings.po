@@ -1101,6 +1101,22 @@ msgctxt "#30304"
 msgid "Show Interlaced Video"
 msgstr "Video mit Zeilensprung anzeigen"
 
+msgctxt "#30305"
+msgid "Enhanced Resolution"
+msgstr ""
+
+msgctxt "#30306"
+msgid "Enh. Res. Speed Hack"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Enh. Res. Texture Fixup"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Odd/Even Bit Hack"
+msgstr ""
+
 msgctxt "#30309"
 msgid "Expand Screen Width"
 msgstr "Bildschirmbreite erweitern"
@@ -1129,9 +1145,17 @@ msgctxt "#30315"
 msgid "Fake 'GPU Busy' States"
 msgstr "Vorgetäuschte „GPU-Busy“-Zustände"
 
+msgctxt "#30316"
+msgid "Old renderer"
+msgstr ""
+
 msgctxt "#30317"
 msgid "Texture Blending"
 msgstr "Texturüberblendung"
+
+msgctxt "#30318"
+msgid "Skip every 2nd line"
+msgstr ""
 
 msgctxt "#30319"
 msgid "Lighting Effects"
@@ -1140,6 +1164,14 @@ msgstr "Blitzeffekte"
 msgctxt "#30320"
 msgid "Fast Lighting"
 msgstr "Schnelles Blitzen"
+
+msgctxt "#30321"
+msgid "Reverb Effects"
+msgstr ""
+
+msgctxt "#30322"
+msgid "Disable Pipeline Delays"
+msgstr ""
 
 msgctxt "#30323"
 msgid "Disable SMC Checks"
@@ -1221,26 +1253,6 @@ msgstr "GTE-Flags deaktivieren"
 #~ msgctxt "#30048"
 #~ msgid "(Speed Hack) Disable GTE Flags"
 #~ msgstr "(Speed Hack) GTE-Flags deaktivieren"
-
-#~ msgctxt "#30053"
-#~ msgid "(GPU) Enhanced Resolution"
-#~ msgstr ""
-
-#~ msgctxt "#30063"
-#~ msgid "(GPU) Enhanced Resolution Texture Adjustment"
-#~ msgstr ""
-
-#~ msgctxt "#30075"
-#~ msgid "(GPU) Old renderer"
-#~ msgstr ""
-
-#~ msgctxt "#30078"
-#~ msgid "(GPU) Skip every 2nd line"
-#~ msgstr ""
-
-#~ msgctxt "#30302"
-#~ msgid "(Hack) Disable Pipeline Delays"
-#~ msgstr ""
 
 #~ msgctxt "#30003"
 #~ msgid "Show BIOS Boot Logo"

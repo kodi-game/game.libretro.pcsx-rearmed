@@ -1105,6 +1105,14 @@ msgctxt "#30305"
 msgid "Enhanced Resolution"
 msgstr "Повышенное разрешение"
 
+msgctxt "#30306"
+msgid "Enh. Res. Speed Hack"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Enh. Res. Texture Fixup"
+msgstr ""
+
 msgctxt "#30308"
 msgid "Odd/Even Bit Hack"
 msgstr "Хак чётности/нечётности"
@@ -1124,6 +1132,10 @@ msgstr "Отключить проверку координат"
 msgctxt "#30312"
 msgid "Lazy Screen Update"
 msgstr "Ленивое обновление экрана"
+
+msgctxt "#30313"
+msgid "Repeat Flat Tex Triangles"
+msgstr ""
 
 msgctxt "#30314"
 msgid "Draw Tex-Quads as Triangles"
@@ -1152,6 +1164,10 @@ msgstr "Эффекты освещения"
 msgctxt "#30320"
 msgid "Fast Lighting"
 msgstr "Быстрое освещение"
+
+msgctxt "#30321"
+msgid "Reverb Effects"
+msgstr ""
 
 msgctxt "#30322"
 msgid "Disable Pipeline Delays"

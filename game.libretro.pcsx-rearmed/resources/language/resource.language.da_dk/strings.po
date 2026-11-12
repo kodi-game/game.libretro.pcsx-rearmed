@@ -1097,17 +1097,65 @@ msgctxt "#30303"
 msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
 msgstr ""
 
+msgctxt "#30304"
+msgid "Show Interlaced Video"
+msgstr ""
+
 msgctxt "#30305"
 msgid "Enhanced Resolution"
 msgstr "Deaktiver GTE-flag"
+
+msgctxt "#30306"
+msgid "Enh. Res. Speed Hack"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Enh. Res. Texture Fixup"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Odd/Even Bit Hack"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Expand Screen Width"
+msgstr ""
+
+msgctxt "#30310"
+msgid "Ignore Brightness Color"
+msgstr ""
+
+msgctxt "#30311"
+msgid "Disable Coordinate Check"
+msgstr ""
+
+msgctxt "#30312"
+msgid "Lazy Screen Update"
+msgstr ""
+
+msgctxt "#30313"
+msgid "Repeat Flat Tex Triangles"
+msgstr ""
+
+msgctxt "#30314"
+msgid "Draw Tex-Quads as Triangles"
+msgstr ""
 
 msgctxt "#30315"
 msgid "Fake 'GPU Busy' States"
 msgstr "Udvid skærmbredde"
 
+msgctxt "#30316"
+msgid "Old renderer"
+msgstr ""
+
 msgctxt "#30317"
 msgid "Texture Blending"
 msgstr "Ignorer lysstyrkefarve"
+
+msgctxt "#30318"
+msgid "Skip every 2nd line"
+msgstr ""
 
 msgctxt "#30319"
 msgid "Lighting Effects"
@@ -1117,9 +1165,25 @@ msgctxt "#30320"
 msgid "Fast Lighting"
 msgstr "Langsom skærmopdatering"
 
+msgctxt "#30321"
+msgid "Reverb Effects"
+msgstr ""
+
+msgctxt "#30322"
+msgid "Disable Pipeline Delays"
+msgstr ""
+
 msgctxt "#30323"
 msgid "Disable SMC Checks"
 msgstr "Deaktiver GTE-flag"
+
+msgctxt "#30324"
+msgid "Assume GTE Registers Unneeded"
+msgstr ""
+
+msgctxt "#30325"
+msgid "Disable GTE Flags"
+msgstr ""
 
 #~ msgctxt "#30015"
 #~ msgid "(GPU) Show Interlaced Video"
@@ -1188,26 +1252,6 @@ msgstr "Deaktiver GTE-flag"
 #~ msgctxt "#30048"
 #~ msgid "(Speed Hack) Disable GTE Flags"
 #~ msgstr "(Hastighedshack) Deaktiver GTE-flag"
-
-#~ msgctxt "#30053"
-#~ msgid "(GPU) Enhanced Resolution"
-#~ msgstr ""
-
-#~ msgctxt "#30063"
-#~ msgid "(GPU) Enhanced Resolution Texture Adjustment"
-#~ msgstr ""
-
-#~ msgctxt "#30075"
-#~ msgid "(GPU) Old renderer"
-#~ msgstr ""
-
-#~ msgctxt "#30078"
-#~ msgid "(GPU) Skip every 2nd line"
-#~ msgstr ""
-
-#~ msgctxt "#30302"
-#~ msgid "(Hack) Disable Pipeline Delays"
-#~ msgstr ""
 
 #~ msgctxt "#30003"
 #~ msgid "Show BIOS Boot Logo"

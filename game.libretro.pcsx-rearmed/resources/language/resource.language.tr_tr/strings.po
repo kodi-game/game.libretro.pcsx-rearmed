@@ -1193,50 +1193,6 @@ msgstr "(Speed Hack) GTE Bayraklarını Devredışı Bırakın"
 #~ msgid "(GPU) Enhanced Resolution Speed Hack"
 #~ msgstr "Geliştirilmiş Çözünürlük (Speed Hack)"
 
-#~ msgctxt "#30018"
-#~ msgid "(GPU) Odd/Even Bit Hack"
-#~ msgstr ""
-
-#~ msgctxt "#30019"
-#~ msgid "(GPU) Expand Screen Width"
-#~ msgstr ""
-
-#~ msgctxt "#30020"
-#~ msgid "(GPU) Ignore Brightness Color"
-#~ msgstr ""
-
-#~ msgctxt "#30021"
-#~ msgid "(GPU) Disable Coordinate Check"
-#~ msgstr ""
-
-#~ msgctxt "#30022"
-#~ msgid "(GPU) Lazy Screen Update"
-#~ msgstr ""
-
-#~ msgctxt "#30023"
-#~ msgid "(GPU) Repeat Flat Tex Triangles"
-#~ msgstr ""
-
-#~ msgctxt "#30024"
-#~ msgid "(GPU) Draw Tex-Quads as Triangles"
-#~ msgstr ""
-
-#~ msgctxt "#30025"
-#~ msgid "(GPU) Fake 'GPU Busy' States"
-#~ msgstr ""
-
-#~ msgctxt "#30026"
-#~ msgid "(GPU) Texture Blending"
-#~ msgstr ""
-
-#~ msgctxt "#30027"
-#~ msgid "(GPU) Lighting Effects"
-#~ msgstr ""
-
-#~ msgctxt "#30028"
-#~ msgid "(GPU) Fast Lighting"
-#~ msgstr ""
-
 #~ msgctxt "#30030"
 #~ msgid "Audio Reverb Effects"
 #~ msgstr "Ses Yankısı"
@@ -1256,19 +1212,3 @@ msgstr "(Speed Hack) GTE Bayraklarını Devredışı Bırakın"
 #~ msgctxt "#30053"
 #~ msgid "(GPU) Enhanced Resolution"
 #~ msgstr "Geliştirilmiş Çözünürlük"
-
-#~ msgctxt "#30063"
-#~ msgid "(GPU) Enhanced Resolution Texture Adjustment"
-#~ msgstr ""
-
-#~ msgctxt "#30075"
-#~ msgid "(GPU) Old renderer"
-#~ msgstr ""
-
-#~ msgctxt "#30078"
-#~ msgid "(GPU) Skip every 2nd line"
-#~ msgstr ""
-
-#~ msgctxt "#30302"
-#~ msgid "(Hack) Disable Pipeline Delays"
-#~ msgstr ""

@@ -1105,6 +1105,14 @@ msgctxt "#30305"
 msgid "Enhanced Resolution"
 msgstr "Förbättrad upplösning"
 
+msgctxt "#30306"
+msgid "Enh. Res. Speed Hack"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Enh. Res. Texture Fixup"
+msgstr ""
+
 msgctxt "#30308"
 msgid "Odd/Even Bit Hack"
 msgstr "Hack för udda/jämn bit"
@@ -1156,6 +1164,10 @@ msgstr "Ljuseffekter"
 msgctxt "#30320"
 msgid "Fast Lighting"
 msgstr "Snabb belysning"
+
+msgctxt "#30321"
+msgid "Reverb Effects"
+msgstr ""
 
 msgctxt "#30322"
 msgid "Disable Pipeline Delays"

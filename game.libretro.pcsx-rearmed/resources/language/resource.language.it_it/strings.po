@@ -1105,6 +1105,14 @@ msgctxt "#30305"
 msgid "Enhanced Resolution"
 msgstr "Risoluzione avanzata"
 
+msgctxt "#30306"
+msgid "Enh. Res. Speed Hack"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Enh. Res. Texture Fixup"
+msgstr ""
+
 msgctxt "#30308"
 msgid "Odd/Even Bit Hack"
 msgstr "Hack bit pari/dispari"
@@ -1156,6 +1164,14 @@ msgstr "Effetti di illuminazione"
 msgctxt "#30320"
 msgid "Fast Lighting"
 msgstr "Illuminazione rapida"
+
+msgctxt "#30321"
+msgid "Reverb Effects"
+msgstr ""
+
+msgctxt "#30322"
+msgid "Disable Pipeline Delays"
+msgstr ""
 
 msgctxt "#30323"
 msgid "Disable SMC Checks"
@@ -1252,10 +1268,6 @@ msgstr "Disabilita flag GTE"
 #~ msgctxt "#30078"
 #~ msgid "(GPU) Skip every 2nd line"
 #~ msgstr "(GPU) Salta ogni 2ª riga"
-
-#~ msgctxt "#30302"
-#~ msgid "(Hack) Disable Pipeline Delays"
-#~ msgstr ""
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
