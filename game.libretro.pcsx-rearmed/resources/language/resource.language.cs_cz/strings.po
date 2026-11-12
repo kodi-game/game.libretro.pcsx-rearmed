@@ -65,62 +65,6 @@ msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
 msgstr "(GPU) pomalé zpracování spojového seznamu"
 
-msgctxt "#30015"
-msgid "(GPU) Show Interlaced Video"
-msgstr "(GPU) zobrazovat prokládané video"
-
-msgctxt "#30017"
-msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr "(GPU) speed hack pro vylepšené rozlišení"
-
-msgctxt "#30018"
-msgid "(GPU) Odd/Even Bit Hack"
-msgstr "(GPU) hack lichého/sudého bitu"
-
-msgctxt "#30019"
-msgid "(GPU) Expand Screen Width"
-msgstr "(GPU) rozšířit šířku obrazovky"
-
-msgctxt "#30020"
-msgid "(GPU) Ignore Brightness Color"
-msgstr "(GPU) ignorovat barvu jasu"
-
-msgctxt "#30021"
-msgid "(GPU) Disable Coordinate Check"
-msgstr "(GPU) zakázat kontrolu souřadnic"
-
-msgctxt "#30022"
-msgid "(GPU) Lazy Screen Update"
-msgstr "(GPU) odložená aktualizace obrazovky"
-
-msgctxt "#30023"
-msgid "(GPU) Repeat Flat Tex Triangles"
-msgstr "(GPU) opakovat ploché texturované trojúhelníky"
-
-msgctxt "#30024"
-msgid "(GPU) Draw Tex-Quads as Triangles"
-msgstr "(GPU) vykreslovat tex-čtyřúhelníky jako trojúhelníky"
-
-msgctxt "#30025"
-msgid "(GPU) Fake 'GPU Busy' States"
-msgstr "(GPU) předstírat stavy „GPU zaneprázdněno“"
-
-msgctxt "#30026"
-msgid "(GPU) Texture Blending"
-msgstr "(GPU) prolínání textur"
-
-msgctxt "#30027"
-msgid "(GPU) Lighting Effects"
-msgstr "(GPU) efekty osvětlení"
-
-msgctxt "#30028"
-msgid "(GPU) Fast Lighting"
-msgstr "(GPU) rychlé osvětlení"
-
-msgctxt "#30030"
-msgid "Audio Reverb Effects"
-msgstr "Efekty reverbu zvuku"
-
 msgctxt "#30031"
 msgid "Sound Interpolation"
 msgstr "Interpolace zvuku"
@@ -177,25 +121,9 @@ msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
 msgstr "Zakázat automatické hacky kompatibility"
 
-msgctxt "#30046"
-msgid "(Speed Hack) Disable SMC Checks"
-msgstr "(Speed hack) zakázat kontroly SMC"
-
-msgctxt "#30047"
-msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr "(Speed hack) předpokládat, že registry GTE nejsou potřeba"
-
-msgctxt "#30048"
-msgid "(Speed Hack) Disable GTE Flags"
-msgstr "(Speed hack) zakázat příznaky GTE"
-
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
 msgstr "(GPU) centrování obrazovky"
-
-msgctxt "#30053"
-msgid "(GPU) Enhanced Resolution"
-msgstr "(GPU) vylepšené rozlišení"
 
 msgctxt "#30054"
 msgid "Threaded SPU"
@@ -233,10 +161,6 @@ msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
 msgstr "Zakázat pozastavování CPU/GTE"
 
-msgctxt "#30063"
-msgid "(GPU) Enhanced Resolution Texture Adjustment"
-msgstr "(GPU) úprava textur pro vylepšené rozlišení"
-
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
 msgstr "Takt CPU PSX (%)"
@@ -269,10 +193,6 @@ msgctxt "#30074"
 msgid "(GPU) Manual position Y"
 msgstr "(GPU) ruční poloha Y"
 
-msgctxt "#30075"
-msgid "(GPU) Old renderer"
-msgstr "(GPU) starý vykreslovač"
-
 msgctxt "#30076"
 msgid "RGB32 output"
 msgstr "Výstup RGB32"
@@ -280,10 +200,6 @@ msgstr "Výstup RGB32"
 msgctxt "#30077"
 msgid "(GPU) Manual height adjustment"
 msgstr "(GPU) ruční úprava výšky"
-
-msgctxt "#30078"
-msgid "(GPU) Skip every 2nd line"
-msgstr "(GPU) přeskočit každý druhý řádek"
 
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
@@ -1177,10 +1093,170 @@ msgctxt "#30301"
 msgid "white"
 msgstr "bílá"
 
-msgctxt "#30302"
-msgid "(Hack) Disable Pipeline Delays"
-msgstr "(Úprava) Zakázat zpoždění při zřetězeném zpracování"
-
 msgctxt "#30303"
 msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
 msgstr "Pro kompatibilitu se staršími emulátory a chybnými romhacky. Neodpovídá chování skutečné konzole, za běžných okolností by tato volba měla být zakázána."
+
+msgctxt "#30304"
+msgid "Show Interlaced Video"
+msgstr "Zobrazovat prokládané video"
+
+msgctxt "#30305"
+msgid "Enhanced Resolution"
+msgstr "Vylepšené rozlišení"
+
+msgctxt "#30308"
+msgid "Odd/Even Bit Hack"
+msgstr "Hack lichého/sudého bitu"
+
+msgctxt "#30309"
+msgid "Expand Screen Width"
+msgstr "Rozšířit šířku obrazovky"
+
+msgctxt "#30310"
+msgid "Ignore Brightness Color"
+msgstr "Ignorovat barvu jasu"
+
+msgctxt "#30311"
+msgid "Disable Coordinate Check"
+msgstr "Zakázat kontrolu souřadnic"
+
+msgctxt "#30312"
+msgid "Lazy Screen Update"
+msgstr "Odložená aktualizace obrazovky"
+
+msgctxt "#30313"
+msgid "Repeat Flat Tex Triangles"
+msgstr "Opakovat ploché texturované trojúhelníky"
+
+msgctxt "#30314"
+msgid "Draw Tex-Quads as Triangles"
+msgstr "Vykreslovat tex-čtyřúhelníky jako trojúhelníky"
+
+msgctxt "#30315"
+msgid "Fake 'GPU Busy' States"
+msgstr "Předstírat stavy „GPU zaneprázdněno“"
+
+msgctxt "#30316"
+msgid "Old renderer"
+msgstr "Starý vykreslovač"
+
+msgctxt "#30317"
+msgid "Texture Blending"
+msgstr "Prolínání textur"
+
+msgctxt "#30318"
+msgid "Skip every 2nd line"
+msgstr "Přeskočit každý druhý řádek"
+
+msgctxt "#30319"
+msgid "Lighting Effects"
+msgstr "Efekty osvětlení"
+
+msgctxt "#30320"
+msgid "Fast Lighting"
+msgstr "Rychlé osvětlení"
+
+msgctxt "#30322"
+msgid "Disable Pipeline Delays"
+msgstr "Zakázat zpoždění při zřetězeném zpracování"
+
+msgctxt "#30323"
+msgid "Disable SMC Checks"
+msgstr "Zakázat kontroly SMC"
+
+msgctxt "#30324"
+msgid "Assume GTE Registers Unneeded"
+msgstr "Předpokládat, že registry GTE nejsou potřeba"
+
+msgctxt "#30325"
+msgid "Disable GTE Flags"
+msgstr "Zakázat příznaky GTE"
+
+#~ msgctxt "#30015"
+#~ msgid "(GPU) Show Interlaced Video"
+#~ msgstr "(GPU) zobrazovat prokládané video"
+
+#~ msgctxt "#30017"
+#~ msgid "(GPU) Enhanced Resolution Speed Hack"
+#~ msgstr "(GPU) speed hack pro vylepšené rozlišení"
+
+#~ msgctxt "#30018"
+#~ msgid "(GPU) Odd/Even Bit Hack"
+#~ msgstr "(GPU) hack lichého/sudého bitu"
+
+#~ msgctxt "#30019"
+#~ msgid "(GPU) Expand Screen Width"
+#~ msgstr "(GPU) rozšířit šířku obrazovky"
+
+#~ msgctxt "#30020"
+#~ msgid "(GPU) Ignore Brightness Color"
+#~ msgstr "(GPU) ignorovat barvu jasu"
+
+#~ msgctxt "#30021"
+#~ msgid "(GPU) Disable Coordinate Check"
+#~ msgstr "(GPU) zakázat kontrolu souřadnic"
+
+#~ msgctxt "#30022"
+#~ msgid "(GPU) Lazy Screen Update"
+#~ msgstr "(GPU) odložená aktualizace obrazovky"
+
+#~ msgctxt "#30023"
+#~ msgid "(GPU) Repeat Flat Tex Triangles"
+#~ msgstr "(GPU) opakovat ploché texturované trojúhelníky"
+
+#~ msgctxt "#30024"
+#~ msgid "(GPU) Draw Tex-Quads as Triangles"
+#~ msgstr "(GPU) vykreslovat tex-čtyřúhelníky jako trojúhelníky"
+
+#~ msgctxt "#30025"
+#~ msgid "(GPU) Fake 'GPU Busy' States"
+#~ msgstr "(GPU) předstírat stavy „GPU zaneprázdněno“"
+
+#~ msgctxt "#30026"
+#~ msgid "(GPU) Texture Blending"
+#~ msgstr "(GPU) prolínání textur"
+
+#~ msgctxt "#30027"
+#~ msgid "(GPU) Lighting Effects"
+#~ msgstr "(GPU) efekty osvětlení"
+
+#~ msgctxt "#30028"
+#~ msgid "(GPU) Fast Lighting"
+#~ msgstr "(GPU) rychlé osvětlení"
+
+#~ msgctxt "#30030"
+#~ msgid "Audio Reverb Effects"
+#~ msgstr "Efekty reverbu zvuku"
+
+#~ msgctxt "#30046"
+#~ msgid "(Speed Hack) Disable SMC Checks"
+#~ msgstr "(Speed hack) zakázat kontroly SMC"
+
+#~ msgctxt "#30047"
+#~ msgid "(Speed Hack) Assume GTE Registers Unneeded"
+#~ msgstr "(Speed hack) předpokládat, že registry GTE nejsou potřeba"
+
+#~ msgctxt "#30048"
+#~ msgid "(Speed Hack) Disable GTE Flags"
+#~ msgstr "(Speed hack) zakázat příznaky GTE"
+
+#~ msgctxt "#30053"
+#~ msgid "(GPU) Enhanced Resolution"
+#~ msgstr "(GPU) vylepšené rozlišení"
+
+#~ msgctxt "#30063"
+#~ msgid "(GPU) Enhanced Resolution Texture Adjustment"
+#~ msgstr "(GPU) úprava textur pro vylepšené rozlišení"
+
+#~ msgctxt "#30075"
+#~ msgid "(GPU) Old renderer"
+#~ msgstr "(GPU) starý vykreslovač"
+
+#~ msgctxt "#30078"
+#~ msgid "(GPU) Skip every 2nd line"
+#~ msgstr "(GPU) přeskočit každý druhý řádek"
+
+#~ msgctxt "#30302"
+#~ msgid "(Hack) Disable Pipeline Delays"
+#~ msgstr "(Úprava) Zakázat zpoždění při zřetězeném zpracování"

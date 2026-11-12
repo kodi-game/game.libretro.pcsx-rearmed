@@ -65,62 +65,6 @@ msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
 msgstr "(GPU) Procesado lento de lista enlazada"
 
-msgctxt "#30015"
-msgid "(GPU) Show Interlaced Video"
-msgstr "(GPU) Mostrar Vídeo Entrelazado"
-
-msgctxt "#30017"
-msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr "(GPU) Truco de Velocidad para Resolución Mejorada"
-
-msgctxt "#30018"
-msgid "(GPU) Odd/Even Bit Hack"
-msgstr "(GPU) Truco Bit Par/Impar"
-
-msgctxt "#30019"
-msgid "(GPU) Expand Screen Width"
-msgstr "(GPU) Ancho de Pantalla Extendida"
-
-msgctxt "#30020"
-msgid "(GPU) Ignore Brightness Color"
-msgstr "(GPU) Ignorar Color de Brillo"
-
-msgctxt "#30021"
-msgid "(GPU) Disable Coordinate Check"
-msgstr "(GPU) Desactivar Comprobación Coordinada"
-
-msgctxt "#30022"
-msgid "(GPU) Lazy Screen Update"
-msgstr "(GPU) Refresco de Pantalla Vago"
-
-msgctxt "#30023"
-msgid "(GPU) Repeat Flat Tex Triangles"
-msgstr "(GPU) Repetir Triángulos con Textura Plana"
-
-msgctxt "#30024"
-msgid "(GPU) Draw Tex-Quads as Triangles"
-msgstr "(GPU) Dibujar Quads con Textura como Triángulos"
-
-msgctxt "#30025"
-msgid "(GPU) Fake 'GPU Busy' States"
-msgstr "(GPU) Estados 'GPU Ocupada' Falsos"
-
-msgctxt "#30026"
-msgid "(GPU) Texture Blending"
-msgstr "(GPU) Mezcla de Texturas"
-
-msgctxt "#30027"
-msgid "(GPU) Lighting Effects"
-msgstr "(GPU) Efectos de Iluminación"
-
-msgctxt "#30028"
-msgid "(GPU) Fast Lighting"
-msgstr "(GPU) Iluminación Rápida"
-
-msgctxt "#30030"
-msgid "Audio Reverb Effects"
-msgstr "Efectos de Reverberación de Audio"
-
 msgctxt "#30031"
 msgid "Sound Interpolation"
 msgstr "Interpolación de Sonido"
@@ -177,25 +121,9 @@ msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
 msgstr "Desactivar Trucos de Compatibilidad Automáticos"
 
-msgctxt "#30046"
-msgid "(Speed Hack) Disable SMC Checks"
-msgstr "(Truco de Velocidad) Desactivar Comprobaciones SMC"
-
-msgctxt "#30047"
-msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr "(Truco de Velocidad) Asumir que los Registros GTE son Innecesarios"
-
-msgctxt "#30048"
-msgid "(Speed Hack) Disable GTE Flags"
-msgstr "(Truco de Velocidad) Desactivar Banderas GTE"
-
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
 msgstr "(GPU) Centrado de pantalla"
-
-msgctxt "#30053"
-msgid "(GPU) Enhanced Resolution"
-msgstr "(GPU) Resolución Mejorada"
 
 msgctxt "#30054"
 msgid "Threaded SPU"
@@ -233,10 +161,6 @@ msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
 msgstr "Desactivar paradas de CPU/GTE"
 
-msgctxt "#30063"
-msgid "(GPU) Enhanced Resolution Texture Adjustment"
-msgstr "(GPU) Ajuste de texturas con resolución mejorada"
-
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
 msgstr "Velocidad de reloj de CPU PSX (%)"
@@ -269,10 +193,6 @@ msgctxt "#30074"
 msgid "(GPU) Manual position Y"
 msgstr "(GPU) Posición manual Y"
 
-msgctxt "#30075"
-msgid "(GPU) Old renderer"
-msgstr "(GPU) Renderizador antiguo"
-
 msgctxt "#30076"
 msgid "RGB32 output"
 msgstr "Salida RGB32"
@@ -280,10 +200,6 @@ msgstr "Salida RGB32"
 msgctxt "#30077"
 msgid "(GPU) Manual height adjustment"
 msgstr "(GPU) Ajuste manual de altura"
-
-msgctxt "#30078"
-msgid "(GPU) Skip every 2nd line"
-msgstr "(GPU) Saltar cada 2 líneas"
 
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
@@ -1177,13 +1093,129 @@ msgctxt "#30301"
 msgid "white"
 msgstr ""
 
-msgctxt "#30302"
-msgid "(Hack) Disable Pipeline Delays"
-msgstr ""
-
 msgctxt "#30303"
 msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
 msgstr ""
+
+msgctxt "#30305"
+msgid "Enhanced Resolution"
+msgstr "Desactivar Flags GTE"
+
+msgctxt "#30314"
+msgid "Draw Tex-Quads as Triangles"
+msgstr "Hack de Bits Pares/Impares"
+
+msgctxt "#30315"
+msgid "Fake 'GPU Busy' States"
+msgstr "Ampliar Ancho de Pantalla"
+
+msgctxt "#30316"
+msgid "Old renderer"
+msgstr "Renderizador antiguo"
+
+msgctxt "#30317"
+msgid "Texture Blending"
+msgstr "Ignorar Luminosidad Color"
+
+msgctxt "#30318"
+msgid "Skip every 2nd line"
+msgstr "Saltar cada 2 líneas"
+
+msgctxt "#30319"
+msgid "Lighting Effects"
+msgstr "Desactivar Comprobación de Coordenadas"
+
+msgctxt "#30320"
+msgid "Fast Lighting"
+msgstr "Actualización de Pantalla Lenta"
+
+#~ msgctxt "#30015"
+#~ msgid "(GPU) Show Interlaced Video"
+#~ msgstr "(GPU) Mostrar Vídeo Entrelazado"
+
+#~ msgctxt "#30017"
+#~ msgid "(GPU) Enhanced Resolution Speed Hack"
+#~ msgstr "(GPU) Truco de Velocidad para Resolución Mejorada"
+
+#~ msgctxt "#30018"
+#~ msgid "(GPU) Odd/Even Bit Hack"
+#~ msgstr "(GPU) Truco Bit Par/Impar"
+
+#~ msgctxt "#30019"
+#~ msgid "(GPU) Expand Screen Width"
+#~ msgstr "(GPU) Ancho de Pantalla Extendida"
+
+#~ msgctxt "#30020"
+#~ msgid "(GPU) Ignore Brightness Color"
+#~ msgstr "(GPU) Ignorar Color de Brillo"
+
+#~ msgctxt "#30021"
+#~ msgid "(GPU) Disable Coordinate Check"
+#~ msgstr "(GPU) Desactivar Comprobación Coordinada"
+
+#~ msgctxt "#30022"
+#~ msgid "(GPU) Lazy Screen Update"
+#~ msgstr "(GPU) Refresco de Pantalla Vago"
+
+#~ msgctxt "#30023"
+#~ msgid "(GPU) Repeat Flat Tex Triangles"
+#~ msgstr "(GPU) Repetir Triángulos con Textura Plana"
+
+#~ msgctxt "#30024"
+#~ msgid "(GPU) Draw Tex-Quads as Triangles"
+#~ msgstr "(GPU) Dibujar Quads con Textura como Triángulos"
+
+#~ msgctxt "#30025"
+#~ msgid "(GPU) Fake 'GPU Busy' States"
+#~ msgstr "(GPU) Estados 'GPU Ocupada' Falsos"
+
+#~ msgctxt "#30026"
+#~ msgid "(GPU) Texture Blending"
+#~ msgstr "(GPU) Mezcla de Texturas"
+
+#~ msgctxt "#30027"
+#~ msgid "(GPU) Lighting Effects"
+#~ msgstr "(GPU) Efectos de Iluminación"
+
+#~ msgctxt "#30028"
+#~ msgid "(GPU) Fast Lighting"
+#~ msgstr "(GPU) Iluminación Rápida"
+
+#~ msgctxt "#30030"
+#~ msgid "Audio Reverb Effects"
+#~ msgstr "Efectos de Reverberación de Audio"
+
+#~ msgctxt "#30046"
+#~ msgid "(Speed Hack) Disable SMC Checks"
+#~ msgstr "(Truco de Velocidad) Desactivar Comprobaciones SMC"
+
+#~ msgctxt "#30047"
+#~ msgid "(Speed Hack) Assume GTE Registers Unneeded"
+#~ msgstr "(Truco de Velocidad) Asumir que los Registros GTE son Innecesarios"
+
+#~ msgctxt "#30048"
+#~ msgid "(Speed Hack) Disable GTE Flags"
+#~ msgstr "(Truco de Velocidad) Desactivar Banderas GTE"
+
+#~ msgctxt "#30053"
+#~ msgid "(GPU) Enhanced Resolution"
+#~ msgstr "(GPU) Resolución Mejorada"
+
+#~ msgctxt "#30063"
+#~ msgid "(GPU) Enhanced Resolution Texture Adjustment"
+#~ msgstr "(GPU) Ajuste de texturas con resolución mejorada"
+
+#~ msgctxt "#30075"
+#~ msgid "(GPU) Old renderer"
+#~ msgstr "(GPU) Renderizador antiguo"
+
+#~ msgctxt "#30078"
+#~ msgid "(GPU) Skip every 2nd line"
+#~ msgstr "(GPU) Saltar cada 2 líneas"
+
+#~ msgctxt "#30302"
+#~ msgid "(Hack) Disable Pipeline Delays"
+#~ msgstr ""
 
 #~ msgctxt "#30069"
 #~ msgid "Second Memory Card (Shared)"

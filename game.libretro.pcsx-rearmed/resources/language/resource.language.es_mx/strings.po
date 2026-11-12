@@ -65,62 +65,6 @@ msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
 msgstr ""
 
-msgctxt "#30015"
-msgid "(GPU) Show Interlaced Video"
-msgstr ""
-
-msgctxt "#30017"
-msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr ""
-
-msgctxt "#30018"
-msgid "(GPU) Odd/Even Bit Hack"
-msgstr ""
-
-msgctxt "#30019"
-msgid "(GPU) Expand Screen Width"
-msgstr ""
-
-msgctxt "#30020"
-msgid "(GPU) Ignore Brightness Color"
-msgstr ""
-
-msgctxt "#30021"
-msgid "(GPU) Disable Coordinate Check"
-msgstr ""
-
-msgctxt "#30022"
-msgid "(GPU) Lazy Screen Update"
-msgstr ""
-
-msgctxt "#30023"
-msgid "(GPU) Repeat Flat Tex Triangles"
-msgstr ""
-
-msgctxt "#30024"
-msgid "(GPU) Draw Tex-Quads as Triangles"
-msgstr ""
-
-msgctxt "#30025"
-msgid "(GPU) Fake 'GPU Busy' States"
-msgstr ""
-
-msgctxt "#30026"
-msgid "(GPU) Texture Blending"
-msgstr ""
-
-msgctxt "#30027"
-msgid "(GPU) Lighting Effects"
-msgstr ""
-
-msgctxt "#30028"
-msgid "(GPU) Fast Lighting"
-msgstr ""
-
-msgctxt "#30030"
-msgid "Audio Reverb Effects"
-msgstr ""
-
 msgctxt "#30031"
 msgid "Sound Interpolation"
 msgstr "Interpolación de sonido"
@@ -177,24 +121,8 @@ msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
 msgstr ""
 
-msgctxt "#30046"
-msgid "(Speed Hack) Disable SMC Checks"
-msgstr ""
-
-msgctxt "#30047"
-msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr ""
-
-msgctxt "#30048"
-msgid "(Speed Hack) Disable GTE Flags"
-msgstr ""
-
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
-msgstr ""
-
-msgctxt "#30053"
-msgid "(GPU) Enhanced Resolution"
 msgstr ""
 
 msgctxt "#30054"
@@ -233,10 +161,6 @@ msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
 msgstr ""
 
-msgctxt "#30063"
-msgid "(GPU) Enhanced Resolution Texture Adjustment"
-msgstr ""
-
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
 msgstr ""
@@ -269,20 +193,12 @@ msgctxt "#30074"
 msgid "(GPU) Manual position Y"
 msgstr ""
 
-msgctxt "#30075"
-msgid "(GPU) Old renderer"
-msgstr ""
-
 msgctxt "#30076"
 msgid "RGB32 output"
 msgstr ""
 
 msgctxt "#30077"
 msgid "(GPU) Manual height adjustment"
-msgstr ""
-
-msgctxt "#30078"
-msgid "(GPU) Skip every 2nd line"
 msgstr ""
 
 msgctxt "#30079"
@@ -1177,13 +1093,97 @@ msgctxt "#30301"
 msgid "white"
 msgstr ""
 
-msgctxt "#30302"
-msgid "(Hack) Disable Pipeline Delays"
-msgstr ""
-
 msgctxt "#30303"
 msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
 msgstr ""
+
+#~ msgctxt "#30015"
+#~ msgid "(GPU) Show Interlaced Video"
+#~ msgstr ""
+
+#~ msgctxt "#30017"
+#~ msgid "(GPU) Enhanced Resolution Speed Hack"
+#~ msgstr ""
+
+#~ msgctxt "#30018"
+#~ msgid "(GPU) Odd/Even Bit Hack"
+#~ msgstr ""
+
+#~ msgctxt "#30019"
+#~ msgid "(GPU) Expand Screen Width"
+#~ msgstr ""
+
+#~ msgctxt "#30020"
+#~ msgid "(GPU) Ignore Brightness Color"
+#~ msgstr ""
+
+#~ msgctxt "#30021"
+#~ msgid "(GPU) Disable Coordinate Check"
+#~ msgstr ""
+
+#~ msgctxt "#30022"
+#~ msgid "(GPU) Lazy Screen Update"
+#~ msgstr ""
+
+#~ msgctxt "#30023"
+#~ msgid "(GPU) Repeat Flat Tex Triangles"
+#~ msgstr ""
+
+#~ msgctxt "#30024"
+#~ msgid "(GPU) Draw Tex-Quads as Triangles"
+#~ msgstr ""
+
+#~ msgctxt "#30025"
+#~ msgid "(GPU) Fake 'GPU Busy' States"
+#~ msgstr ""
+
+#~ msgctxt "#30026"
+#~ msgid "(GPU) Texture Blending"
+#~ msgstr ""
+
+#~ msgctxt "#30027"
+#~ msgid "(GPU) Lighting Effects"
+#~ msgstr ""
+
+#~ msgctxt "#30028"
+#~ msgid "(GPU) Fast Lighting"
+#~ msgstr ""
+
+#~ msgctxt "#30030"
+#~ msgid "Audio Reverb Effects"
+#~ msgstr ""
+
+#~ msgctxt "#30046"
+#~ msgid "(Speed Hack) Disable SMC Checks"
+#~ msgstr ""
+
+#~ msgctxt "#30047"
+#~ msgid "(Speed Hack) Assume GTE Registers Unneeded"
+#~ msgstr ""
+
+#~ msgctxt "#30048"
+#~ msgid "(Speed Hack) Disable GTE Flags"
+#~ msgstr ""
+
+#~ msgctxt "#30053"
+#~ msgid "(GPU) Enhanced Resolution"
+#~ msgstr ""
+
+#~ msgctxt "#30063"
+#~ msgid "(GPU) Enhanced Resolution Texture Adjustment"
+#~ msgstr ""
+
+#~ msgctxt "#30075"
+#~ msgid "(GPU) Old renderer"
+#~ msgstr ""
+
+#~ msgctxt "#30078"
+#~ msgid "(GPU) Skip every 2nd line"
+#~ msgstr ""
+
+#~ msgctxt "#30302"
+#~ msgid "(Hack) Disable Pipeline Delays"
+#~ msgstr ""
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

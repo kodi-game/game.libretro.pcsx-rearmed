@@ -528,7 +528,7 @@
 		</category>
 		<category id="gpu_neon" label="30136" help="30137">
 			<group id="1">
-				<setting id="pcsx_rearmed_neon_interlace_enable_v2" type="string" label="30015" help="30138">
+				<setting id="pcsx_rearmed_neon_interlace_enable_v2" type="string" label="30304" help="30138">
 					<level>0</level>
 					<default>auto</default>
 					<constraints>
@@ -540,7 +540,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_neon_enhancement_enable" type="string" label="30053" help="30139">
+				<setting id="pcsx_rearmed_neon_enhancement_enable" type="string" label="30305" help="30139">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -551,7 +551,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_neon_enhancement_no_main" type="string" label="30017" help="30140">
+				<setting id="pcsx_rearmed_neon_enhancement_no_main" type="string" label="30306" help="30140">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -562,7 +562,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_neon_enhancement_tex_adj_v2" type="string" label="30063" help="30141">
+				<setting id="pcsx_rearmed_neon_enhancement_tex_adj_v2" type="string" label="30307" help="30141">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -577,7 +577,7 @@
 		</category>
 		<category id="gpu_peops" label="30142" help="30143">
 			<group id="1">
-				<setting id="pcsx_rearmed_gpu_peops_odd_even_bit" type="string" label="30018" help="30144">
+				<setting id="pcsx_rearmed_gpu_peops_odd_even_bit" type="string" label="30308" help="30144">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -588,7 +588,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_peops_expand_screen_width" type="string" label="30019" help="30145">
+				<setting id="pcsx_rearmed_gpu_peops_expand_screen_width" type="string" label="30309" help="30145">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -599,7 +599,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_peops_ignore_brightness" type="string" label="30020" help="30146">
+				<setting id="pcsx_rearmed_gpu_peops_ignore_brightness" type="string" label="30310" help="30146">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -610,7 +610,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_peops_disable_coord_check" type="string" label="30021" help="30147">
+				<setting id="pcsx_rearmed_gpu_peops_disable_coord_check" type="string" label="30311" help="30147">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -621,7 +621,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_peops_lazy_screen_update" type="string" label="30022" help="30148">
+				<setting id="pcsx_rearmed_gpu_peops_lazy_screen_update" type="string" label="30312" help="30148">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -632,7 +632,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_peops_repeated_triangles" type="string" label="30023" help="30149">
+				<setting id="pcsx_rearmed_gpu_peops_repeated_triangles" type="string" label="30313" help="30149">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -643,7 +643,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_peops_quads_with_triangles" type="string" label="30024" help="30150">
+				<setting id="pcsx_rearmed_gpu_peops_quads_with_triangles" type="string" label="30314" help="30150">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -654,7 +654,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_peops_fake_busy_state" type="string" label="30025" help="30151">
+				<setting id="pcsx_rearmed_gpu_peops_fake_busy_state" type="string" label="30315" help="30151">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -669,7 +669,7 @@
 		</category>
 		<category id="gpu_unai" label="30142" help="30152">
 			<group id="1">
-				<setting id="pcsx_rearmed_gpu_unai_old_renderer" type="string" label="30075" help="30153">
+				<setting id="pcsx_rearmed_gpu_unai_old_renderer" type="string" label="30316" help="30153">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -680,7 +680,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_unai_blending" type="string" label="30026" help="30154">
+				<setting id="pcsx_rearmed_gpu_unai_blending" type="string" label="30317" help="30154">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -691,7 +691,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_unai_skipline" type="string" label="30078" help="30155">
+				<setting id="pcsx_rearmed_gpu_unai_skipline" type="string" label="30318" help="30155">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -702,7 +702,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_unai_lighting" type="string" label="30027" help="30156">
+				<setting id="pcsx_rearmed_gpu_unai_lighting" type="string" label="30319" help="30156">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -713,7 +713,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gpu_unai_fast_lighting" type="string" label="30028" help="30157">
+				<setting id="pcsx_rearmed_gpu_unai_fast_lighting" type="string" label="30320" help="30157">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -728,7 +728,7 @@
 		</category>
 		<category id="audio" label="30158" help="30159">
 			<group id="1">
-				<setting id="pcsx_rearmed_spu_reverb" type="string" label="30030" help="30160">
+				<setting id="pcsx_rearmed_spu_reverb" type="string" label="30321" help="30160">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -1467,7 +1467,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_nolddelay" type="string" label="30302" help="30303">
+				<setting id="pcsx_rearmed_nolddelay" type="string" label="30322" help="30303">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1493,7 +1493,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_nosmccheck" type="string" label="30046" help="30219">
+				<setting id="pcsx_rearmed_nosmccheck" type="string" label="30323" help="30219">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1504,7 +1504,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_gteregsunneeded" type="string" label="30047" help="30220">
+				<setting id="pcsx_rearmed_gteregsunneeded" type="string" label="30324" help="30220">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>
@@ -1515,7 +1515,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="pcsx_rearmed_nogteflags" type="string" label="30048" help="30221">
+				<setting id="pcsx_rearmed_nogteflags" type="string" label="30325" help="30221">
 					<level>0</level>
 					<default>disabled</default>
 					<constraints>

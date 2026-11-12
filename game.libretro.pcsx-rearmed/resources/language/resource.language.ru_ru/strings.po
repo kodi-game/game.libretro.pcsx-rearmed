@@ -65,62 +65,6 @@ msgctxt "#30014"
 msgid "(GPU) Slow linked list processing"
 msgstr "(ГП) Медленная обработка связанных списков"
 
-msgctxt "#30015"
-msgid "(GPU) Show Interlaced Video"
-msgstr "(ГП) Показывать чересстрочное видео"
-
-msgctxt "#30017"
-msgid "(GPU) Enhanced Resolution Speed Hack"
-msgstr "(ГП) Хак скорости для повышенного разрешения"
-
-msgctxt "#30018"
-msgid "(GPU) Odd/Even Bit Hack"
-msgstr "(ГП) Хак чётности/нечётности"
-
-msgctxt "#30019"
-msgid "(GPU) Expand Screen Width"
-msgstr "(ГП) Расширить ширину экрана"
-
-msgctxt "#30020"
-msgid "(GPU) Ignore Brightness Color"
-msgstr "(ГП) Игнорировать цвет яркости"
-
-msgctxt "#30021"
-msgid "(GPU) Disable Coordinate Check"
-msgstr "(ГП) Отключить проверку координат"
-
-msgctxt "#30022"
-msgid "(GPU) Lazy Screen Update"
-msgstr "(ГП) Ленивое обновление экрана"
-
-msgctxt "#30023"
-msgid "(GPU) Repeat Flat Tex Triangles"
-msgstr "(ГП) Повторять плоские текстурные треугольники"
-
-msgctxt "#30024"
-msgid "(GPU) Draw Tex-Quads as Triangles"
-msgstr "(ГП) Отрисовывать текстурные четырёхугольники как треугольники"
-
-msgctxt "#30025"
-msgid "(GPU) Fake 'GPU Busy' States"
-msgstr "(ГП) Фальшивые состояния «ГП занят»"
-
-msgctxt "#30026"
-msgid "(GPU) Texture Blending"
-msgstr "(ГП) Смешивание текстур"
-
-msgctxt "#30027"
-msgid "(GPU) Lighting Effects"
-msgstr "(ГП) Эффекты освещения"
-
-msgctxt "#30028"
-msgid "(GPU) Fast Lighting"
-msgstr "(ГП) Быстрое освещение"
-
-msgctxt "#30030"
-msgid "Audio Reverb Effects"
-msgstr "Аудиоэффекты реверберации"
-
 msgctxt "#30031"
 msgid "Sound Interpolation"
 msgstr "Интерполяция звука"
@@ -177,25 +121,9 @@ msgctxt "#30045"
 msgid "Disable Automatic Compatibility Hacks"
 msgstr "Отключить автоматические хаки совместимости"
 
-msgctxt "#30046"
-msgid "(Speed Hack) Disable SMC Checks"
-msgstr "(Хак скорости) Отключить проверки SMC"
-
-msgctxt "#30047"
-msgid "(Speed Hack) Assume GTE Registers Unneeded"
-msgstr "(Хак скорости) Предполагать, что регистры GTE не нужны"
-
-msgctxt "#30048"
-msgid "(Speed Hack) Disable GTE Flags"
-msgstr "(Хак скорости) Отключить флаги GTE"
-
 msgctxt "#30050"
 msgid "(GPU) Screen centering"
 msgstr "(ГП) Центрирование экрана"
-
-msgctxt "#30053"
-msgid "(GPU) Enhanced Resolution"
-msgstr "(ГП) Повышенное разрешение"
 
 msgctxt "#30054"
 msgid "Threaded SPU"
@@ -233,10 +161,6 @@ msgctxt "#30062"
 msgid "Disable CPU/GTE Stalls"
 msgstr "Отключить остановы ЦП/GTE"
 
-msgctxt "#30063"
-msgid "(GPU) Enhanced Resolution Texture Adjustment"
-msgstr "(ГП) Настройка текстур для повышенного разрешения"
-
 msgctxt "#30065"
 msgid "PSX CPU Clock Speed (%)"
 msgstr "Тактовая частота ЦП PSX (%)"
@@ -269,10 +193,6 @@ msgctxt "#30074"
 msgid "(GPU) Manual position Y"
 msgstr "(ГП) Ручная позиция Y"
 
-msgctxt "#30075"
-msgid "(GPU) Old renderer"
-msgstr "(ГП) Старый рендерер"
-
 msgctxt "#30076"
 msgid "RGB32 output"
 msgstr "Вывод RGB32"
@@ -280,10 +200,6 @@ msgstr "Вывод RGB32"
 msgctxt "#30077"
 msgid "(GPU) Manual height adjustment"
 msgstr "(ГП) Ручная регулировка высоты"
-
-msgctxt "#30078"
-msgid "(GPU) Skip every 2nd line"
-msgstr "(ГП) Пропускать каждую вторую строку"
 
 msgctxt "#30079"
 msgid "Hi-Res Downscaling"
@@ -1177,13 +1093,169 @@ msgctxt "#30301"
 msgid "white"
 msgstr "белый"
 
-msgctxt "#30302"
-msgid "(Hack) Disable Pipeline Delays"
-msgstr "(Hack) Отключить задержки конвейера"
-
 msgctxt "#30303"
 msgid "For compatibility with older emulators and broken romhacks. Not what real console does, normally should be disabled."
 msgstr "Для совместимости со старыми эмуляторами и сломанными romhack. Не соответствует поведению настоящей консоли, обычно следует отключать."
+
+msgctxt "#30304"
+msgid "Show Interlaced Video"
+msgstr "Показывать чересстрочное видео"
+
+msgctxt "#30305"
+msgid "Enhanced Resolution"
+msgstr "Повышенное разрешение"
+
+msgctxt "#30308"
+msgid "Odd/Even Bit Hack"
+msgstr "Хак чётности/нечётности"
+
+msgctxt "#30309"
+msgid "Expand Screen Width"
+msgstr "Расширить ширину экрана"
+
+msgctxt "#30310"
+msgid "Ignore Brightness Color"
+msgstr "Игнорировать цвет яркости"
+
+msgctxt "#30311"
+msgid "Disable Coordinate Check"
+msgstr "Отключить проверку координат"
+
+msgctxt "#30312"
+msgid "Lazy Screen Update"
+msgstr "Ленивое обновление экрана"
+
+msgctxt "#30314"
+msgid "Draw Tex-Quads as Triangles"
+msgstr "Отрисовывать текстурные четырёхугольники как треугольники"
+
+msgctxt "#30315"
+msgid "Fake 'GPU Busy' States"
+msgstr "Фальшивые состояния «ГП занят»"
+
+msgctxt "#30316"
+msgid "Old renderer"
+msgstr "Старый рендерер"
+
+msgctxt "#30317"
+msgid "Texture Blending"
+msgstr "Смешивание текстур"
+
+msgctxt "#30318"
+msgid "Skip every 2nd line"
+msgstr "Пропускать каждую вторую строку"
+
+msgctxt "#30319"
+msgid "Lighting Effects"
+msgstr "Эффекты освещения"
+
+msgctxt "#30320"
+msgid "Fast Lighting"
+msgstr "Быстрое освещение"
+
+msgctxt "#30322"
+msgid "Disable Pipeline Delays"
+msgstr "Отключить задержки конвейера"
+
+msgctxt "#30323"
+msgid "Disable SMC Checks"
+msgstr "Отключить проверки SMC"
+
+msgctxt "#30324"
+msgid "Assume GTE Registers Unneeded"
+msgstr "Предполагать, что регистры GTE не нужны"
+
+msgctxt "#30325"
+msgid "Disable GTE Flags"
+msgstr "Отключить флаги GTE"
+
+#~ msgctxt "#30015"
+#~ msgid "(GPU) Show Interlaced Video"
+#~ msgstr "(ГП) Показывать чересстрочное видео"
+
+#~ msgctxt "#30017"
+#~ msgid "(GPU) Enhanced Resolution Speed Hack"
+#~ msgstr "(ГП) Хак скорости для повышенного разрешения"
+
+#~ msgctxt "#30018"
+#~ msgid "(GPU) Odd/Even Bit Hack"
+#~ msgstr "(ГП) Хак чётности/нечётности"
+
+#~ msgctxt "#30019"
+#~ msgid "(GPU) Expand Screen Width"
+#~ msgstr "(ГП) Расширить ширину экрана"
+
+#~ msgctxt "#30020"
+#~ msgid "(GPU) Ignore Brightness Color"
+#~ msgstr "(ГП) Игнорировать цвет яркости"
+
+#~ msgctxt "#30021"
+#~ msgid "(GPU) Disable Coordinate Check"
+#~ msgstr "(ГП) Отключить проверку координат"
+
+#~ msgctxt "#30022"
+#~ msgid "(GPU) Lazy Screen Update"
+#~ msgstr "(ГП) Ленивое обновление экрана"
+
+#~ msgctxt "#30023"
+#~ msgid "(GPU) Repeat Flat Tex Triangles"
+#~ msgstr "(ГП) Повторять плоские текстурные треугольники"
+
+#~ msgctxt "#30024"
+#~ msgid "(GPU) Draw Tex-Quads as Triangles"
+#~ msgstr "(ГП) Отрисовывать текстурные четырёхугольники как треугольники"
+
+#~ msgctxt "#30025"
+#~ msgid "(GPU) Fake 'GPU Busy' States"
+#~ msgstr "(ГП) Фальшивые состояния «ГП занят»"
+
+#~ msgctxt "#30026"
+#~ msgid "(GPU) Texture Blending"
+#~ msgstr "(ГП) Смешивание текстур"
+
+#~ msgctxt "#30027"
+#~ msgid "(GPU) Lighting Effects"
+#~ msgstr "(ГП) Эффекты освещения"
+
+#~ msgctxt "#30028"
+#~ msgid "(GPU) Fast Lighting"
+#~ msgstr "(ГП) Быстрое освещение"
+
+#~ msgctxt "#30030"
+#~ msgid "Audio Reverb Effects"
+#~ msgstr "Аудиоэффекты реверберации"
+
+#~ msgctxt "#30046"
+#~ msgid "(Speed Hack) Disable SMC Checks"
+#~ msgstr "(Хак скорости) Отключить проверки SMC"
+
+#~ msgctxt "#30047"
+#~ msgid "(Speed Hack) Assume GTE Registers Unneeded"
+#~ msgstr "(Хак скорости) Предполагать, что регистры GTE не нужны"
+
+#~ msgctxt "#30048"
+#~ msgid "(Speed Hack) Disable GTE Flags"
+#~ msgstr "(Хак скорости) Отключить флаги GTE"
+
+#~ msgctxt "#30053"
+#~ msgid "(GPU) Enhanced Resolution"
+#~ msgstr "(ГП) Повышенное разрешение"
+
+#~ msgctxt "#30063"
+#~ msgid "(GPU) Enhanced Resolution Texture Adjustment"
+#~ msgstr "(ГП) Настройка текстур для повышенного разрешения"
+
+#~ msgctxt "#30075"
+#~ msgid "(GPU) Old renderer"
+#~ msgstr "(ГП) Старый рендерер"
+
+#~ msgctxt "#30078"
+#~ msgid "(GPU) Skip every 2nd line"
+#~ msgstr "(ГП) Пропускать каждую вторую строку"
+
+#~ msgctxt "#30302"
+#~ msgid "(Hack) Disable Pipeline Delays"
+#~ msgstr "(Hack) Отключить задержки конвейера"
 
 #~ msgctxt "#30069"
 #~ msgid "Second Memory Card (Shared)"
